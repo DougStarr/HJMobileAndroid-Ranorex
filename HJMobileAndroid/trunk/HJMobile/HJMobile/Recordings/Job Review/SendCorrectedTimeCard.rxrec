@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="384396af-2479-4981-ac6f-abb95ac9b3de"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		SendCorrectedTimeCard
+	</name>
+	<description>
+		The SendCorrectedTimeCard recording.
+	</description>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SendCorrectedTimeCard"
+	namespace="HJMobileAndroid.Recordings.Job_Review"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e5a3a79e-fc50-4724-94b2-f4c816b102be"
+		imagerect="172,598,172,50"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="9f43c5a8-d938-4e33-aa0a-3cfb2775f462">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="853,662,172,50"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1676062576
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//container[@containertype='']/container[2]/?/?/button[@accessibilitylabel='Send']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="40d9c812-1b0f-49dd-a3e1-f8e968ad4906">
+				iVBORw0KGgoAAAANSUhEUgAAAKwAAAAyCAYAAADBXTDrAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAGQAAACgAAAAZAAAAGQAAAro5+5N8AAAEaUlEQVR4Xu2Z
+22obVxSGnYMO0Wl0ltqowpVlK41sRdFc5c63fQC/Qu96USiJNJmBRSEpJdCL3uUV9BJ5gUBooSSQ
+lhBciu3io+RU0oV39z8eJ9SRRCAYuun/wcajvbdmwHz+91rjhX6/f6KH4uAwYJxAWLVAiAH4rlJY
+YgoUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJ
+UVBYYhQUdg76l3Kp9WgrnpLDbEU2s61HP8cxFyxfGCLqMp610e9fCaZIAIWdgf3V01BBDusx57iT
+9vZvW85BJyaTTkm2axt9daEifSp/xvJy3Gnc/SsZTJEACjuDkrv1ecib3K7d27Oa8msYoyRbxdh3
+ys7df3M92HYhlL7dilv6OVnZTQVTJIDCTkFELoed8WrKPVwOpnxQDhTcneWke9RQSr0tDdblVVSn
+Yr7cGxTufLN5LZj2j/a2PEuvy5OrWvhE+eGggNLi/FG/sdG/Uu3+kinJoFjXkqIMsbyJnf+BCXse
+CjsFyJh0Rw2dsLcW5VUa4kFWrOEa5YLedAlzEDXuDNsZ2Wulnf12XCbtavd1Bnv1d6NxZ9KuuJvL
+GWevVXS2WzHv2MYfAu6DPV/+9DKSlPGNmC4Biv49hu2cO/giRmGnQmFngERMyGA15Ck77Q1vWTKq
+IQEhWLBlwda1Jmrc4oNhCakMCbW4VQi8LupqHXu7EzvRG9xECiNZK7qBi+l71u79bkF4yz1YguQt
+XQZgHZInvEEzpEuCBoV9Dwo7B/+o/v51JitvKlkZ3EQ6QtCC7JSRwvr6EzRja/o4r8vLFEZTH/lI
+xyX5rYi6V6e0vaJTOLjlgv1YhSx9H4iLUgGNXEGG5WDZB6mOWpnCvg+FnQKSEkmHYx+fkYQQFCmZ
+klEdEmLdb8xEdcKOar0b41ZYlD7+hyVfWGfS0T+z/o01mDsTFtcQ0+oe+CXEGXhLwBp2OhR2Cmh6
+kHzVcyIBNEWQDEc6EjauywW/pkVNGoxFUdHTkkBF5gnrJ6y+1qVHMVj2yeqkZsJOh8JOASIlvHEz
+4QxW7/y4eQ0Ji3nUmBn5u4ojH+I1ZSeBazRefgoHTVjsVNJEU9TMhL3e+yOH1EYDpmveln5mFN/H
+s5O9oxXWsNOhsDNo3H2RjHvjNdSskd5oJSqqBoEhI5ovpU4FzcpuBSkZcUcNDFynZX8RMqJsQNN2
+o/c8F9xWC6vCeMcKsfEZjVtCxqto1CLdUR3PyHh7a9iDNPe/RN5CYedgP34aSspRvqwFLLrbS3ld
+AkCwYNkH0qLZwhrkRcMEWbGG/4hZXZVBqvqbNaiP8a/e+tfv3jZgHc/J3t/9TKdrDm8isMcvNci/
+oLAfAKTECD7O5EP2zONjv/9/gMISo6CwxCgoLDEKCkuMgsISo6CwxCgoLDEKCkuMgsISo6CwxCgo
+LDEKCkuMgsISo6CwxCgoLDEKCkuMgsISozgT9gQXHBz//dE/+QdKngVVny37lQAAAABJRU5ErkJg
+gg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="dcba1088-4cc9-4b40-a760-3c7d1829cefe"
+		imagerect="20,7,39,30"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="947edd7f-231e-4179-a74a-2eb3dfe09931">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="20,27,39,30"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Back
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="localizationkey"
+					type="System.String">
+						Back
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Back
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UINavigationButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1674611056
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']//titlebar[@accessibilityid='JOBREVIEW - Job for Job Review']/button[@localizationkey='Back']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6326d096-599c-4018-a377-e0ac64c7f8ae">
+				iVBORw0KGgoAAAANSUhEUgAAACcAAAAeCAYAAACv1gdQAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAADwAAACgAAAAPAAAADwAAAdrfe9ZLAAADK0lEQVRYR+1V
+yW4TQRRsQ2acQNjCvgYI2GAgDuQUbxrHUVAOHP0LfIclL+M9EoJDTtz5SVNV0z22sc3JJ5iSnuzp
+7ulX/apej0mQIEGC/wKNxiVz8dVbiEawobmJSdmV60TKXBx65lf9sn1egU7ttt+tvouiOI1OOWf6
+x3tmcHp17QRxcL8TvMHvHTuyAu3afW9YPTSjylPTDx7E0Tre9brVvD8I3mOTTbt6PUDVvH5woDx/
+hSM3PtqyI1OMP+9obnB6z44QKcldhySUZZX0k0m0btkakmsvIcd1DOYQHLnGlyvRwAwgqRdiDmvs
+iEEy37TLD00YvIIlMmZQeWG6JzfmkpNQp3xXc/3Ka6kya49l5OjxXvGR9o696Mj1itdkUhffztKm
+xU0hq6sqGwVekdRh8BzSPza9atYLKx+VnGASEPcHtX2R6wVP0lwzquZ1CGKeHCqMA8PffrfyIV4j
+xOSqWVWDgdP6w1pOScdHO5KIwIv+oIyklggrAT96YWkqPX69/vEnE5Zu6ZnAodhwplnYi55JrnAg
+RUiMh0ETYq9tzcdw5EiqiZO64EmG5Zw/RFf9sC/pmoH8rA7/j+tblE/vW4nSnVLG9CpvF3zI6rvk
+JNct5SU38so6jbPrmpuDI7esIUgEHauEzuAsOzpZXuoVs6ZZzKpSrAIQVQiHW0Rq1nN+u7zPjuWV
+pc6l35xCMRy5ZQ1BQApuJJOyeyn1EOQawc2oipQFY7Zy8f0Yd5wF10UF0AXMa0pWore7J8+0L30/
+B0eOPuL14IJk+CK8R0OravRGG83AeRmZrR9sq3KW3GarsGsomWTEfOTLDRHuy3MROTaErbY8SfvQ
+DswZw5FjWfG1MN9t2KtAXcdxAnKqIdgk9CFNDwm9cyRi95IEyKrrwtJLWYDVAHF5jHsSjpw9kAAl
+JC9viPgq4ecL1aEcPpi74CnS9BU3jC5G3XvpUS3Dec0xeHrIwj1iWSA/JWPF4wbh4d0+OIQ+X8OZ
+zxf9BmLKTbsIrgMZlNYFO5Fzf4KXMCvC+Gk/a1zHZ1REzwTXsQPP4U3uNdu9JLJsf90C1scJEiRI
+8E/DmN+JeUmjw9UiOAAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SendCorrectedTimeCard.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

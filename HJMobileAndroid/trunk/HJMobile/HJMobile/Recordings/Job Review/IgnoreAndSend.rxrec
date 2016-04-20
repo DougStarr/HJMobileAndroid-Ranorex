@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="11da35ff-dc4a-4059-8b52-2076f02f68c5"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		IgnoreAndSend
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="IgnoreAndSend"
+	namespace="HJMobileAndroid.Recordings.Job_Review"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="ba394b56-6e10-467f-88a0-16f0b0d0913e"
+		imagerect="98,24,32,32"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="2c43887f-3969-4195-95bb-e752a323ce2f">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="779,605,32,32"
+				snapElem="">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						unselectedCheckbox
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						668591824
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//container[@containertype='']/container[2]/?/?/container[@containertype='']/button[@accessibilitylabel='unselectedCheckbox']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d1ccb4f9-44e8-44c9-b08c-5adde56ee636">
+				iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAEAAAACgAAAAQAAAAEAAAARIK3ruSAAABe0lEQVRYR+2W
+O0rFUBRFAzYK2ukAtLW2ME1KB2EraJciIeT//7U2TsCROQPRAcSzc70hTy/yzns38MAcWF3O2puQ
+5MZY5xDnmrgnHM3ACfefc2ua5ott2295ng9t2w5d1430fc9C7sEBF5xwI0NEqefJdd2PMAyHpmnG
+5XkJLnIfLjjhRoaIUo+DC0Fd1xsldgUOEEXR6EWGiFLPVKCqqrGERIq2Zb4LF7tAWZYTEOzC3MEu
+UBSFVtgF8OTqhF0gyzKtsAukaaoV6UWGiFLPVCBJEq2wC8RxrBV2gaVAhohSjxMEwbAkyBBR6nF8
+3x+WBBkiSj1rgbXA4RSQr43qXeYgPawCWMThgS+Y6rPKAQ55EG1VABdiCQcITjHV0coBDrjk5xgZ
+Iko9j57nvWMBy/JnYv5nw0HuwwUn3MgQUZtzRJwRd5ZlvVLTz32CfwIXnHAjgzj9zpzmhLgibogH
+oieeNQMn3Mi4JI6JaeQdOCcuFgYZv+7Afx3D+ALs7rR9SgYFOAAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e7c6b837-be03-4e4c-92d1-20a0ce2d71e0"
+		imagerect="172,598,172,50"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="9f43c5a8-d938-4e33-aa0a-3cfb2775f462">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="853,662,172,50"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						670042064
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form/container[@containertype='LayoutContainer']/container/container[@caption='']/container[2]/?/?/button[@accessibilitylabel='Send']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f4c049e5-1d56-437c-b0e2-514e943b8afb">
+				iVBORw0KGgoAAAANSUhEUgAAAKwAAAAyCAYAAADBXTDrAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAGQAAACgAAAAZAAAAGQAAAro5+5N8AAAEaUlEQVR4Xu2Z
+22obVxSGnYMO0Wl0ltqowpVlK41sRdFc5c63fQC/Qu96USiJNJmBRSEpJdCL3uUV9BJ5gUBooSSQ
+lhBciu3io+RU0oV39z8eJ9SRRCAYuun/wcajvbdmwHz+91rjhX6/f6KH4uAwYJxAWLVAiAH4rlJY
+YgoUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJUVBYYhQUlhgFhSVGQWGJ
+UVBYYhQUdg76l3Kp9WgrnpLDbEU2s61HP8cxFyxfGCLqMp610e9fCaZIAIWdgf3V01BBDusx57iT
+9vZvW85BJyaTTkm2axt9daEifSp/xvJy3Gnc/SsZTJEACjuDkrv1ecib3K7d27Oa8msYoyRbxdh3
+ys7df3M92HYhlL7dilv6OVnZTQVTJIDCTkFELoed8WrKPVwOpnxQDhTcneWke9RQSr0tDdblVVSn
+Yr7cGxTufLN5LZj2j/a2PEuvy5OrWvhE+eGggNLi/FG/sdG/Uu3+kinJoFjXkqIMsbyJnf+BCXse
+CjsFyJh0Rw2dsLcW5VUa4kFWrOEa5YLedAlzEDXuDNsZ2Wulnf12XCbtavd1Bnv1d6NxZ9KuuJvL
+GWevVXS2WzHv2MYfAu6DPV/+9DKSlPGNmC4Biv49hu2cO/giRmGnQmFngERMyGA15Ck77Q1vWTKq
+IQEhWLBlwda1Jmrc4oNhCakMCbW4VQi8LupqHXu7EzvRG9xECiNZK7qBi+l71u79bkF4yz1YguQt
+XQZgHZInvEEzpEuCBoV9Dwo7B/+o/v51JitvKlkZ3EQ6QtCC7JSRwvr6EzRja/o4r8vLFEZTH/lI
+xyX5rYi6V6e0vaJTOLjlgv1YhSx9H4iLUgGNXEGG5WDZB6mOWpnCvg+FnQKSEkmHYx+fkYQQFCmZ
+klEdEmLdb8xEdcKOar0b41ZYlD7+hyVfWGfS0T+z/o01mDsTFtcQ0+oe+CXEGXhLwBp2OhR2Cmh6
+kHzVcyIBNEWQDEc6EjauywW/pkVNGoxFUdHTkkBF5gnrJ6y+1qVHMVj2yeqkZsJOh8JOASIlvHEz
+4QxW7/y4eQ0Ji3nUmBn5u4ojH+I1ZSeBazRefgoHTVjsVNJEU9TMhL3e+yOH1EYDpmveln5mFN/H
+s5O9oxXWsNOhsDNo3H2RjHvjNdSskd5oJSqqBoEhI5ovpU4FzcpuBSkZcUcNDFynZX8RMqJsQNN2
+o/c8F9xWC6vCeMcKsfEZjVtCxqto1CLdUR3PyHh7a9iDNPe/RN5CYedgP34aSspRvqwFLLrbS3ld
+AkCwYNkH0qLZwhrkRcMEWbGG/4hZXZVBqvqbNaiP8a/e+tfv3jZgHc/J3t/9TKdrDm8isMcvNci/
+oLAfAKTECD7O5EP2zONjv/9/gMISo6CwxCgoLDEKCkuMgsISo6CwxCgoLDEKCkuMgsISo6CwxCgo
+LDEKCkuMgsISo6CwxCgoLDEKCkuMgsISozgT9gQXHBz//dE/+QdKngVVny37lQAAAABJRU5ErkJg
+gg==
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		IgnoreAndSend.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

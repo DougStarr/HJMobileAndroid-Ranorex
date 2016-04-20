@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="48d673d7-2c83-43b0-88fb-5d357970da2c"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		RemoveTimeCardFromHDM
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveTimeCardFromHDM"
+	namespace="HJMobileAndroid.Recordings.ExportTimeCardToHDM"/>
+	<variables>
+		<var
+		name="ConnectionString"
+		id="25ddfbae-e5c1-4a0e-9f91-ebb3d4a99faa">
+			Data Source=a0dkrsitmm.database.windows.net;Initial Catalog=Automation_Company;User ID=db-admin;Password=Hcss*123
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="RemoveTimeCard"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a0f1910e-d8db-4b02-8994-bbf34c811b8e">
+				<argument
+				variable="ConnectionString"
+				argname="connectionString"
+				id="e69f7b65-3a29-4d0e-90d7-15a0e9b238fb">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveTimeCardFromHDM.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

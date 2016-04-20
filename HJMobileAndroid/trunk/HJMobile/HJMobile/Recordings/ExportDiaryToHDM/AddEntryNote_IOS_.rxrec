@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.0.24580"
+id="b9521350-f7f8-402e-abfb-633cc2a127b7"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		AddEntryNote_IOS_
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddEntryNote_IOS_"
+	namespace="HJMobile.Recordings.ExportDiaryToHDM"/>
+	<variables/>
+	<recorditems>
+		<runmobileapprecorditem
+		enabled="True"
+		optional="False"
+		duration="3500ms"
+		application="com.hcss.mobile.test"
+		devicename="Equip-ipadATT"
+		resetInitialState="False">
+			<comment/>
+			<bindings/>
+		</runmobileapprecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="1d5e7962-628e-4ff3-bddc-d3b38d1b0a84"
+		imagerect="7,49,353,457"
+		touchtype="Touch"
+		elementlocation="135;252"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="135"
+		sy="252">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="13823d37-0c20-4cdb-9568-3e807baf7e7b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="396,248,353,457"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1578640896
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form/?/?/container[@containertype='ViewControllerWrapper']/?/?/container/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7d5ed27d-6907-4d45-bd12-bc7aa1827c3b">
+				iVBORw0KGgoAAAANSUhEUgAAAWEAAAHJCAYAAABUsIhUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAA5QAAACgAAADlAAAA5AAAB+/UywvqAAAG10lEQVR4Xu3b
+y40iMRRAUdJAIiJCIUd2ZEQAjF8XrRGanp/U1N2cI1ly2V7fheU6/M7j8TitcVnjtsZ9DQD+3XRz
++jkdPT3T+nfr8HGN6xoAfJ/p6vGZ2q+tA+ePowC8y/mZ3Fezse0D8GavIV4LcwUBwH5+Xk2sD3fA
+APu6fgZ4XkEAsL/TRHieTwCwv8tEeN6xAbC/20TYjxgAjftEGICICAOERBggJMIAIREGCIkwQEiE
+AUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIi
+DBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBAS
+YYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQ
+CAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOE
+RBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBgg
+JMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIA
+IREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREG
+CIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkw
+QEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiE
+AUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIi
+DBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBAS
+YYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQ
+CAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOE
+RBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBgg
+JMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIA
+IREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREG
+CIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkw
+QEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiE
+AUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIi
+DBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBAS
+YYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQ
+CAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOE
+RBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBgg
+JMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIA
+IREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREG
+CIkwQEiEAUIiDBASYYCQCAOERBggJMIAIREGCE2E79sUgJ3dJ8K3bQ7Azm4T4cs2B2Bnl4nwaZsD
+sLPTYazJdfsGYCfXjwCP9XHc1gDYyfGZ4M1aOG/rALzZ+ZneV7Ox7QPwJl8H+NM6MFcT7ogBvtd0
+9fUK4k/W4Xk1Mc/X5h2xHzoA/s90c/o5Hd1eQfzicPgBsFkyn/nYrtEAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="834e10d1-8bfd-4525-abc3-7d52aa2c1537"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="13823d37-0c20-4cdb-9568-3e807baf7e7b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="396,248,353,457"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						2
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Hi
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1578640896
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form/?/?/container[@containertype='ViewControllerWrapper']/?/?/container/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="373c1acc-fdba-45e5-8338-5695d8e34e49">
+				iVBORw0KGgoAAAANSUhEUgAAAWEAAAHJCAYAAABUsIhUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAA5QAAACgAAADlAAAA5AAACjfpbS9BAAAIH0lEQVR4Xu3b
+PWpVWxiA4ViJziCQykrHYK1FCn9ALCzFxuBcHIC2TkFRDKJEO0vRwtJeJAPY96x9ErzJ9UQjN+dt
+ngcWfGvvXb/FYu2NVaZp2lqsncXaW6z9xQLgz41ujn6Ojm4dpPX3Fh9vLtbuYgHw/xld3TxI7a8t
+PtiePwXgrGwfJPeo8WL5HoAzdjTEiwfjCAKA9fl5NLHYOAMGWK/dwwCPWxAArN/WiPC4PgHA+u2M
+CI97bACs396IsB8xABr7I8IARFZG+MWLF/M67vv379OTJ0+mb9++zfu3b99OL1++nGcATmdlhK9d
+uzZdv379YPfTp0+fpnGp4jC8jx49mu7duzfPAJzOygjfuHFjXsd9/vx5unjx4vT69et5v7+/P/34
+8WOeATidEyN869atg91PX79+PRLhp0+fTo8fP55nAE5nZYRHgK9evTp9+PBh2tvbm9f79++nZ8+e
+TefPn592d5c/2T148GC6ffv2PANwOisjfOfOnenChQvTlStXpsuXL89rzJcuXZrOnTs3vXnzZv7u
+4cOH0927d+cZgNM58Thie3t7PvP99/r48eMc58PjCBEG+HsnRvjmzZsHu5++fPly5ExYhAH+3okR
+/pPbESIM8PdWRnjcEx7ruOP3hO/fv//LWAPweysj/Pz583kdd/yPuXfv3k2vXr2aZwBOZ2WEATh7
+IgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQ
+EmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGA
+kAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgD
+hEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQY
+ICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTC
+ACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACER
+BgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJ
+MEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBI
+hAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFC
+IgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQ
+EmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGA
+kAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgD
+hEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQY
+ICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTC
+ACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACER
+BgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJ
+MEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBI
+hAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFC
+IgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQ
+EmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGA
+kAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgD
+hEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQY
+ICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTC
+ACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACER
+BgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJMEBIhAFCIgwQEmGAkAgDhEQYICTCACERBgiJ
+MEBIhAFCI8L7yxGANdsfEd5bzgCs2d6I8M5yBmDNdkaEt5YzAGu2tTEsht3lHoA12Z0DPCw2m8tn
+AKzJ5kGClxYPtpfPAThj2wfpPWq8WL4H4Iz8OsCHFh+MowlnxAD/r9HVo0cQJ1l8PG5NjOtr4x6x
+HzoATmd0c/RzdHR5C+I/Njb+ATt5rzWG1SR4AAAAAElFTkSuQmCC
+			</helperscreenshot>
+			<AttributeValue>
+				We worked hard today. It started out too windy, but we made up for it. Todd was not working so I had words with him and sent him home. The sub did not show up with enough guys to be effective.
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.0.24580"
+	relativepath="..\..\HJMobileRepository.rxrep">
+		<codegen
+		classname="HJMobileRepository"
+		namespace="HJMobile"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddEntryNote_IOS_.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

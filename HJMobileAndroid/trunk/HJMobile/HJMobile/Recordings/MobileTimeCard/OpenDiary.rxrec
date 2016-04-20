@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="fd2fc388-bca6-428b-943c-b1e516c4bb03"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		OpenDiary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenDiary"
+	namespace="HJMobileAndroid.Recordings.MobileTimeCard"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="60a1df92-7077-4cd7-ba59-8c161277f091"
+		imagerect="72,15,222,28"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment>
+				Open Diary
+			</comment>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="ef520ef3-bcde-46d4-9361-59d79f80e04e">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Dashboard']//list/container[1]
+				</path>
+			</info>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="20000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenDiary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

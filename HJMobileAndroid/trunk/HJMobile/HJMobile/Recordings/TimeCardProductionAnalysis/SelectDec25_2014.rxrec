@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="1f8b0e2f-7445-4b6d-9a78-162bfd8f3367"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		SelectDec25_2014
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectDec25_2014"
+	namespace="HJMobileAndroid.Recordings.TimeCardProductionAnalysis"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="6a557e6e-5574-4978-b910-c3c92e1afbe4"
+		imagerect="0,52,288,104"
+		touchtype="Touch"
+		elementlocation="10;10"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="fa946230-8b2f-448d-9772-7799728ed0c7">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.staging']/form[@title='TimeCardEntry']/container[@rid='content']/container/container[@containertype='Relative']/container[3]//?
+				</path>
+			</info>
+		</touchrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="FindDec2014"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="ae45c00f-b65f-4616-950d-33b1d11827ff"/>
+		</userrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="93e31ad8-d214-4b3d-8c66-7bb6eae7561c"
+		imagerect="0,0,292,206"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="bd82c6bc-d220-4d0a-ad6d-26b30ee3a40e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1172,1028,292,206"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						44744388
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardSelectionCalendar']/container[@rid='content']/container/container[3]/container[4]/container[5]/?/?/text[@caption='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="aee02a94-7027-48f5-a84d-0de45179698f">
+				iVBORw0KGgoAAAANSUhEUgAAASQAAADOCAYAAACXUX+8AAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAABAElEQVR4Xu3BMQEAAADCoPVPbQo/IAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7mqs2wAB
+jvYqGQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectDec25_2014.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

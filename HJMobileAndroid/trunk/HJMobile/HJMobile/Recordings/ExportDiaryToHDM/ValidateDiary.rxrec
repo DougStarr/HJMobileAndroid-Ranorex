@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="ada76199-135f-487f-b69f-010a3044f564"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ValidateDiary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateDiary"
+	namespace="HJMobileAndroid.Recordings.ExportDiaryToHDM"/>
+	<variables>
+		<var
+		name="ConnectionString"
+		id="14793c78-d411-4a8a-8203-be80da27d7a3">
+			Data Source=a0dkrsitmm.database.windows.net;Initial Catalog=Automation_Company;User ID=db-admin;Password=Hcss*123
+		</var>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="5000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateDiarySQL"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="77e719fe-a367-4496-ae21-fd19b9ac439d">
+				<argument
+				variable="ConnectionString"
+				argname="ConnectionString"
+				id="667d7fa6-3662-4d8e-869e-376e67eddf17">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateDiary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

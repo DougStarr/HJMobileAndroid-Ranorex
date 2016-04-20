@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="d834b771-ab29-42c2-9ab7-798f132e7050"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		TurnOnMaterials
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TurnOnMaterials"
+	namespace="HJMobileAndroid.Recordings.MobileTimeCard"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f0a5a703-4eb9-466f-8b38-5048572e107f"
+		imagerect="0,0,128,112"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="d8c06048-f19f-4c34-aea0-ad80bbe5b33d">
+				<element
+				role="unknown"
+				prefcap="androidelement"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1920,50,128,112"
+				snapElem="">
+					<attribute
+					name="contentdescription"
+					type="System.String">
+						More options
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.ActionMenuPresenter$OverflowMenuButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						774274135
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEntry']/toolbar//androidelement[@contentdescription='More options']
+				</path>
+			</info>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="467760eb-510f-4406-b954-ae8e720816a0"
+		imagerect="0,196,415,96"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="145"
+		sy="72">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="4a6c9198-f7e4-4a00-a8fc-cbebfe2fca32">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.dev']/form[@title='Popup']/?/?/?/text[@caption='Turn On Materials']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TurnOnMaterials.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

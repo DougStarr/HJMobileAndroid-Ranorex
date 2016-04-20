@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="96cf93c6-4196-4848-9771-524429a675fe"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddEntryNote
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddEntryNote"
+	namespace="HJMobileAndroid.Recordings.ExportDiaryToHDM"/>
+	<variables/>
+	<recorditems>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="7a1ff44e-cab4-4c3b-a010-046bf27a602f"
+		attrname="Text">
+			<comment>
+				Add Entry Notes
+			</comment>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="9dafee4b-fd90-46d9-9169-c72f2795306b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="646,205,616,940"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						12
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						This a diary
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1094607400
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']/container[@containertype='Linear']/container[2]/container[2]/text
+				</path>
+			</info>
+			<helperscreenshot
+			guid="19e587d3-8832-428a-bcfe-80cf67afb4c2">
+				iVBORw0KGgoAAAANSUhEUgAAAmgAAAOsCAYAAAD+4UpfAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAMxUlEQVR4Xu3dS8h0AxzH8cf9fi1JkUiRkqKESC6RBSIW
+UihE2ImF3EOUWFm8FmRBYiMpSQlFrglFsZBEWRBFiLz+vzPvYTrmzJx5Mo+j9/Opb8+cM2fmTLP6
+dy7zrAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACM1fXVo5OHc51fPV7t0iyNxy3VA5OH
+jbF+TgBgK3Zd9dKATqzimeq3ycO57qg2V3s2S+PxevX55GFjrJ8TANiKnVrdMNULVQaWB6fWpcOq
+GDqgbVvtMHk4Kt0BbayfEwDgL1dVGdAObpb+aeiANlbdAQ0AYPSWGdBOrm6vcoTtoKyYckyV9+oe
+ndqpuqS6r7qpOrpaZJvqzCr7urs6r9quWmT7KteY3VNdVu1edQe0vs85ZJ9nVOdWWZ+/d1UnVHm/
+Papp2XfW5zsDAFjK0AHt4erTKgNPts+6I6vWrGu79q2+rrLtc9WXVba5teqTIeuVKtvl7/tbHr9X
+5bk+O1YvV9n27eqd6ovqq2rRNWhD95nvIu+3qfqjeq06vcq2l1fTLq6y/pxmCQBgCUMGtDx/drM0
+cUSVdc82SxOzBp8cNcu6Q5qlyVGqx6qsOyArZrioyvNnNUsT7WfMc32urLrbHFv9Wi0a0Ibus/0u
+bq52zoqSAe776o1m6W8vVr9UOYIIALCUoUfQuj6pcnSsNWvwaY805UhaK6f+cpqz72cuciSse7pw
+7yrvnVOKfXJ0LwNRbgKYNuQuzqH7bL+LDJrTcko12+7XLE3eK8uPNEsAAEta74D2ZJXXtWYNPodW
+P1QZ5O6sjq+G3EGZbU6r8tly3VqGpLz3/dUsGcryfH4epGvIgBZD9tn3XeSO12x7RbO0tnZBleXj
+miUAgCWtckCL3aqrq1erPP9ddWHV5/Dq2yqnJp+q8kOz91Z5bd+A1h6xynZdQwa0ofvs+y7ig+qt
+ycPm1O83VfdoHgDAIKse0KZlkHq6ynZHZcUMH1U/VznF2Mrp0O6wNC2DUE6lZgjsGjKgDd3nvAHt
+0irb5/q8fJbbKgCAdVnlgPZZ1T3tmP9QkO1mHUXLtV0ZbqZvPojcCZnX9A1o8WaV105flJ8L+DOc
+zRvQltnnvAEtw+fvVXuXa07vAgCsyyoHtPY6rjyXI0snVRlgcjH//tUsOQqW/eWIVLbPqcaPq7zP
+Q1WfU6psk5/zyN2b+X2yDF0/VYuOoA3d57wBLZ6o8poPmyUAgHVa5YCWH3S9scrpwzyXcjoxPxbb
+58Aq13Nl2+w3Q8+u1Y/V89U8+UmM/ORFXpvtr6nyv0cXDWhD97loQGuHxPZmAQCA0cppxFzflaFn
+qJwyHHLHZ1f2tdeWv8ta7z5b11YZ0PZplgAA+E/lpoLcoZq7QAEAtno5ajXmAADYQPmJj9ypmp8P
+GfKP4AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP5tm97d3AQA
+wMZYOH8Z0AAANpYBDQBgZAYPaJIkSdrYes3aWJIkSasPAAAAAAAA4P9obe1P0/be+775gKoAAAAA
+SUVORK5CYII=
+			</helperscreenshot>
+			<AttributeValue>
+				We worked hard today.  It started out too windy, but we made up for it.  Todd was not working so I had words with him and sent him home.   The sub did not show up with enough guys to be effective.
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="68a26bc4-f083-4aaf-8b9c-deb7999e7910"
+		imagerect="0,0,1089,65"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment>
+				Tap out of the Entry Notes so that Quick Prases get added to the correct place
+			</comment>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="a062774b-e082-48bf-9459-f6bad148ae4e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="181,92,1089,65"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						43
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Warm - (75 - 90); Very Windy; Normal Ground
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1101779560
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']/container[@containertype='Relative']/container[@containertype='Relative']/text
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a6d449cf-ffe6-4082-9e39-fdb9e72b319f">
+				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
+E/RAprcu9wAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddEntryNote.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

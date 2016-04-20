@@ -1,0 +1,5371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="ddba4690-ed2a-4d61-861c-8701ca54b81d"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		ValidateFirstTimeCard
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateFirstTimeCard"
+	namespace="HJMobileAndroid.Recordings.TimeCardProductionAnalysis"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="1000ms"
+		searchpropertyid="8d1575ad-abfc-47b2-96ff-d5a88f4c72b5"
+		imagerect="89,0,96,96"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="7e444fff-e24b-4f87-b6ae-3e3f7f80c077">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1389,1301,96,96"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						724073444
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEntry']/container[@rid='content']/container/container[@containertype='Relative']/container[2]/container[5]/button[@text='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="805b0014-6966-49a5-b015-3131e1672de2">
+				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
+yjz3/Ap6F1bXuudX1rrmVu62zS4vNs0sj9mnlrrrJxZtdWNzSuXIHF88NBslHJg9RWS/VuCd+h6f
+vDuPAopNPj8QXzv61wzmg2Xeqbfsk4tGOujbnbNLUHrGoBsYRyd1HJOrt2D0jkFIM0sRQeUawLVa
+C2J0dpQ2dcFCNtVLhDKyf9md+DoUzrc3vHsDj3Ysq8z67vcv3rznml+5TYQvN0wuzpknFiY0Y3Md
+kqFZDa9/qijbPRmS3zf9WrFnfHt+z+CfMxvZ8W9ZLv4gDuaDTISqwekDsqFpo2JwCjUeIn9mCcPk
+tS0TcyhsobaTvJlN7RPqW7jv3RYQ+cyvWVT3M8vYIJwjnboTZiGcjdDkaPkm16mwOuOmfd1kJy30
+960Ti+/qR+cXZcOzbvHQjKZqeC6z3DsTnNM/8UbJ4OzfCwfm/jtF+VOZI8vr3j1E3m00Pl7v/m2N
+IoqwUs+kWkwCOKeXuELXOr0IUe8IZH2jkPePct8TDje3IKOxG3L3MJxkVf1cdK8TzeYSbMu8m1lZ
+Lz3WNbe85pxZfGCfWlgxTSwM143PO/VjC7Xa0XmecmQ+Sjo8e5wK5svl5N087+SWDO/s1yOdw+Td
+c5/7V092Powjx4lPFgxO/HV+/3RExeBMl3FyESM376KT/Lh2aBqlPSOwjM+hnLaJTb2Ib+xBFYni
+IPJ7KZJZ3egjsnvo+WQj9ztml++2zizPN08vjjRML3ZZJheszLsVI7NFlQPTN0q90ydKvbOvlnjm
+vsvvn/9GTt/kn7DPwH6G3veRfneGkVqx4rH5r+Z7Ji/yvNOdNBvk1siZAKqROQg8k9CNzaFubJ77
+3bWo5n7we0fXrBMLayTQ/d7F1XtUMDnvdkwtzhkm5kdUozMdVQMzKoF3Oqeob/JSVs/Ea0XUd5cN
+Tv65aHb2s763fjLYENBkpHRg5nBaz3ifYnT+nR6aPY7ffge14wsQDM5wW7ZGktw9hqj2YWS4RlE9
+OL2mH1+4pxmfn1WMzFHfPaMVDMxkigZngkVD06/yvBPPlIzNfr1o6H19t/Ex990ftMEfmPyzjL7J
+Axk9Ew3Vw3N3OhZvsZVA2GdWQIUPuolFGKeW3y3on14NbBxYOtvk7Y/qHKkrGZgurCArqSLvrhyZ
+3cH67hzP5OZ88u4M19CfMsLZJOdD1w7+Rw327wSLe8e/lNoz/lZm34S82DPzLlucYmvhtEXF4Cxq
+RuZhm1m+Q8IM7rb06X+qd1XtNLujA5sH9ib2Tv3Djc7Jv4nr8D7FuhLfn30yfp3BLICt6hX1z/ww
+0TWmKPBM3TFPLWPq9j10Ld6CbHQeVAvWepZuP9BOLA5fdA5XfqrYdvQTPNuzm/jmv9gkevKvo/5d
+Qzo39zmK+O0x3WO1NLmZ00wsPRi99Q53dYCUol5A0d8wu/qgd/n2LXqO6pvS1pCPF5t+tqnI+Deb
+SlV/9MRW/h3DCXw6zT39/bjOcV5Kz8S0anzx3e6l2xgm8mup+xENzcEwtcxORN/J659q/KnBlfCZ
+Euubm/hWP4r8L27Kyfno9+S/zZHVPbYtwTURl9A9MVU1PP8eFV3uDBErusVUdPWTS2idv3WnfnrZ
++wtDT+7XqhoPb+KZv7Mpq+6rm0Si341/hPPbHLGdYxeSXOPugv4pdCzexOitu3BS0WXkV1L0963c
+uU/3R487PJKvCh2Bn+DX/2hTifHrm1K5S7ifWM+/dxD5OSXe6XsNsyuYuXsPrdTfU5fDCcDOjZIo
+i9nuKeNXK5tCfr/E9otNPOs3aZrMLr14Qv5vYoiGZovqyGbYZRcumnBJqeNhkd84t7o2cefePcHA
+bNPPDa7Ujxfbdn6yyLZ1E9/21KaP2n8aepzDMrOaQxZzj5GvHFsg8mdhnqYW9M69d8n3B082enlP
+CZuObCq2fm9TnvG/UOfzpMf/TQ6aZEWQ/YxqJ5beze2feqCbXHowcPPuu2O335k71ugVf7Om9fzH
++ebnN5U5/orr95+0nL/ZEdE+8u38/slk8cj8KE24bllnVm7Vji8MX24Zqv2GxBn6Wb5lx6YSy//i
++v0Pwu9pftQG+28Rl9uGn47uGjt1tX008Vr7SPZRuzc5QNF+niOfZ9myKc/xZWo5Pxpnmj6Qg6zl
+K4Kmr1GbGfDlioZ//Eyp7Vmu1y/Wf2tTOZG/3nI+Gb/VERb2e5ty5J/elGn5wqZC1X8i8r+0ia/5
+zJOO5z90UIFlQuwgu2F+/6TgPhlPxpPxZHw4x6ZN/xcgb9Iww9sPQgAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="30000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4112d218-c674-496e-af83-ae667d9bbad0"
+		action="AttributeEqual">
+			<comment>
+				Emp Hours 1st Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="1bea2068-6213-494e-b49c-ed7a68634f33">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="511,585,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						13.00
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						13.00
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1014268976
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='13.00']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				13.00
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="730ce23b-6ba7-4e79-80ef-fa570800566f"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="32350d13-187c-420c-b765-4cc7de5ab586">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="790,585,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.10
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.10
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						721623209
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.10']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.10
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="dc4e00fd-092e-44cc-8632-bae93792185c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="224918af-77a7-481a-9095-5b2f40791f24">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,585,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						8.5
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						8.5
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1032531502
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='8.5']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				8.5
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="2d959073-a75b-4106-8913-040b714b8249"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="30d4c9a4-c796-4935-b2a5-6a91ef2b5321">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						101.03
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						101.03
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						32038351
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='101.03']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				101.03
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="571edba6-cffc-40d5-9467-42c2d237035f"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="05f1e133-44a4-47ef-812f-e1ac9fd85b3d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						7.92
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						7.92
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						550875996
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='7.92']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				7.92
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="50cf76aa-39f6-4508-ab10-ac83e8e0fb68"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="bcf2ca20-0c98-47d7-8231-6e5857819c5d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						93.11 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						93.11 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						751539813
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='93.11 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				93.11 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4e6b5009-821e-447b-9ca0-ce73a857c65c"
+		action="AttributeEqual">
+			<comment>
+				2nd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="18dbac4f-9ee0-4839-9b78-bc026fe8cc9d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="511,663,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						387.67
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						387.67
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						789602620
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='387.67']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				387.67
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4fef13fe-f58c-4129-962b-846c323f8005"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="38e19226-a5d2-4cbd-99e5-7454b878b03f">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="790,663,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						10.66
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						10.66
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						939646661
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='10.66']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				10.66
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="8d34434e-de43-4a06-ac94-2b437d57b74f"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="05deac1f-147b-4d50-ab64-4ab7a4408aeb">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,663,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						2.8
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						2.8
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1007292442
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='2.8']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				2.8
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="33ba7f1a-ae9c-4568-a99d-31078c63ff9e"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="60baf891-7377-4366-82c3-756329279346">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						17.88
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						17.88
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						793573195
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='17.88']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				17.88
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c36b25bf-7111-459e-aa56-ebe51e1a511a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="2efe7ba7-03d2-4021-a647-b2a0f3178688">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.36
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.36
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						639653160
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.36']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.36
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="63287051-0a54-448d-915a-9d00393a8c56"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="26800be9-c173-420d-884e-58b915710606">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						16.52 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						16.52 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						447128129
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='16.52 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				16.52 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="fb3b5358-d70f-46fc-ad71-32615877715a"
+		action="AttributeEqual">
+			<comment>
+				3rd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b77e95ac-1205-46ed-a2df-3568b46c6a12">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="511,741,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						27.99
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						27.99
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						305333443
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='27.99']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				27.99
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="8dd74090-4c4b-4ca7-9abe-f7e7ee1f36d0"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="8b830d8e-9e20-46da-ac88-9c1544c06592">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="790,741,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						4.05
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						4.05
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1023320384
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='4.05']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				4.05
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="02e7b008-3f38-42a3-b65b-3e7c68a18527"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="76a62ab6-6ca5-495d-91dd-15a91683f114">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,741,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						14.5
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						14.5
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						84695161
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='14.5']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				14.5
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="10891312-f18f-48dc-a315-f927ccfb0cb1"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="a59f5db7-33ba-4856-a657-bfb98de6a7c3">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.59
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.59
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						265075134
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.59']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.59
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="06d24177-e8b6-4d70-80bb-c3f522c01793"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="eefd0a45-4b3d-4fee-83b2-b8d36188ccb0">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.51
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.51
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						28781087
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.51']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.51
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="defa9fa5-19f3-4634-a6d0-e60b2bba29a8"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="5ce3d237-d4bd-4eeb-8311-78f8a725db72">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.08 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.08 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1020039532
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='0.08 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.08 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4dff28e4-fc61-49e0-b72f-222b49e5d9e3"
+		action="AttributeEqual">
+			<comment>
+				4th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b5cffda9-fcd9-4362-83a4-f22c1367175e">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='0.00']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="ddffc302-dcf5-49d9-a695-e21a944f91ac"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="d696231e-012b-475b-85b8-be6fc02e75d2">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="790,819,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						5.79
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						5.79
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						19807767
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='5.79']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				5.79
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c6217e79-09dc-45d0-b74a-b5e2f3ad5857"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b1c3c0f0-14e8-485f-9571-2d081e854bde">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,819,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						879075844
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='0.0']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.0
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="58a9c21d-e73f-4eb6-9676-eaa2c67ba78a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b5cffda9-fcd9-4362-83a4-f22c1367175e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						431711213
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/container[4]/text[5]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e04fe695-67db-4179-8116-5dfc3693b80d"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="77396a6b-1eeb-464a-ba2a-9834a088082f">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.64
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.64
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						59372066
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.64']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.64
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="5b59116c-f516-4534-86bb-7d80c5804d85"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b987955f-3c64-469e-b59f-110f0e8ce8b7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						-1.64 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						-1.64 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						835626163
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='-1.64 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				-1.64 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="503a07be-942b-4c82-bb9b-0abce2feaa77"
+		action="AttributeEqual">
+			<comment>
+				5th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="1a05e40b-bdc0-4e63-93a9-fe5f0b51586a">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="511,897,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						75985.23
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						75985.23
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						15344549
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='75985.23']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				75985.23
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="ea4d1bd3-1aa0-4b8c-8587-60c3de5db4d8"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="af38dfc9-16a8-4ad8-b1be-7696a0c37235">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="790,897,279,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						2714.99
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						2714.99
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						824943482
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='2714.99']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				2714.99
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="37c21042-0bdc-4749-a5e7-e07567e21f77"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="ac570cae-4447-4e2f-b158-11b58958f521">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,897,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						3.6
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						3.6
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						633337643
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='3.6']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				3.6
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3127bcba-6dab-495b-a3f1-4653f3bc9774"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="7ed39f2a-ada6-429a-8481-b2f580dcb44d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						239.54
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						239.54
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						642615176
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='239.54']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				239.54
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3ca94d4f-9bbf-4632-9f0f-29377ce47087"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="e8d80673-fd46-429a-bb72-b3ca3c144031">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						9.45
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						9.45
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						159274273
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='9.45']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				9.45
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="8bcd0a3d-155d-461c-96f9-9339d838a9ce"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="50dc3317-11c0-4ff0-8f2f-7d8cb3ee1291">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						230.09 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						230.09 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						21003590
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='230.09 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				230.09 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a0facff8-d026-420d-9072-6f31090287a6"
+		action="AttributeEqual">
+			<comment>
+				6th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="7c0a5d1b-295b-4351-b5eb-b28d4828a5ae">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='499.4']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				499.40
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="966b6b16-aad1-4071-9a35-72a46865ae13"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="8bbe568a-e130-468e-915a-4b9e0876005f">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='45.38']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				45.38
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="ad01969e-9e09-4b09-974e-f5e063496736"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="420cad39-66f1-4152-a06e-cf1a969ae12b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1069,975,139,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						100.0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						100.0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						586936094
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='100.0']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				9.1
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e618d436-255f-4913-a9be-b6bbada0fd1c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="13424fcf-fbb8-47bd-9083-f726ca38dfd0">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.15']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.15
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="9daba4ec-723a-4b24-9379-db51fffa86c9"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="374aee0b-599b-42cd-9fd6-ed188c74e72f">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.15']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.15
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="cceed975-f205-4468-a5b0-15965f79b41f"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="66915c54-732d-4877-b344-59664a0ca9af">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,975,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.00 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.00 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						677658645
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='0.00 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00 Hrs
+			</matchvalue>
+		</validationitem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="4bdb0940-6270-4413-a3be-e7c8c2187d3d"
+		imagerect="1211,30,400,70"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="a9a4ae23-77a7-469a-970d-3d037d11439b">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1227,208,400,70"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cost Types
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						116730235
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//button[@text='Cost Types']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9b0cdebf-2482-4ea4-ad45-6d05c9be4c72">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9ff6e05a-027c-4fb7-b15b-0d40b6611ee5"
+		imagerect="0,29,144,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="4beb4a3c-bc91-4c78-8ceb-2fe204180cb6">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="476,841,144,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Equipment
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Equipment
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						48864998
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Equipment']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0677b27b-6093-4c44-8627-8873bb4a217f">
+				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
+dYqhAAAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="30000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="59ce1717-0635-44c9-8ed8-00b963fe07fc"
+		action="AttributeEqual">
+			<comment>
+				Eqp Hours 1st Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="5ffb149d-672b-454d-a5c7-d8303613ae49">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						98.82
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						98.82
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						385023610
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='98.82']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				98.82
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="ea4f8606-2b7a-4a1d-be1d-c9faea8c8cd1"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="d5ab272d-dc73-497a-91d0-598a8811600c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						2.74
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						2.74
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						458995243
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='2.74']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				2.74
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="2a1435e8-c720-4a42-b551-929a6b520d58"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="751bbb86-4c3a-4e00-86d6-12c6748f3de7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						96.08 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						96.08 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						667933320
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='96.08 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				96.08 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="01e48799-32a2-44b0-ae9b-4b058017f742"
+		action="AttributeEqual">
+			<comment>
+				2nd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="da217386-b11d-4430-b234-a5a16fc1b5cc">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						8.24
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						8.24
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						59162201
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='8.24']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				8.24
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="5225a74b-bcea-47c7-bc55-9db012a5eca0"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="829e1a77-e902-4625-b37b-5cf4f4664443">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.40
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.40
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						540301854
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.40']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.40
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="609b7d6c-eeb2-4e87-ab5a-26c27ccb4cb9"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="3a73ed45-c69d-4882-8b46-be355b0261f9">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						6.84 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						6.84 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						989049599
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='6.84 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				6.84 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e4a915c6-6b62-470d-8660-099acddd872c"
+		action="AttributeEqual">
+			<comment>
+				3rd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c82e8e59-55f1-4615-916c-7b95d667300d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						10.84
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						10.84
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						859682148
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='10.84']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				10.84
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a71ee39f-e8a5-4bef-964e-dadc1de6bada"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="3872d956-922e-4557-920f-5602a0d0bc9d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.96
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.96
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						232973261
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.96']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.96
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="fda6edeb-be06-4ddc-b6ca-d1fd73400d7e"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="de868d76-e9f4-4a5a-9644-d9d0faa109fd">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						8.88 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						8.88 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						143762562
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='8.88 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				8.88 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="81d699b8-c138-497c-b7fe-07022e5b104a"
+		action="AttributeEqual">
+			<comment>
+				4th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b5cffda9-fcd9-4362-83a4-f22c1367175e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						743941643
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/container[4]/text[5]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c4e3ab4e-6b67-4aaa-8cef-ff1206076a27"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="2e8645df-0934-4cf2-a8f2-ce59f276078e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						1.05
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						1.05
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						225131752
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.05']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.05
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="95cac89f-d2b2-4852-9e41-e340d1f86162"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="3dd5d5cd-e10a-4830-9d8f-5bad16a3a65e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						-1.05 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						-1.05 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						648531713
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='-1.05 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				-1.05 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="07643d2d-bcf3-4977-a379-de3b899162d5"
+		action="AttributeEqual">
+			<comment>
+				5th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="38a43e54-7645-4fc3-a382-4ed15893e0c8">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						193.53
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						193.53
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						821772158
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='193.53']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				193.53
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="09347cf0-37ec-4bad-a26e-58a024b733d0"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="30b859a0-2e62-4fbc-bc82-34fd7dd006ba">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						7.66
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						7.66
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						29793503
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='7.66']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				7.66
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="b96b6609-ee5b-41dc-b6a3-a1e2f1ccc655"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="51dfd1ee-180e-45d1-933b-4baddc53df84">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						185.87 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						185.87 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						953609516
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='185.87 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				185.87 Hrs
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="fdf75459-a1fb-4a2f-a340-6a429c27bce5"
+		action="AttributeEqual">
+			<comment>
+				6th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b48edf32-e760-4a84-87ec-f92ebb177385">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.43']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.43
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3b13ffbc-baa5-44b3-9f8d-a52f1f10d427"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b48edf32-e760-4a84-87ec-f92ebb177385">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='1.43']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1.43
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="59f90494-0cc8-4751-ad1d-b06b4b25d346"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="66915c54-732d-4877-b344-59664a0ca9af">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,975,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.00 Hrs
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.00 Hrs
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						914856819
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='0.00 Hrs']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00 Hrs
+			</matchvalue>
+		</validationitem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="496e09cd-c36b-418d-ac55-5f81d9c393ed"
+		imagerect="801,30,400,70"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="6576f5b0-89f0-4c22-96f9-e52c04748ebe">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="817,208,400,70"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Hours
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						472378634
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//button[@text='Hours']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0f59ec6d-08ed-45f5-a5b7-5e95e5945f72">
+				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
+xDoAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="aea64f82-5183-4793-898b-f0421141ea90"
+		imagerect="0,29,96,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="c6f8bd3d-05b1-41ab-bede-40767b4873be">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="476,547,96,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Dollars
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Dollars
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						20938947
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Filter Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Dollars']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="99be04bd-c88b-4441-9340-8de7dc48e61f">
+				iVBORw0KGgoAAAANSUhEUgAAAGAAAAAmCAYAAAA7mZ5JAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAEn0lEQVRoQ+2ZW6hNWxyHt/v9kmvnoE4id6GICCGc4zxI
+ojwoxAtC5P6AyC3lliLKGx4kinOOHMoDipDihUhOkiSdkvLC75t7/TOM5lx7zrHWStrjq6/2HGOs
+eRn/cd91kUgkEolEIpFIJBKJ5OWm/CL3JlffUy7vp2e7fOT5UN6SZ+RaOVjWmkYbgEOSj2vI47Kz
+rBWNPgD/yRGO4+Q8eVpaEO7JvrIWNPoAPE+u0hkrX0rK/StbyWoTA5BcZTNaUg5Xk5CDZiXzUM0A
+0ECa1P9ZmOYls+C+VW2AeQMAByRlGa7akJDCL3KdvC0/ys/yjtwgu8ssKg3ARHlMvpCU5bnX5FLZ
+Wvq0kxdKjpcj5Xn5Sf4v20qDCl8kr0rua3VwUk6QFVEkAAxFlMXJJHjwMryYlfF9LZlb0ggNQEt5
+RLrPsUoy/5GdpAvXlr9f0ljc37SX0FUSSDfPd4sM7XGFAsBL2UNXkOAwSNpH3JAEg/Id5TR5V5L3
+QQ6QPqEB4OPJw1Wyp2wqe8g10vJ2Shc3AEjD4V5z5FzZQgKrP/Lfy/mym6T30GPoPfb7WTKIIgEA
+a+G7k6t6iP7fknSGG7+1ARXyWFLmEgkeIQGgIizom0hI4aAk/62ktxhuAJ7J36QPy24rs4wEDxoY
+eybyz5IQQtEA3JeUp9sbQ6W96EwSMqB1WblhJDiEBIBxmp6GWfPLbGnP7ENCCTcAaZULvaWV4T5p
+/C7pecwRQYQG4GhyVc9ySRoTWNbkDLQYG5+XkOAQEoA8TJX8FvuRUMINAENLGqyGnkjKsKhgmK06
+RQPwSlLerYw9kjQqqiEYoii7K7n6RiUBYMynovdJ9ilPJUPOO8mcw2+xaABginQn6Otyo2TVxRBY
+MUUCwAPtRdy9wClJGpNSQ9hc4fYgCA0Ac8tlST7SC9mxs2TkWTb5Y0gAYKA8If3VFUHmLI2JOZgi
+ARgj7eHTSShxWJL2V3JVHroyZavRAxgirkjyGCoYj/0hsJIhyKeLZI6j0m0oRiZx996FKBIAujhl
+6dZ8gLFeks4Kqdx6mA2NdWd/GRsSAPYUpCM79TSqGQAXvpNGaEMcJ8dB5A0A6166N2V3kODAOGkf
+M4qEDCZJK+dXWEgAFkq7X9bkzx7EyhQNABXMCmdxcpXOVsk9aFjljjAyyRMAKp+JjXJ0vQ7ShZZt
+q4VzMu38h42NjdUPpF8mJAALJOnoL2uBdT/vY2WKBoBeamV+JSEF6/0cXwTthi0AnHbyEJPdKi3A
+8pEgDZdp/CmtHHsEd2JiomQSs3xWED4hAaBC7Z7svodIKoGWSA+7KC0faUhGngBQD1QsZZjQ3R08
+z6Hnv5Hkcw4VhFvB5eRjslqBsVJaeYYrloQs22zoYhWR1Z1DAgCbpT0TWXq6y0YO2OzvGdLIOwf8
+Id3VD/8xZLHBxOum9ZJBZAWAgzMqjzMUTgvzdi9at61MXJmkOMzLIjQAvBdzgQ2RJstPeiU90dK2
+SaPIJMy/ZPnHlBtYJNjUT0XL0FrB0QDDFS9fy39lGgw7/SXDDOc6QeNxA7CTZxhiocGz3LOlSCQS
+iUQikUjkx1BX9xWBcAGOae50GwAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="30000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9de658a8-429e-4b38-b4f8-5e16d2971931"
+		imagerect="1211,30,400,70"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="a9a4ae23-77a7-469a-970d-3d037d11439b">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="1227,208,400,70"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cost Types
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						116730235
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//button[@text='Cost Types']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="eb22b802-7c58-476d-8764-6c80becdde29">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a8c72dc5-8c42-441c-873c-bc0e3fbdf9c8"
+		imagerect="64,29,144,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="4beb4a3c-bc91-4c78-8ceb-2fe204180cb6">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,532,144,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Equipment
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Equipment
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						261071891
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Equipment']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0bc4daa6-7113-42c6-8b2e-be87cb6a1d04">
+				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
+dYqhAAAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="08b4731a-7ce3-4286-a694-9fb48550f266"
+		imagerect="64,29,125,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="62a16db7-cdf8-44aa-a04a-495a70337af6">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,630,125,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Materials
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Materials
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						411029577
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Materials']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ea6d8daf-cbb2-4bd8-a0fa-2e4f15b6dbbb">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9b264e7e-ba6c-4121-bb3f-d4c15a3e0ab2"
+		imagerect="64,29,199,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="648cb078-f489-470f-b3e1-39693a1454fe">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,728,199,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Subcontractors
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Subcontractors
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						600206959
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Subcontractors']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0d0434ed-a14c-45d5-bddc-d5881f84ddc5">
+				iVBORw0KGgoAAAANSUhEUgAAAMcAAAAmCAYAAABwHY/hAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAIcElEQVR4Xu2bV6jtRBSGr7333hXsDRXFrth7F7uCFcWO
+Ygc71gc7VhDsiFjAigULKCoqiqIo+KCIiIgIIvii/3fO/nE5TpKdnZx9z8H54eOePUkmk5VZM2vW
+5M4qKioqKioqKioqKioqKioqKioqKioqKioqKioqSjWnWFasJhYTc4ipEvX/NeBwCoqKpqM2FLeI
+74Q7LHwjLheri75VnKNo2utU8aeITpHyizhC9Kn/s3MsIvYasDwFM0gzue2tdKhwB31J7CSWFoRT
+i4odBeU+Zw/Rl/7PzrGm8LPvQsEM0kxu+9CaW3wleMhXxXwipwWEHeQzMa/oQ8U5JinOMQ21tvBD
+HktBjTCCz92Ogh5U5xxVjjqMcHoSC6NorgFdNI9ouv+oHYxngypht1GTKMPabdS2d7Vt07Pz3F36
+zb+0ifBDHkxBjVYUrw3Yh4KBCMGeHlDlNBjc5xxEwUCpc6wirhckAShjnfOg2EI0iRd2tfhIsH4C
+2nqyWFDUaQVxvnhX/C649j1xoVhG5LSQ8DNtKghBqYP703bqeEHsK6JuF1zzsvCzvz0og8UFivVv
+K7jHU+IP8ZuIz7SDuEt8K3xvIgGefX5RpzZ2G7btUV1t2/TsOMPx4hVB3bTpe3G/6DSI07H9kA+J
+UUYcnMZ17EdBRowWPofFvxWd41bxY/idUpcMOERg+Nx1wAvkJeWEATFm7jr4QWwtUsW2nyY+Dr9T
+ThIWnSR3juGdoFj/TSJ9voUF4S0dNpa7gxg6MnXl1NZuw7bd6sO2Vc+OlhIMAvFYyqVi5O2IO4Ur
+IpWbPmCT+nIO+FDsL1YWy4m9xSeCY7z09UQqXoCvf0RsLFgj8VKPEz8JjtFJ0imZ+mz4NwR1YXhm
+gV3FB4Jjv4p1RFTa9q+FZ7+VBLPrl8LXLyEQ9uKc2G4cnzJw2JHWTyfjRTPDk0QhdOO3j58tsJn3
+qc4VPnaNSDWK3YZtO+rTtrlnR/cIjhNhYHv6LrMOMw2zjq+PkU4rLSneEq7oZ0Fos71ompJRX85B
+R8pNs6sKvyiMEcVLcxjzpLDRonYTvgd/W4wmTjIwzdOWVHSyzwXnPEdBUGw74Qybpql2Fz6Hv6Oa
+4vZYP2Fmus9EJ3Dnu5iCjBjsOI79YhKli91QU9v7tG3u2REhnM85hYJEOKIH1scpGFVUdJVIp2SM
+ioGZ+qqmpr6c4wQKKkR8yjnEnOTYrS2Fr9+Mggo5HLhy4tek2PT0tXtSUCFGK5+3EQUDxbYTn+cU
+z4mhFWrjHLmXT9zNaAxVsfuBwnUwsltd7Iaa2t6nbXPPjogufA7PmRP7MMyorEk6CwOeJ3Lx8zMi
+58F9OUddKncr4fPiyzxHUEbsWpdlWVfg4PxrnS64FocjnKgSA4cHjRMpGGjYtnt0P2vi1z9q4xx1
+9deJel0H97O62A01tX0ctmX2+0JwDk6cC7mnRMwSGwjiVvY13FCMGT0cjcM54ijBaGDdIChjCm8r
+QkeuJaRsEqEB51478WtSbZ2DESyqL+egc3P9jYIsE2sfZnzCY+J51xGdo4vdUFPbx2XbnYXtC6+L
+iwTZO8LOKRex6tGCFBoNII6L8es4nCNm1ViQWfcJyoib2+oBwbUs3Jrk+PmOiV+Tmg7OQdz+vPB5
+jNQkNUhr0mYveiE6Rxe7oaa2j8u2iFntXpFbEhAOtk0wjaRjhG8cDTIO5yD74/PiPbzgTBd0w+g2
+wbUvTvyql2Pv6TRzEFawj8Jxwgtm1DSEoV7XEZ2ji91QU9vHZdsoEkusb3AIJxuABX189qF1nXhU
+MBU1iQ/MfMO4AB2Hc2wufN42FAxEuymjc7TVBYJrSRPW5cHZZHIHP4OCgWa3c7AW8PGqTdIq5+hi
+N9TU9nHZtkrck+ygw8rHRGs5T0yc6lx2leLoHZ0Dj3U5+fGchnGOIymokBd4EKdJRkuX51KpFu0l
+zj5s4tekiFd9bV3Ghg8vfV7shLPbObC1j1ctetlP8DnRObrYDTW1fRy2pfNj07os52WCOngHTf37
+P+ILWzeCXd460al9btzVZEHIQp1ydmtzivn+Kud4U+T2Vdg08mZaGiOT7fAObG6jC7ExxuKUcwgN
+LUYtZzueEDhwKvL/junJ4MVzujoHmUFfn0t3NtV/lPDxNEmCWBfyXD4nOkcXu6Gmto/Dtsw0Pofo
+JSfPYKyX62awrOjYDwvfhDBrLeGK+JcbcxMveIhzUy90jMk5BwinB8kYsINqI0OVcwDfz8Td0jVE
+3Okkp5+KFKCP0wHjKEp6jwwOx9hwSjMYfPfka3HsOCux2GWh5+NkQKK6OgcdyNfziYRtZts31R9H
+b3agyS5yLe+GUfhZ4ePArnFUF7s1tR1NtW3pl04SsaiP/YZ2MHv5cyS+OxtJGMXhlWEmIOsROzW8
+I3JeikOxhe/zyBSQArZDkeHy8Srn4AND/82Os0cewxSZEy/mZuHzaDPGins11FeVBz9T+DyyPXQK
+UoL8TRnPkJu6uzoHulu4DkZy2um9pGHqv0T4HODZfT9gsPHf6f/D6Wq3urZbU21bPi9yH4NPBUkA
+f7jqMpYEncTnInhzzI2b9wXxZ1VsixiZePB4HS+KDwqZor1fUuUcLLrxdhzQZcCDEl/HUSkVx/iI
+zjlzwwsnZmakqhMjlzM/ERZybEDm1IdzsH/DXoDrgTbOwXNjG9aMsQ5SuIzcMQV+hUjVxW51bY+a
+Stui9QUDaxwUgGcgZOw1lYsD8JB0dj4DqPo0oUrEo1xLo4ltR5Hr4P+btF1IMUrwKT7TbNOn6ql4
+Vj7Ao+25z6+nQsTatJXnzc3KwwgbMXtTB++ubiCp0ih2a9P2qbYtfY22kADAFnEvrqioqKioqKio
+qKioqKioqKioqKioaCZo1qy/AT6kJLlqOqalAAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f8948ad4-213d-405f-901c-c68956c52be9"
+		imagerect="64,29,117,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="c3ff6095-c1a5-4209-9d6d-34de0333eb60">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,826,117,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Supplies
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Supplies
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						518793221
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Supplies']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2b8202a3-6719-4160-8d24-b5820f0a839c">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="da05f32b-39a3-41e5-bc2e-5cd4cd429f2f"
+		imagerect="64,29,74,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="78dff4dd-4a12-44c8-8075-5fc017e6bf6d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,924,74,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Work
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Work
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						804618891
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Work']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="105682b7-7b1f-4be9-afb8-24b18ffce2c9">
+				iVBORw0KGgoAAAANSUhEUgAAAEoAAAAmCAYAAABj5g1QAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAEJ0lEQVRoQ+2Ya8hNWRjHj8u4TobCxBcjd6GQcjdpMEVT
+jFymxjVSKEUUJdfCyMi4ly+Tywyhphg+IJeiiCJK1HwgaZqkKan5Mv6//e6nHtva553znn1eTa1f
+/Tp7PWu19t7PXnutdXYpEolEIpFIJBKJFM9n8t/U7wgUSVt5T96XiwiUYY2k3c9JKZ9ZknbYkUAj
+UdNEwUVJ578mpTBNJDdOu39kB5nHAUm7O0mp8ah5otZKOn8lWxAI0FvaReDXMgQJfSJps41AI1Lz
+RE2QdoJBBALMk9YGt8oQX0hrM5VAI1LzRDGP2AnmEAhwXFJ/Kv19IBk9Wb6R1hdJq49mqQ2leSrU
+PFFwQ3KCfUnpfT6VbyT1EyVzFMe9ZJaNkrpHMpRI6CJXyZuSfunvlmSx6CRDsOicTR0lB8vT8q38
+W7aR9SWKNnslfRyTXEfFbJKcgPkle4NfSupeypaSE1EOjb7LkrrdSelDRsvnkjYhX8gRMotPwg/S
+HpzJwyyXKK6b5FBHYkl2g5gs7STdCDg2SOL7k1KptERSzm4T/IWyRcjST9oNXpEkjRtsJ7+StyV1
+r2Uf6fF9I8leJ6fJ6fITmZcoXs3Dkjijd5JsMF2lnYR5xnNXEueiYKCkzA21JpDCU7I+WCU9jNIL
+kjpeM24qS2f5UNLmNwIOn4SnMjT/hRLVVP4oLU5Sq8YSsjkp1dFD2kk+JyA4ORdLbCSBlGWS2B+S
+Np4B0vrJ21oAD8Pa8UAMn4TFBAJkE8XD2eJiC2UhbJd0eC0p1fG9JMZo8OyUxFcnpTqOSmIHk9L7
+LJXUMfn6UZiFV9EWC39jPgkzCQTIJmq5K6+UhfGttI5t5808RJnR4pkiiV9NSnXzAJM9sbkEMrD5
+pM4/hDx4NWnr92qVJuqMO+Z1Zg4rjO7SOh8nefLMQ5SzG1G/92KZ7evK/pUxjkjqWDHrw+YylnKj
+0kRlLXRE8U4/lnS8Qo5Jj5mPQpvC85J6duAz0uM/pW0APXsk9b8npfKwv6JtNSMKOaedF1llC8M6
+PiSZfzhm7gphc8AOuT49zvuyYH2xrOdtRIH9jm0h/OteaaIYwTww5jxLPHtEW5CqZrakU+aSc+lx
+3r6D3TH17H9OpMd5K9J4ST0OIZADr7y1G0YgpdJE+X0U04JNISdlaMRXDBs9OuSpskIhFxCCEz6T
+tP8r/R0qQzBS+FtDGz7nhF5lJlx7OHwj822qSRTY1IBMK1XD/sduHst9owI/B/DUWsk8bKXEn6T/
+qMdm03bPOFZ6qk0U7JJW7/d/DcZf8HwCZWAit7YM6/rwextG6yXJ/0OOibGHWiCzFJEo/lhfl9Sz
+aPFwqsJ/e+pJoAxMjtaWJPwXGC22YnqZ54bLEEUkCvhrxQdK2vxC4P8An1TYn/WX7QlEIpFIJBKJ
+fFRKpXeuxIF/J8J4qAAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="aaee33de-dc69-4397-84c1-6bc93af041c9"
+		imagerect="64,29,80,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="237662ca-426e-47a0-8bff-e3425bcdc315">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,1022,80,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Sleep
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Sleep
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						571228033
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Sleep']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2c128f38-ff04-4887-8389-455111708520">
+				iVBORw0KGgoAAAANSUhEUgAAAFAAAAAmCAYAAABTahxxAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAADv0lEQVRoQ+2ZW6hOWxiGFznmsEtOOW9COSsXtsiZdiSn
+cr4h4lIkRRQXm5JTXFBKSEkitTd2uECRFOVKlAtyIUlKyg3vs9b/aTSbY64x51gr6R9vPfF/c3zz
+8I4xx/jGXA1JSUlJSUlJSUlJSb9GbUVvMVj8IdqI5nRPfBcHG3/VqcaIo+KNwAzjldgrhgif6t7A
+zeKbcI3L8lGsFHmqawOXCzPpppgpegpe3e5iuiBubeaLrOrWwHbiheDhb4uOIk+dhZn4XHQQrurW
+wBGCB4d1BAo0W1jbqQQclTWQjgtZnPIUk4t8g6SSJggzZSmBAvUTd2osIOAoxMBeYrt4JJhvv4h/
+xWrRXhSpbG4XcbXGcDFMHBavBff5QZwRE0WUmOvMwPOias82Z+AkYTefx2XRVeSpSi7llx3fJz45
+v7MsE1E6KexklDGYWlZFBv4pWME5zohg1HcSXGe9YDRx7IDIqmquayD8L2aJPmKAWCPeCo59FSNF
+ZfUQZgAwvLmhaYKbDVGRgYwQjj0ULEZZbRJ27UEEHFXNdQ1kcczL5fW10u0EgRjxCjDUs7Xge8Go
+/EsUvd4+A5l/7FxzCeSITrJRtoFATTG5roG+2hUdErT5LPJMLq2BYpt4KuwGjGvCtxvxGbhREKdj
+qCl9ui5od7zxV5Nicl0DVxDwaI6wduMItJQYbaPFVkHdZxd5J8aKrHwG7hfEmcTPFWC16CVhiskN
+NZDV2dpRprWKKJqZdBnmXOhZLebKZ+ApYTcYwg1hiskNNZDSzNotItCaWivsYtne8hnI5Ez8sZgR
+ACWLKSY31MChwtrNI1BW/4iLYmfjr2L1FXYx5idXPgP3COJ80SlbY8bkhhrIjsrauR0QLHtNXgq2
+SEXqL+xioQYuFJYznkAJxeSGGrhDWDtySosvK3aCLQQKxCcva0tZ48pnYDdh3xevCF8njRKrmv77
+UzG5roFs4fJEMW7nv0Cgivj6TLJdjFea+steGf5loqWnrEb8T2QfxmcgcufOs4KdgInFaLGwB/lb
+uKqa6xoIu2sxE+UYi44dnywqiwIyu+JRrjwR7Erc+AOBoVkVGUgn7BLuee6LW8K2U3BE0KGuqua6
+BvIc/Es5xIcQu1cjZP4PElu30yJv481KyLznq9aLDDSxcru9btwVS0TRQlE21zWQOZAPBtnNAfM+
+n/CKrltJmMQQZ6/I30n4lNSS4nwU48DKXkahuVkDEUbxhzKei2mquUWzrpVnYFIJJQMjlQyMVDIw
+UiyEx2pMIZCU9DuooeEHpk61wGzwaSYAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="60bfce21-0ea7-4fcd-b819-8674d1fbe7be"
+		imagerect="64,29,63,38"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="fb885ee0-45b7-4992-b638-a357ac62c4f7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="540,1120,63,38"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Play
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Play
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						448248935
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//container[@rid='custom']/?/?/list/?/?/text[@caption='Play']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="47538ca2-accd-4270-9888-eecdbd499339">
+				iVBORw0KGgoAAAANSUhEUgAAAD8AAAAmCAYAAABzhkOMAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAADI0lEQVRoQ+2YW8hNaRyHP+dTDsmhRCmDIoW4EHHhFE2S
+mjAXckhy5ZQLlJAbSjlEiQvFjQvkwrGZlOaOKBdupmbSuJgkaUrKDc+zff96Z7XW3nvtb7Zp+9ZT
+T99e/3ftb63fWu9633evroqKioqKioqKiv+Wx/gZT9S2OoSj+KLA5/grXsLNOBqL6MjwZ9CTbsY3
+uA7z6Ojwr3F2jktwL77CuAhrMUtHh/+jtlXMBHyG7vsXjsSU7zq8LEf31TUWEsqGH4R9vn78/ygT
+fjhG+H0WEpoJvxgv4J/ovp/wF9yOgzFlA97qdpKFAi6j+xyubZWkTPgBGOEPWkioF34gnsP4rho8
+3X6A6aM0C6Ntq4UcpmPss9FCWcqEn4JxsG0WEuqFP4TxvV04HvviONyD0XYcAx+J39D6XQs57EDb
+vZBjLJSlTPiTGCc600JCUfhh+AFtO2Ahh9Nou1OpvSSIcJrX9e+hbVdrWy3QKPwQNOhFjBO5glmK
+wg/FRd2OtZCDU2f87zSkn6Oe7frOPtGWN/U2RYRXL0BqDEypd3AUZmlmwCtiKcb//8FCwk20nu36
+DojW3+MIC62Qhi/yI3pwD+igl0ej8D7jhvTRccn8O9rN36IB4ljZ8D9htKW94hpac/ZomQjvwsXR
+M3UaekC7fiPqhXdgs8dECC/mU3yI9/EJRls2vL3sH7RtiwVwVohxZIWFVikz4NWjKHx/tNfY9hJX
+YfZi1uv24t21zQsoq9Htv7GZG1NIu8MvQOs630IOjcIvw2ifiGe7P/sI9Yh2h9+EceJFdykNlxfe
+pXD8sNqJ3nE/O4P0iHaH/xmtq6u2LM7r1zH2yQsvx9B2B0j/er5Fg2/TtDu8YazrI3TN4OrNscDH
+4DZGu87BPOZiut8R7DHtDi/+DkhP3LsXo7XeSD6vxDy8YM4Qsd887DHfIrwn7rPv3B4nr05xP6Lr
+8qjVu6O70X18xea6oaOwq09Fu/ZkLPt7/hQafn9tqxfhYucdGn6Ghd6EL08M7qqwV+AdXoi+pTG4
++iqtV+APoAit6cuO757z6M9q1/TrsR9WVPyLrq4v+udF735XVAMAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="1000ms"
+		searchpropertyid="8711d6a5-83ad-45ca-ac87-20daf85f686f"
+		imagerect="549,0,547,96"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="3af8d521-5c1f-4397-8533-46b7b60855f1">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="1025,1189,547,96"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						OK
+					</attribute>
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.string.yes
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						button1
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						796506115
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Choose Cost Type']/container[@rid='content']//button[@resourceid='R.string.yes']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="99607547-0c40-4d0c-9fd4-a68314671452">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="30000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f92e5c48-cd25-43d6-94c9-d7abb25fb5ee"
+		action="AttributeEqual">
+			<comment>
+				Total Dollars 1st Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="623212b3-61a5-4c21-b0cf-8d3a5cc11a30">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						498.42
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						498.42
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						467819918
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='498.42']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				498.42
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="bd50b2ef-1075-4e64-b4fa-59fb9cdb8fe6"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="5ba0ae23-3922-4320-a249-1bd9e5712447">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						5474.90
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						5474.90
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						28789167
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='5474.90']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				5461.14
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="296380d1-6e13-404d-a4a5-72ae58e0467c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="39ea197c-a00e-41a9-9bbb-c6b0d114d736">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,585,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ -4976.48
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ -4976.48
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1071112636
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ -4976.48']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				($4,962.72)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="16da7f8b-e889-49d0-a6cb-fdc485b9ddb0"
+		action="AttributeEqual">
+			<comment>
+				2nd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="dfb58193-2098-4e9c-9cf7-90eab44009b7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						3538.84
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						3538.84
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						153298941
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='3538.84']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				3538.84
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="4eed376d-f082-45eb-a513-730b05046dcf"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="cfa27206-ae28-4ffb-a154-28d998b9cd7a">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						3453.06
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						3453.06
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						81087730
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='3453.06']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				3456.19
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="74b545f4-577a-4148-a451-3b55f482583a"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="9358588f-5a96-482e-8fc1-be3c9c005683">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,663,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ 85.78
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ 85.78
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						24096579
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ 85.78']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				$82.65
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a32d7754-ccdf-4138-9df4-5d1e05c8eb2a"
+		action="AttributeEqual">
+			<comment>
+				3rd Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="6a8c2e11-04d8-4438-bf44-85ae1975122a">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						8655.91
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						8655.91
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						565805272
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='8655.91']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				8655.91
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a775108a-c6c8-4ac8-bde7-943db16ba533"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="0ed3c31a-2e77-41cc-a15c-34721b61766a">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						7584.88
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						7584.88
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						541973553
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='7584.88']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				7575.18
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="b07c45aa-2293-464e-ac10-ca1efd2fca13"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="f2b32e9a-cb9c-440a-957f-80d6d2bcdee3">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,741,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ 1071.03
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ 1071.03
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						958652182
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ 1071.03']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				$1,080.73
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3e53d764-fa75-4c06-9dc4-b89da86f9fd0"
+		action="AttributeEqual">
+			<comment>
+				4th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b5cffda9-fcd9-4362-83a4-f22c1367175e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0.00
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						364596111
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/container[4]/text[5]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				0.00
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c364beb5-99cd-4e7d-b98f-c16f8fb1ebbb"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b00ec6e0-f54f-4ba0-af05-df39c58a8162">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						4759.05
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						4759.05
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						291434012
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='4759.05']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				4750.50
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f9788f38-0159-4dc2-88a8-d3248b25591e"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="6d2cacc6-88c5-4e4e-9705-1b75f05a6d77">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,819,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ -4759.05
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ -4759.05
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						396368421
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ -4759.05']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				($4,750.50)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d197fb8a-0702-4d78-9f3e-d7e6c59e1010"
+		action="AttributeEqual">
+			<comment>
+				5th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="b2d3ceec-976f-4c5b-b14a-57c15c476e81">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="5"
+				rect="1208,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						13751.59
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						13751.59
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						925248594
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='13751.59']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				13751.59
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="5eaf01e8-25e7-40e9-bbff-c345632e7beb"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c1d90030-aad5-44f9-a75f-4d11de0ed906">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="6"
+				rect="1488,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						5147.54
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						5147.54
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						908987171
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='5147.54']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				5127.93
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="aba511f9-3faa-4f8a-b211-cac8b23ab28c"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="bc009223-8a6e-4af3-ae90-9708e03b35af">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,897,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ 8604.05
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ 8604.05
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						420583456
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ 8604.05']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				$8,623.66
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="52b25f9a-f916-4547-8413-3210f26a8516"
+		action="AttributeEqual">
+			<comment>
+				6th Line
+			</comment>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="348da70c-9a69-4006-94f9-c7714ecb4bea">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='3614.09']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				3607.99
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="06762a0d-d6aa-4ffb-9990-797974cb14b3"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="69bf7cb3-193c-4612-8809-c9fbd9ced809">
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='3614.09']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				3607.99
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="7c46760c-7496-4a7e-92eb-192d769c9874"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="4e772a81-13cb-47c0-a950-051d7a736e69">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="7"
+				rect="1768,975,280,76"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						$ 0.00
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						$ 0.00
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						982283895
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardAnalysis']/container[@rid='content']//list/?/?/text[@caption='$ 0.00']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				$0.00
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateFirstTimeCard.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

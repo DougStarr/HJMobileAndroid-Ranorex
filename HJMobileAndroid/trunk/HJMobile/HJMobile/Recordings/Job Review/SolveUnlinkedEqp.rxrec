@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="1eceba7f-9b1c-4feb-bb89-5561b9ea7813"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		SolveUnlinkedEqp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SolveUnlinkedEqp"
+	namespace="HJMobileAndroid.Recordings.Job_Review"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="b676d909-e8d0-4e0e-af12-0dbd8971331e"
+		imagerect="0,0,344,49"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="a8dfb47c-1511-4cfe-a4d3-7e8d735f165d">
+				<element
+				role="cell"
+				prefcap="cell"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="681,188,344,49"
+				snapElem="">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						alert orange+Unlinked piece of equipment
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITableViewCellContentView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1585063280
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//container[@containertype='']/container[2]/?/?/table/container[1]/container[9]/cell[@accessibilitylabel='alert orange+Unlinked piece of equipment']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0afaff21-2cb8-4dbe-811d-0c03ccd8c52d">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="7cee4903-6450-4d0e-a712-a619dd8c373d"
+		imagerect="0,0,250,43"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="d2123c06-5595-4a23-afe2-cc852c2b055d">
+				<element
+				role="cell"
+				prefcap="cell"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="418,121,250,43"
+				snapElem="">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITableViewCellContentView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1587755376
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form/container[@containertype='Popover']//table/container[1]/cell[2]/cell
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b0aa56fc-21c5-4792-8344-22597714f93e">
+				iVBORw0KGgoAAAANSUhEUgAAAPoAAAAsCAYAAABMi6UPAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAFgAAACgAAAAWAAAAFgAAAKxkci96AAAAQklEQVR4Xu3B
+AQ0AAADCoPdPbQ43IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALhU
+A6wMAAGQdAJNAAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SolveUnlinkedEqp.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

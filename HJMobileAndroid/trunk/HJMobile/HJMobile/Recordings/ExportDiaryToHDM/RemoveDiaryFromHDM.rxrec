@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="29c4f69f-115b-4709-8a81-16d731f480a7"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		RemoveDiaryFromHDM
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveDiaryFromHDM"
+	namespace="HJMobileAndroid.Recordings.ExportDiaryToHDM"/>
+	<variables>
+		<var
+		name="ConnectionString"
+		id="eedc42e3-8f9a-425b-b54b-fefde2e7a292">
+			Data Source=a0dkrsitmm.database.windows.net;Initial Catalog=Automation_Company;User ID=db-admin;Password=Hcss*123
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="RemoveDiary"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="45cf16b1-81f6-4452-ad36-2fc04fc8eae4">
+				<argument
+				variable="ConnectionString"
+				argname="ConnectionString"
+				id="7926b9ee-c60d-436f-a9ff-681b18a72d09">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveDiaryFromHDM.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="591d0e94-c1b1-445c-8d16-7efadb57b64b"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		LaunchAndroid
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchAndroid"
+	namespace="HJMobileAndroid.Recordings.SetupTeardown"/>
+	<variables>
+		<var
+		name="AppVersion"
+		id="37243a36-482a-43e8-805a-bdd6f1634c34">
+			com.hcss.hcssmobile.dev
+		</var>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		enabled="True"
+		optional="False"
+		duration="3500ms"
+		application="com.hcss.hcssmobile.staging"
+		devicename="Automation Nexus 9"
+		resetInitialState="True">
+			<comment/>
+			<bindings>
+				<binding
+				target="AppArgs"
+				variable="AppVersion"/>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchAndroid.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

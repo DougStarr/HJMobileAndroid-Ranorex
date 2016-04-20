@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="43be28af-5e15-4cce-bee6-3a16d823d806"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		UpdateAll
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UpdateAll"
+	namespace="HJMobileAndroid.Recordings.ImportNewSetupsFromManager"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="266c9d75-f152-424c-b8d9-b6aaa94449c8"
+		imagerect="80,23,231,54"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="e7e5c92f-62ce-444f-aab0-e26da9a93cab">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="80,185,231,54"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Update Data
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Update Data
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						378653207
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Dashboard']/container[@rid='content']//text[@caption='Update Data']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d39bf697-c66c-4a27-8a50-908328c0aa42">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="90000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UpdateAll.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="4869d76d-ee46-4a18-9ae0-de45099b4813"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddNoteIndexNotes
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddNoteIndexNotes"
+	namespace="HJMobileAndroid.Recordings.ExportDiaryToHDM"/>
+	<variables/>
+	<recorditems>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="902ca6ff-f298-41db-8c45-99910d5c41aa"
+		attrname="Text">
+			<comment>
+				Add text to some of the note indexes
+			</comment>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="cb814026-00ca-41bf-951f-7bbd7ff8221c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="23,260,605,34"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						19
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&#32;Too windy ar first
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1095887328
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']//table/container[1]/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6d7525a1-1afc-4b1d-b3c5-13e3c7930a35">
+				iVBORw0KGgoAAAANSUhEUgAAAl0AAAAiCAYAAABlaWwWAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAFIElEQVR4Xu3cWahtcwDH8W0eMlwyFWXIUJR5nkrxYM50
+zWOJF0PGMkYKUcKDLpkyZEg88GB4IYRML5SEEKUQSohcv+9a599d1ln77nuGvc85u++nfu219jpr
+77XPy/71///X7kmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmab9ZKNkiWTjyyL0mSpFlm6ZIkSRoB
+S5ckSdIIWLokSdJQ3ZjsXG9Oy07JzfXmyB2YPJKcnMz0c1i6JEkaAxSDX5aTdZO5cluyW705LUcn
+39WbI7Vd8mdyYrJJMtPPsXGyZWLpkiRpAVszWWcilyYfNfbJSslCNVel6/Lk+XpzVtyTPJRYuiRJ
+GhPnJu/Vm5Mw2nJcckzCF3/boOPYNmlOs62X7FdvVtZIDpt4xAEJr1uUYzskpyddo0fbJ6cluyfN
+0sX7tqf4mH7ctd6cZIvklGT/ZFWeaOA6KKt7JbxP0x7Ji8nrCX9Hae36HF3nL0qOTw5PVuOJ2DN5
+JXkjoXRtmFi6JEla4PqVLkrDb8ntyd3Jr8kuSTHoeHFs8k29Wbk4+TdZu9rr9Q5OOHflaq/X+yqh
+yIHyQul4OLk/YVr0r+TspKCw8NxdyePJ50kpXWclPyXltXm975Pzq73/4z2ZWr0zeTb5I6EwolzH
+C8k7CcWu6Yzkg+TT5LqE9+v6HO3zr0q41luSN5MvEv4vXPfHyScJ522UWLokSVrgukoXozyUE778
+i0uSzxIKxKDjTYzkUBxY54QPE6YzGdnB9ckD9Walq6wsrvZqNySUEXAdPyZnVnu1K5JSulib9k9S
+RpYY5eL1GDlq4/pZCF+8mrAuC+U6Lqz2ulE+H6w3K12fo30+xe7IerMqak8l+1R7Ti9KkjR2ukrX
+Nglf9ptXezWm8HiO8jToeBujQIzucOzn5ITksQRvJUfUm5WusrJ3tVc7JGHBOspCcx6L9pquJ5I7
+6s3qjsKX6s1OvB+vxfs9kzyaoOs62lakdLXPfzrh8x+atKczLV2SJI2ZrtLFyBBf9qtXezVGjXiO
+KbdBx9tYZH5vwogUU5H8LaM86ydMNTbvlhxUVg5K/q43q/VdHG8WlnbpYhqUKcZVkm+To5IuVyZf
+J0uSq5N3k2GXLka3WD/2ZEIZvSkpn8XSJUnSmOkqXYxI8WXfXIROeeE57m4cdLxtx+TLhDVNZRH9
+ywkl4+1qb5mplC4WvnO8WfTapYti80PCXZoUvbJgv2mzhNdpLtJndGyYpYvCyhq4st6MGwwohRdU
+e5YuSZLGTr+F9NyNR4lghIjRFxaXs5C9GHS8iWLBInVGc8pIzqkJC/EvqvaWmUrp4jiL11lEz3Uw
+YsZarGbpwjUJi+3vq/Ym465CjjN1SRniTkMKWpkCHUbpokQxTXpewnGundJV1qdxwwFTj5YuSZLG
+RL/SRQl4LqF8ENZGNb/4Bx1vY9quWUooEhQK1oI1TaV0YeuEBfwsmKe08NMR7dJV1n7x0w798H/g
+PIrQrQlF7bUEwyhd2DdhSvP3iUdG/iiP2CrhbkbO2zSxdEmSNOYYmSqjU10GHR8VRqv6Yd0Ud1tS
+fpaH43PxWboKFc+VYupIlyRJmteY1mTEiJ+oaP6212y7bAjhN7yuTSxdkiRp3mNakREufgusLFgf
+hpOGEH59/5zE0iVJkjRETi9KkjTvLHl/aRVJkiRN38BOZemSJEmaOUuXJEnSCKxw6TLGGGOMMTNP
+X11/bIwxxhhjphdJkiRJkiRJkiRJmqpe7z/ulXlxiageqgAAAABJRU5ErkJggg==
+			</helperscreenshot>
+			<AttributeValue>
+				&#32;Too windy at first
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="c116675d-7f31-4a47-bb64-cae93b01802e"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="99a3a7c1-038a-4607-b5c1-966e498dd1c3">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="23,448,605,34"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						17
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						sub did not work&#32;
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1093393072
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']//table/container[3]/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3bfa1c50-52b5-4077-a0b2-b8c3f6cf8333">
+				iVBORw0KGgoAAAANSUhEUgAAAl0AAAAiCAYAAABlaWwWAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAE3klEQVR4Xu3cW6g1YwDG8e18yPHCoSiHnIXIWZQiIYQv
+hVBcoBwuyJVD5IILJC58JMohknLhgkgpJDlciEIIUUpCCZHP85/Xu/e0mjUze3/bkuX/q6c9M/td
+a2avm/30zjtrQZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSdK/aYtk+2Td3z/ZlyRJ0iqzdEmSJM2A
+pUuSJGkGLF2SJGnRfcluZXPZDkxuK5uNW5KDy2anyfHzYtpnaOmSJEmNDRIKwZHN3vKdkXxdNht3
+JIeWzU6T41fT1sm2ZXOm+j5DS5ckSWqsduka8k+WrruTB8rmTFm6JEn6n9kuOSc5NdmEA0EhODnZ
+qtkr+Od/YtlcLAxHJYcn5yd7Jn32SS5IDksmS9RxyQ5lc1Hf+Dauc7Nk3+TCpGvGjPc+Ozkz4e+o
+uPYXklcS3mfDpNorad/y3CY5pmw2OGc9dzXtPGDs5skRCX9TV+nic9gvsXRJkjRnbkgoM7cnryWf
+JlsmGyf8wz8kqShcP5fNxcLwbvJ4cn/ye3JK0oVS91tyT8L4T5J2ifo8oaxUQ+Oreh2PJA8mjya8
+7pKkosj8lNyZ3Jv8mNS/6+LkveT95MaEv7s6K/mybDauSf5M+HxwQsJ71aLWd556nc8lbyaUyMnS
+dW7Ca3ZKLF2SJM2ZX5LTy2ZTHp5KmL0aW7oub/aKq5KvkvZsEXiv75KLmr3i+mRa6RozvqrXcV6z
+V9ycfFA2m/f6JqFcVdcmHyW8FtNuLzIDyHvv2OyVgklBY0YQNyUPlc3B89TrvCKp6jFK1+7JrwnF
+DZYuSZLmzNPJ68lJCcWhYpt/+EOlq31rjNt7HNu52VvC03kcbz+lN3m7sF26xoyvuq6D66TAgFue
+/H6XZq/gtiXHapnqW9P1TsK5Gft9wmzUYwn43E4rm4Pn6brOeuyu5OPkuqSydEmSNGeYlTo2eTKh
+VNyaULhWUrooBhzbv9lbwhorjrdLXV/pGjO+6rqO4xNudYK1U/x+02av4GlFjrFmC32liyLE1zow
+68YtQ17L7CBPO3KrkX0MnaevdHH79NvksqSydEmSNEcoCJSqejuQheLcHqy3DJktai8c7ypd3Iqs
+Dko4VmeQql0TjteSg77SNWZ8NVS6uBZ+314Qzy08jtWHBPpK1wHJZwlrsepn8WJCOX2j2SuGztNX
+ujhG/kj2TmDpkiRpjvCPnGJ1aUIBYGaG0lXXUvFUHwvkeTqP9U0vJ5Ol6/mEUsGsFOub3kr4XRv7
+HyYsit8o4TwvJdNK15jxVb2OaaULXOPDCe/FdT6TsOC+ujJ5NZlciwaO/ZAwC1hn3nhSkwXzVzd7
+S/rO03Wdk8f4glgeGODztnRJkjRnjk6+SChT/GQGh9IAFnczy8NtNBamr0kmSxeLyllAziwNTwC2
+1zS17ZGwqJxxFDu+CmJa6cLQ+GpM6aK0PZtwW5A8kbRLDGvQKDu8pv31D9XahDJV1TLEmq22vvOM
+KV187jzZyLksXZIkzam+f+p8t9SQMWMwdly13PF9mH2qs1VdugrXSgydZwxLlyRJ0gxYuiRJkmbA
+0iVJkjQDli5Jkv4T1r69rokkSZJWbrBTWbokSZLWn6VLkiRpBkaXLmOMMcYYs/6ZqmuwMcYYY4xZ
+WSRJkiRJkiRJkiRpuRYW/gIw/GqcMHVnQQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+			<AttributeValue>
+				sub did not work&#32;
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="16babc59-10fb-403b-aa01-b233f9f3a22d"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="1226223a-bdc1-4765-852e-a55f7e78b3b8">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="23,542,605,34"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						21
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Todd was being a butt
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1099920704
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']//table/container[4]/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b0ffebcf-81ef-40eb-a1a0-bd4299da95a2">
+				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
+			</helperscreenshot>
+			<AttributeValue>
+				Todd was being a jerk
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a9476880-3b2c-4bc1-bb3f-e318f0f67abe"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="0f47c5e1-be2a-4d77-aac8-5b7711b985ae">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="23,636,605,34"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						39
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Wouldbe nice if app was rainbow colored
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1095751616
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']//table/container[5]/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0015d976-15a6-4590-88e7-f25ff20adb5c">
+				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
+AAAASUVORK5CYII=
+			</helperscreenshot>
+			<AttributeValue>
+				Would be nice if app was rainbow colored
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="f48a84aa-f581-4a73-9431-9c0d32399719"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="dec7fb06-0c15-47a1-9ba3-ff1711e76e4c">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="23,1012,605,34"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						49
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						sent an email to Todd's mother about his behavior
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1099422472
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Diary']/container[@rid='content']//table/container[9]/text[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2b9071e6-a1bd-4491-9dad-2edd2da132b3">
+				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
+			</helperscreenshot>
+			<AttributeValue>
+				sent an email to Todd's mother about his behavior
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddNoteIndexNotes.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

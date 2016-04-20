@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="e9214389-e622-45f2-8d65-7ab3e17690aa"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		SendTimeCard
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SendTimeCard"
+	namespace="HJMobileAndroid.Recordings.Job_Review"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="74e713cd-9bc7-4850-a791-17fe8444c981"
+		imagerect="950,7,54,30"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="656586b4-f5e0-47ee-95ee-7635bbd95808">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="950,27,54,30"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Send
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UIButton
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1641643968
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']//titlebar[@accessibilityid='JOBREVIEW - Job for Job Review']/button[@accessibilitylabel='Send']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5a68c905-56dd-4950-a7f6-33b5f3b2c0c6">
+				iVBORw0KGgoAAAANSUhEUgAAADYAAAAeCAYAAABnuu2GAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAADwAAACgAAAAPAAAADwAAAipJ63eUAAADoklEQVRYR+2Y
+204TURSGN0pnOKtVUVBQORQVxdOFKZ1pBooSLvCur+BTaDIJzPQExZCY0CvvfQJ8LV8A17dmxhQk
+1Rp6MQ0r2el0z95rr3/9/1rTjlHznZwJ3R8mdH4OhO5JGgexKwY/n41B5bN6Iyh8Nv7yWDSZQiP2
+wDlSLBBlAvdYJlrx7fRb6HxS5pTCNDN11sACJqWuz0wxXQJLkV0CS5t1D8z3r5jG+1FT9+6a/eKM
+OdicMv7WhPlevhqv6I21PmbMnnfL+N5gPNPRugMGqOZm1q54CyYaD/m09rzH5kvpjmm9ycQrL978
+7RFTXVs2zfxwPNPRugPW2h4ZAszu+gPJ3JiMIT1wtzhj1YpPTHXjmjk5GYhXX6yhksB7qef9g3UH
+7MC7bteLi3LIpJFt8WyUzT0BCzBY1bmypdKpefd1/TdJQrKHpIgvzX4gTEtiTFi6eUrOSI653fV7
+6gff1bUXvQEmASmwsJRDkqp7GGIQSARqwDTLw3Z9fV7lSmByrXKtfRjXtdQnsgrl91zVmUUBVqO0
+Yg5cqVfxga+KM2eF7lMFjUq4hjHxHQXT2boDRkapsX0nZzXcFT14RwCQdWSpACUwWNpZnTdfhRn2
+UHs7khACJOjAncqQfZggOcyJHysU8KyHqcBdiRRAwmSIIjJ193VvgMFGlFGpLaQEG8VFQJra2pLM
+Sd2VLRtGG8VHyqpKSEZlY86CpcMtG2CaFK7xidXeTescwGQtfk9J81A6b6X46uKBKRtSNwTDgQBU
+NiTjFeeGBi3BAY5GwndbpIZ0deyXckMiL/WhwIQd9iaWgBV27FphKWJXpR0ZtdWT5iHARn2pDeqG
+7LWbANSaol6ke9mwJ4EqCMAzSAhBqVQL07rmPGCsxdcfjL2dkDU9kiLMkOnqxqwcaukcgUqHU8Zo
+CtQT9wmMFo3UAMD36DEx+FdgoXs7AzskUMLTMwRs72qMoGjd1cKyApGGEAEtPlfp0L4JRA7nIa7P
+NrLPJ0AAiqSpJ7okjCYGsMB7pmcAjq4Y+V1A0rq/6vSo3ZN9skeAjdVJbcVILulegMI0yxJ08hwS
+BuTPn9X2HKP5SKNpryGZqxXGf8/hj/3UbTOfVX9d/HTrFlhkSVtPRhLwaYufb/GadmP92T3nzsX7
++VR/Z+53sP8DlgK7BJY2629gffv6TVr2sb4F7hcLnKPohanv5JQ63ganmTliF4IUS/v7e2VOKORG
+GofKDwz63t6YX43vW7xyTw8YAAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SendTimeCard.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

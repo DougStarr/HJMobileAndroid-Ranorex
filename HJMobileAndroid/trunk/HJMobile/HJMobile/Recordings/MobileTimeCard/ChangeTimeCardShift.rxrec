@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="a2e056ed-6843-490e-b5c7-46f228ec752e"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ChangeTimeCardShift
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ChangeTimeCardShift"
+	namespace="HJMobileAndroid.Recordings.MobileTimeCard"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="8c84cac5-41a5-4f5f-b60b-4c6f4edfbe1f"
+		imagerect="1848,1149,200,129"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="65a68faa-405b-4724-b98e-56d8796554ea">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="2"
+				rect="1848,1311,200,129"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Shift 1
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Shift 1
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						729004746
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEntry']/container[@rid='content']//text[@caption='Shift 1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a8011de2-b6f3-4508-91f1-d43e0136add7">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="5e0658a7-1bfd-48a1-9195-ed7698531b4f"
+		imagerect="0,130,1096,128"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="d121415c-809d-40c8-bd3e-8515c42ccc7d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="476,682,1096,128"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Shift 2
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Shift 2
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						text1
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						688960052
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='Select Shift']/container[@rid='content']//text[@caption='Shift 2']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ec03e8dd-05c5-402f-9f62-a81966c2a19a">
+				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
+TkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ChangeTimeCardShift.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

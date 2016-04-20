@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.0.24580"
+id="41fb1c80-8415-42c6-becb-f4cde1dd1120"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		AddNoteIndexNotes_IOS_
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddNoteIndexNotes_IOS_"
+	namespace="HJMobile.Recordings.ExportDiaryToHDM"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="6462789f-ebeb-48ee-a3f1-356b080259d7"
+		imagerect="5,35,344,133"
+		touchtype="Touch"
+		elementlocation="131;68"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="131"
+		sy="68">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="4c99b6f4-77b1-4976-b14c-4c8cfbc1c3a7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="24,283,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1601863168
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/container[1]/cell[@accessibilitylabel=' Weather Delay+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="eae3d9b7-5de6-4327-9f72-53ba4174cc1c">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAAAmcRHSv3AAAByElEQVR4Xu3U
+MQEAAAzDoPk33anIByK4AZAQLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxAR
+LEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAA
+EcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQE
+CxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxA
+RLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHB
+AkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQ
+ESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESw
+ABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQEC5DYHvqLPtlg7UnT
+AAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="2c0e05c0-788c-4214-8ee2-cb76f77e745f"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="8d367de4-656f-4a98-9114-cbefbdb5f64d">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="4"
+				rect="24,283,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Too
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1601863168
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Weather Delay+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5c845345-0641-4486-b606-aab0358f7395">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAABN1s89bjAAAEIklEQVR4Xu3b
+v0tXXxzHceciLOjX1pBEQ+HU2JCgRAXin1A01hgR/dpqsiyipbFBGlykQMR/ICjoBwUhNrgJZQVF
+ktH7y73cKPkWfv3Ca9HHY7rnnDs/uZ9zzqenAIgQWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUI
+EViAEIEFCPljYCcmJmp0dLRu3LhRt2/frrt379bNmzfbcTM/Pz/fvQnA3/wxsBcuXKihoaE6duxY
+9fX1VU9PTw0MDNTRo0fb+WfPnnVvAvA3q24RNF+ve/bsqY8fP3Yzv3z79q1+/PjRjf5teXm5vn//
+3o0ANpZVA3vnzp02sIuLi91M1Zs3b+r06dN1+PDh9iv33r17K0L6/v37unjxYh05cqT98r1y5Up9
++PChWwXYGP5zYJtoNt6+fduOR0ZG6uHDh+36rl276urVq+36ly9fanBwsPr7++vBgwc1Pj5eBw4c
+qOPHj9fXr1/bdwA2gjUH9ty5c208l5aW2nHj/v37tWPHjlpYWKhHjx5Vb29vzc7OdqtVr169qi1b
+ttTU1FQ3A7D+rTmwzU/+M2fOtM8/zc3N1bZt2+rJkyd17dq1OnToULfyy8GDB+v69evdCGD9W3Ng
+mz3XkydPts8/vX79urZu3VovXryosbGxdkvg9z3Z5rBr3759devWrW4GYP1bc2CbgO7evXvFXdjm
+QGvv3r31+fPnevz4cW3atGnFdsDk5GRt3ry5nj592s0ArH+rBrb5g8H27dvr3bt37fjTp0914sSJ
+2r9/f509e7aGh4dr586d7Z8Tfjp//nwb4eamwalTp9r15iYBwEayamBfvnzZHmL9fqjV3AZobgc0
+IW32XJ8/f96t/DI9PV2XLl2qy5cv18zMTDcLsHGsGlgA/h+BBQgRWIAQgQUIEViAEIEFCBFYgBCB
+BQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEF
+CBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUI
+EViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgR
+WIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFY
+gBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViA
+EIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQgQUIEViAEIEFCBFYgBCBBQgRWIAQ
+gQUIEViAEIEFCBFYgBCBBQgRWICIqn8Amtp2MAylyzsAAAAASUVORK5CYII=
+			</helperscreenshot>
+			<AttributeValue>
+				Too windy at first
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="870beb4b-f652-4a1e-88ec-77a4b66a58af"
+		imagerect="5,35,344,133"
+		touchtype="Touch"
+		elementlocation="173;23"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="173"
+		sy="23">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="ade848e0-1881-4c08-9498-f343e2d57be7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,633,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1580788224
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Subcontractor Issue+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="4a2f0111-e977-4c57-99fb-532cb53fe5bf">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAAAmcRHSv3AAAByElEQVR4Xu3U
+MQEAAAzDoPk33anIByK4AZAQLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxAR
+LEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAA
+EcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQE
+CxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxA
+RLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHB
+AkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQ
+ESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESw
+ABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQEC5DYHvqLPtlg7UnT
+AAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="2a1036eb-b9c4-45f6-9abc-c32149ed96bc"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="ade848e0-1881-4c08-9498-f343e2d57be7">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,283,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Sub
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1580788224
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Subcontractor Issue+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a90c7a55-cc8c-4c7e-a0db-465098282144">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAABahVh2IRAAAEz0lEQVR4Xu3a
+yavPfR/HcSWlbISNhUgIEQtFEiUrC0MWLIQkQ0IsiJKVYaFYKLMFZdgYy0ZZ2FoIGUr8AZSdOd5X
+n6/fue6rO0d3d70W1/F41On3Gb7rZ5/z+X4HFQARAgsQIrAAIQILECKwACECCxAisAAhAgsQIrAA
+IQILECKwACG/DeyzZ8/qwIEDtWbNmtq2bVvdunWrvn//3tv9vfbc1atX6+XLl70VgD9Lv4G9e/du
+jR49uhYvXly7d++u1atX14gRI2r79u317du33lP9a8+MGzeuzp4921sB+LP8MrDt9Dlnzpxat25d
+b+Wn69ev16BBg+rhw4e9lf61wE6dOrUuXbrUzb9+/dr9AvwpfhnYz58/14QJE2rr1q29lZ++fPlS
+x44d664OmjY+ffp0N25+/PhRu3btqvv373fz6dOn1+HDh2vHjh01b968Wrp0ad2+fbvbAxjo+r0i
+OHjwYA0ZMqRWrFhRFy5cqCdPnnSB/ae2t379+t7s58l34sSJdebMmW4+Y8aMGj58eO3Zs6e7cti3
+b18NGzasbt682e0DDGS/fcl1586dWrVqVY0fP75GjhzZ/ct/4sSJv+9g296mTZu6cdMCO23atDp/
+/nw3nzJlSq1du7Yb99myZUvNnTv3f7rHBfg36/cO9p93ph8+fKinT5/W/v37a/DgwXX8+PFu/b8D
+264I2rVAX2BbkC9evNiN+7TTa3t59vbt294KwMD0y8A+f/68Fi1aVG/evOmt/Mfy5ctrwYIF3Xjl
+ypW1efPmbty0KE+ePLm7UmhaYE+ePNmN+1y+fLnGjBlT79+/760ADEy/DGw7XbZTZnth1U6zfT5+
+/FizZs2qDRs2dPONGzfWwoULu3Hz4MGDGjp06N+n1hbY+fPn16dPn7p50z77WrJkSXfaBRjI+r2D
+vXHjRo0aNap7+79z587ub/bs2TVz5sx69epV90x7cdWCumzZsu4k274SaN/Knjt3rtufNGlSjR07
+totw+362/bZvYx89etTtAwxkv33J1UJ65MiR7sTaAnrq1Kl69+5db/ene/fu1d69e+vQoUP1+vXr
+7jOsFy9edHvXrl2rx48f15UrV7rT8NGjR3957QAwEP02sAD8/wQWIERgAUIEFiBEYAFCBBYgRGAB
+QgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFC
+BBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIE
+FiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQW
+IERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYg
+RGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBE
+YAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERg
+AUIEFiBEYAFCBBYgRGABQgQWIERgASKq/gKP9UbYAhjYIQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+			<AttributeValue>
+				sub did not work
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="53611256-c8db-4292-a488-8d4b3d73e3d7"
+		imagerect="5,35,344,133"
+		touchtype="Touch"
+		elementlocation="214;61"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="214"
+		sy="61">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="c08b8444-36b7-4067-a9f8-ee5ac45d6545">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,458,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1580682752
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Verbal Instruction Given+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9de41258-1aa2-46f7-9ac6-9d17cfed4c7f">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAAAmcRHSv3AAAByElEQVR4Xu3U
+MQEAAAzDoPk33anIByK4AZAQLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxAR
+LEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAA
+EcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQE
+CxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxA
+RLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHB
+AkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQ
+ESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESw
+ABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQEC5DYHvqLPtlg7UnT
+AAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="400653c7-5afe-41da-ae70-5ac9ca504082"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="c08b8444-36b7-4067-a9f8-ee5ac45d6545">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,283,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Todd
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1580682752
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Verbal Instruction Given+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="91bf5117-5fea-4e2e-a4a2-8e6d886997d1">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAABeFah5slAAAE/klEQVR4Xu3b
+y8tNXQDHcZkoDJBbBhSSEUIuSYlIUjIxlWKGJJIMTGTmkmRAyjVyKQPFwD+glFspCqUMFELut/W2
+luP1iHp46zd4T59Pndp77X3O8Ns6a6/dpwAQIbAAIQILECKwACECCxAisAAhAgsQIrAAIQILECKw
+ACECCxDy28CeP3++7Nq1q+zevbvs27evHDhwoOzZs6ed1/FHjx517vwzX758KadOnSr37t3rjPzq
+zp075ezZs+1egG7w28Bu3bq1LFq0qCxZsqSMHz++9OnTp8yfP78sXry4jd+4caNz55/58OFDGT16
+dDl69Ghn5Ff79+8vEyZMKJ8+feqMAPy/9bpEUGevY8aMKS9evOiM/PDx48fy9evXztmv6vXPnz+3
+44kTJ5aTJ0+2455qfKvDhw+XKVOmCCzQNXoNbJ1Z1sA+f/68M1LK3bt3y+rVq8vcuXPbLPfQoUP/
+hrR6/PhxWb9+fZkzZ05ZuHBhOXLkyC+BPXPmTFm6dGmZMWNG2bBhQ9m+fXuZNm2awAJd448D++zZ
+s3b+4MGDdr58+fJy8eLFdn3EiBEtkNWrV6/K7Nmz2+fcuXPl2LFjZdasWaVv374tqtWJEyfKwIED
+y44dO8qlS5daYPv379++I7BAt/jrwG7evLlMnjy5vH//vp1Xx48fL8OGDStPnjwpFy5cKEOGDPnp
+Qdj169fLgAEDWmDrkkL9/qZNmzpXv1mxYkWZOnWqwAJd468DWx92rV27th1/d//+/TJ48OBy7dq1
+NiudOXNm58o3dS22LhGcPn26LTUMHz68XL58uXP1m4MHD1qDBbrKXwe2rrmuWrWqHX9Xt1gNGjSo
+3Lp1q23nmjRp0k/brd68eVPGjh3bAvv69esyatSothWsp7179wos0FX+OrA1hCNHjvxpCWDbtm1l
+3LhxLZ5Xr15tywFXrlzpXC1tf2vPNdj6cKt+vnv79m2b9U6fPl1gga7Ra2DrjHTo0KHl6dOn7fzl
+y5ctjvUv/7p168qyZcvaX/7vM9K6xrpx48YW4TVr1pSVK1e2nQL9+vVrD7equo+2zmjnzZvXfmPB
+ggVtv22d+Qos0C16Dezt27fbQ6yeD7XevXvX3szasmVL2blzZ7l582bnyg91h0F9YaGuydYlhDp7
+7fkm18OHD9tbYfU3apzr8oI3uYBu0mtgAfhvBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQW
+IERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYg
+RGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBE
+YAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERg
+AUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGAB
+QgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFC
+BBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIEFiBEYAFCBBYgRGABQgQWIERgAUIE
+FiBEYAFCBBYgRGABIkr5Byv5DtGHxUenAAAAAElFTkSuQmCC
+			</helperscreenshot>
+			<AttributeValue>
+				Todd was being a jerk
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="75399270-1459-4893-b888-14a377c45e40"
+		imagerect="5,35,344,133"
+		touchtype="Touch"
+		elementlocation="222;77"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="222"
+		sy="77">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="5a632ac0-5ca7-40e2-ad01-0446de2c4cb9">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,458,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1628900352
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Other Suggestion+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0bc28b07-8e2c-4c6f-b80b-e44ea99dffd2">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAAAmcRHSv3AAAByElEQVR4Xu3U
+MQEAAAzDoPk33anIByK4AZAQLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxAR
+LEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAA
+EcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQE
+CxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxA
+RLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHB
+AkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQ
+ESxARLAAEcECRAQLEBEsQESwABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESw
+ABHBAkQECxARLEBEsAARwQJEBAsQESxARLAAEcECRAQLEBEsQESwABHBAkQEC5DYHvqLPtlg7UnT
+AAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="d202e5cf-e5cd-4531-ac2d-6dff94109092"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="5a632ac0-5ca7-40e2-ad01-0446de2c4cb9">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,283,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						5
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Would
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1628900352
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Other Suggestion+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="4a519b83-c561-4c85-93e2-fe61296b95c3">
+				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
+			</helperscreenshot>
+			<AttributeValue>
+				Would be nice if app was rainbow colored
+			</AttributeValue>
+		</setvaluerecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		screenshotname=""
+		searchpropertyid="c23f9401-f097-477a-b010-dd3e4623e336"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="False"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d116948d-5b9a-4664-8929-c529e6c5e011">
+				<element
+				role="cell"
+				prefcap="cell"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="False"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="19,248,320,175"
+				snapElem="">
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						&#32;Email
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITableViewCellContentView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						-8
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[@accessibilitylabel=' Email']/cell[@accessibilitylabel=' Email']
+				</path>
+			</info>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e2c79623-64b5-4190-9c0b-5f20b5e211a4"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="136177ac-b30a-4979-a769-c45b6c354b3e">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="ioselement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="24,424,344,133"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						5
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						There
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UITextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1599431168
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/?/?/cell[@accessibilitylabel=' Email+flat delete']/text[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dd80113d-f9f0-4ac1-9728-45de11100ed5">
+				iVBORw0KGgoAAAANSUhEUgAAAVgAAACFCAYAAAAeu+AFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAcaURPVAAAAAIAAAAAAAAAQwAAACgAAABDAAAAQgAABjH3eRoyAAAFRklEQVR4Xu3b
+S6hOaxjAcUNlpCRCIpdCGWDgNnGnZGLgMpCZlFAoJkpK5FKSMpM7MaAMhJBQCOVSLglRBsilkNtz
+et+99gnt2ifnPHV2/X71tb/1rm99w3/P9661OwUAKQQWIInAAiQRWIAkAguQRGABkggsQBKBBUgi
+sABJBBYgicACJGkzsMeOHYstW7bE1q1bY/v27bFz587Ytm1bPS7rjx8/jiNHjsSjR4+aKwD4XZuB
+Xb16dUyZMiVmzJgRAwYMiE6dOsWECRNi2rRpMXXq1Lhy5Ur069cv9u3b11wBwO/a3SIo02vfvn3j
+7du3zUrEp0+fYtCgQXH06NF6/Pnz5/q3Ld+/f49v3741R237+vVr867Fly9fmncAHVe7gd2xY0cN
+7Js3b5qViI8fP8aQIUNiw4YNsWjRohg5cmTMnDmzTratSlh37dpVJ95JkybFunXr4sOHD/XcnTt3
+YtWqVXH9+vWYNWtWrFmzpq7fu3cvFixYEOPHj4/58+fHxYsX6zpAR/SPA/v69etmpSWwQ4cOjV69
+esXGjRvjxIkTMXny5LrWGtG1a9fGsGHD4uDBg3VPd8SIEbFw4cJ67sKFC9GjR48YPnx4zJkzJ06e
+PBlPnjyJwYMHx7Jly+L06dN1m6J37941wgAd0R8HduDAgbFy5cpmJeLGjRvRvXv3ePDgQTx//rzG
+8cyZM83ZiFu3btXzd+/ejWvXrtV93c2bNzdnI5YuXRrTp0+vk++PHz/qa968efUF0BH9cWDLHmyZ
+TluVn/clqvfv349Lly5F586dY9SoUTF27NgYM2ZMjB49Orp06RLHjx+Pq1evRteuXetnW5WbaGUi
+HjduXP18ua5///717+97tAAdwb8K7KFDh5qVqJNpa2DLhNqtW7c4cOBAnD17tk6y586di1OnTsXL
+ly/r3mr5zmfPnjVXR31CYfbs2XH+/Pn6+XJdeV2+fLndm2QA/0f/eWDLDax3797V87t3727Otpwv
++7QvXryo0fw9sJs2bao3y35+ImH58uWxfv365gigY2k3sOUfDMo0+urVq2alJbDl5/zPz8Hevn27
+/uy/efNmPd6/f3/07Nkz5s6dG4sXL657tuUmV5lGyzRbvvPp06f1s0V5SmHixIl1W2HJkiV1ou3T
+p88vTyYAdCTtBraEc+/evb9MlmVPtPz8f/jwYbPSEsg9e/b8EuKyVVAez1qxYkUcPnz47+dbyxRb
+vrP1iYNW79+/r1NvuXlWJtef92gBOpp2AwvAnxFYgCQCC5BEYAGSCCxAEoEFSCKwAEkEFiCJwAIk
+EViAJAILkERgAZIILEASgQVIIrAASQQWIInAAiQRWIAkAguQRGABkggsQBKBBUgisABJBBYgicAC
+JBFYgCQCC5BEYAGSCCxAEoEFSCKwAEkEFiCJwAIkEViAJAILkERgAZIILEASgQVIIrAASQQWIInA
+AiQRWIAkAguQRGABkggsQBKBBUgisABJBBYgicACJBFYgCQCC5BEYAGSCCxAEoEFSCKwAEkEFiCJ
+wAIkEViAJAILkERgAZIILEASgQVIIrAASQQWIInAAiQRWIAkAguQRGABkggsQBKBBUgisABJBBYg
+icACJBFYgCQCC5BEYAGSCCxAEoEFSCKwAEkEFiCJwAIkEViAJAILkERgAZIILEASgQVIIrAASQQW
+IInAAiQRWIAkAguQRGABkggsQBKBBUgisABJBBYgicACJBFYgCQCC5BEYAGSCCxAEoEFSCKwAEkE
+FiCJwAIkEViAJAILkERgAZIILEASgQVIIrAAKSL+ArUG/5XEJMAZAAAAAElFTkSuQmCC
+			</helperscreenshot>
+			<AttributeValue>
+				sent an email to Todd's mother about his behavior
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.0.24580"
+	relativepath="..\..\HJMobileRepository.rxrep">
+		<codegen
+		classname="HJMobileRepository"
+		namespace="HJMobile"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddNoteIndexNotes_IOS_.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="1ba3a0b5-0c6a-4a82-bc31-bb4a8d49dbc2"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddCostCodes_ProductionAnalysis_
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddCostCodes_ProductionAnalysis_"
+	namespace="HJMobileAndroid.Recordings.ExportTimeCardToHDM"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddCostCodes_ProductionAnalysis_.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

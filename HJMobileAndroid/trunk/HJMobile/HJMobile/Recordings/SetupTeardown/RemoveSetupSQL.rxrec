@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="fc665058-10bb-4a63-9e8e-cc4b7c2c609a"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		RemoveSetupSQL
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveSetupSQL"
+	namespace="HJMobileAndroid.Recordings.SetupTeardown"/>
+	<variables>
+		<var
+		name="ConnectionString"
+		id="64382b6b-8d06-4d6e-8954-0786d99c2f38">
+			Data Source=a0dkrsitmm.database.windows.net;Initial Catalog=Automation_Company;User ID=db-admin;Password=Hcss*123
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="RemoveSetups"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b2a846e9-b285-4d0e-a7fe-02beab8aceeb">
+				<argument
+				variable="ConnectionString"
+				argname="ConnectionString"
+				id="c0d9bbb5-7f14-4845-99f9-e285fa753844">
+					<argvaluetype>
+						<![CDATA[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveSetupSQL.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

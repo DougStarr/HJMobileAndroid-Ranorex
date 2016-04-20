@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.4.26486"
+id="d64a2b56-9b58-47db-9323-5faa705ea460"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		LibraryEmployeeValidationNewData2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LibraryEmployeeValidationNewData2"
+	namespace="HJMobileAndroid.Recordings.Validation"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="c84b0d05-679c-4f61-893e-919362de7f6f"
+		imagerect="3,3,94,32"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="51fac2a4-47a7-41ce-b9f4-3fed414c39d6">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="224,67,94,32"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Employee
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1091578688
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEditCrew']/container[@rid='content']//container[@containertype='Relative']/container[@containertype='Relative']/button[@text='Employee']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2848e40a-d40e-4bf8-b76c-f730b18b1f09">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="2fa0e1fa-2e1b-4e0f-8d55-444f37b2e13d"
+		imagerect="8,8,105,32"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="f4502ced-1b00-4d9b-9cea-e1fcf8b5dfea">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="3"
+				rect="11,67,105,32"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Source:Job
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1091792080
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEditCrew']/container[@rid='content']/container/container[1]//button[@text='Source:Job']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9dde43c6-742b-4571-b8b5-3d43533abc7d">
+				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
+zCMAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="cec68155-901e-4edc-9c7c-9a2d3840f588"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="226cc22e-b8d2-4e2f-a75a-bd800c3efc19">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="68,421,415,64"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Master Library - LABOR
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Master Library - LABOR
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						261151564
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.staging']/form[@title='TimeCardEditCrew']/container[@rid='content']//list/?/?/text[@caption='Master Library - LABOR']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Master Library - LABOR
+			</matchvalue>
+		</validationitem>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="0fc5cb73-1665-4e52-8ba7-83b86a76053f"
+		imagerect="0,0,628,40"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="True"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="69b75771-8767-44eb-847a-2b412414b90b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="5,139,628,40"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1092086416
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEditCrew']/container[@rid='content']/container/container[2]/container[1]/container[@containertype='Frame']/text
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b0507fbe-7056-4ec4-9124-1752103438cf">
+				iVBORw0KGgoAAAANSUhEUgAAAnQAAAAoCAYAAAB3umdqAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAFPElEQVR4Xu3dW4iUdRzG8c0Oa7EYptKJVoKICrpIyqst
+cAshAmmDDaILO1gm1XZTuxBbs3PYQ6etzIs2o7KMbK+KDgQVCputlRBJRisYEUVH0Q6kmDo9z39/
+M+7U7K5R2A7z/cDDO//f+39n9vLhHd+xAQAAAAAAAAAAAAAAAAAAAAAAoF6cqDQqs9IKAAAANWeu
+MkdxqQMAAEANKioudb5TBwAAgBpEoQMAAKhxFDoAAIAaR6EDAACocRQ6AACAGkehAwAAqHE1Wegy
+mcyDPT09b8QSAACgrqVC197evkAFqaBsU35VvlHW5fP5s8e3zSz62zYpB2IJAABQ14otLS3NmUxm
+TNmnkrQmm82u0vER5Tdll3Je7J0x9DdR6AAAAEKxq6vrfpWjoorc8pglKngXK/t17vUYzRgUOgAA
+gMOK3d3dL7jQVft6VfPXlO2xTLQ+TrlJWa88r6wYGho6Pk4nmp2ggniLjmuVZ1UMO3Q8KU4nOn+z
+cqfmTYo9F6caVq9e3ahzKzXz37bWZVPH8v83q9ep0Plzdc53FF/UZzymLI4tAAAAdcN36LIqREXl
+3phNSntmKxtVnA7pOKJ8oPjaN2OL95yifKocUN7V3vd0LOq4Q0f/v7GJXm/S7Kc4+v22xdwF70Pl
+oPKRslnxZ2x00Stdq5Te/7P4jL2e6fVS7wEAAKgXxdbW1oUuRSpDqZgp1yiz43wFzfti34oYeVb6
+yvYqr3W8L9ZtaYPo9e1x3d0xKpUyzx4YHBwsP2Wr9cMxvyFGvv4uz3Rc6bVep2u1vj5tkFwud6Fm
+f7jcxQgAAKAupKdc29ra5qkMPaTscVHyUcXoqd7e3lPHt2ljsXiM5j8qO2OUaD0/rlkTa9+ha1bK
+X5EWCoWzvEfv+UyMSqXMd9nK+/wZ2uO7dmMxSrT2ncERFbh7Yp2uTScn0GyrsiuWAAAAdaHid+j8
+laYK0dUqVRtcmJQfcrncRT6n2Rlau7j9rLg4TYzn5YcnBgYGTlb5ulEz/xTKEy5ysWd9bKlaylQg
+T499L8WoqmrXmj7nHV8fSwAAgLow6Q8LqxhdpoK0X9nitR+acFlSPtfMDyBURAVuVVy3TOtfdNyt
+4wblSb1eF9dOWehKn6Frno5RVdWuNV1HoQMAAHXHT7m+qvTFuoKLk0qSH1jwk61N8frtOP038ZXp
+d9rzve+2xdjvc5oybaHT2g9EHNR7vBWjqqpdaxQ6AABQj3w3bLtK0J5CoXBmzBLNXOJ2Krtj5Nmo
+8ntfX9+CGCXDw8PH+uivbKP0Vfx2nWbXajZtoTPN3lf26jPmxWjiV7GPe60jhQ4AACAUOzo6XLb8
+dOgXOt6q4+JsNnulXvuJVz9Jmom9LlJXKP45kY+VZcoinV+ua3bkcrlLY88nWu9T7og9jypfKy5k
+L6c3Er2erJQtVQ4pW/x3KJdr36jW/pHjRd4zxbUUOgAAUHfSv6Hr7OxcoiI04iLlQhT5Suvbxrcd
+poLVpnNfTtjnMvhKoVBY6PMqdpdo5jt7pfObdf5cHf07caPpTUSvq5Yy02dcp3PfKqX3GNNsSZym
+0AEAAEyQCp2SHoro7++fq0J0gTLf66m4wOXz+fO1tylGZfETJ83+uZIY/WO6fpYK2jl//SoYAAAA
+lSoKHQAAAGoPhQ4AAKDGUegAAABqHIUOAABgxhraWkyZmsvcHKUxrQAAAHD0TNvXjqzQ+c6cy1z5
+P8gHAADAUfIfFToAAAD8X4640BFCCCGEkJmdSVXbTAghhBBCZl4AAAAAAAAAAAAAAP9eQ8Of4IPk
+gpGWvtUAAAAASUVORK5CYII=
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="b3a269d2-6f5a-4944-b562-cef1af1076c5"
+		attrname="Text">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RemoteRecorder"
+			id="69b75771-8767-44eb-847a-2b412414b90b">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="5,139,628,40"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						new
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1092086416
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEditCrew']/container[@rid='content']/container/container[2]/container[1]/container[@containertype='Frame']/text
+				</path>
+			</info>
+			<helperscreenshot
+			guid="40be9fc7-3c9d-442b-be94-ce1b99751c06">
+				iVBORw0KGgoAAAANSUhEUgAAAnQAAAAoCAYAAAB3umdqAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAADAklEQVR4Xu3dS6htAwDG8U3qIq5nQncgI48oKQMDEUoi
+RMzIQJlIQmYyIGRmhEIGKAYMFHKToeQRZaRMTAwMECFyfd/ae92j07nu1lncs7q/X/1be6327ky/
+1n6cBQAAAAAAAAAAAAAAAP+tI9OudMzq2HMAAGakI253Oml17DkAADPSO3Mdc/tWx54DADAjBh0A
+wMwZdAAAM2fQAQDMnEEHADBzBh0AwMwZdAAAM2fQAQDMnEEHADBzBh0AwISuStenI9J16al0X9qT
+NutzrkxPpsfT1atrdV66K504nG24M12wfLjfFeneZNABAEzg9fRVeil9mN5MP6bf07lp1H+g/1r6
+M72R3k4dZC+mujj1/JbhbOms1Gt7h7MNX6T+TYMOAGACHXQdVpcPZ0unpV9TB9zo7tTn9a7c6I7U
+axemo9Iv6bk0uif9lPqc43shOt56/tjqaNABAGxTB13vxm32Qfp6+XDwTfp8+XC/Xamj7KHhbLF4
+JX27fDj4ND2cfks39kJckvqay1ZHgw4AYJsONOh6/eflw8WxqePru/Tepnr9+VQ3p56fnnqXr48v
+Sn2Ldrzb18/n9U7eKcmgAwCYwDqD7oTU8fVRun+Lrk11curzbki3p+9TP3t3U+rf6B29d9OrqUPO
+oAMAmMA6g66fj+uXIV4ezv7ZZ+np9M7qWMelvv6a1Ldfb0sGHQDARNYZdPVW6rdfjx7ONow/WzJ6
+MH2Z+tpLe2Gl34od36I9Ixl0AAATWXfQnZP+SO+nfi7uzNRvxn6Szk6j81OHWl/bO3ujW1Ov94sS
+HXAGHQDARNYddNXfmuvdtw6x1rdPn0njT5JUPzP3Q3phONswfg7vgWTQAQAcYh1wp6a/34H7Nww6
+AICJPHKIejQ9kQw6AIBt2mps/R8ZdAAAM+ctVwCAmTPoAAAO6tmP9w3tTP2PEbtTx1yPPQcAOLwc
+dK/t7EHXnzbpiOuduR57DgBweJn5oAMAYO1BJ0mSpJ3dAW31ZEmSJO28AAAAAAAAANi+xeIvqllt
+IvJBfCsAAAAASUVORK5CYII=
+			</helperscreenshot>
+			<AttributeValue>
+				new
+			</AttributeValue>
+		</setvaluerecorditem>
+		<validationitem
+		enabled="True"
+		optional="True"
+		duration="100ms"
+		searchpropertyid="4f6c43a2-2e8c-4bb3-99cd-3578abab27aa"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="9da46ac8-37e1-494b-afd5-0af39b0561ea">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="androidelement, mobileuielement"
+				flavor="mobile"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="34,588,279,33"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						New Library Employee - LABOR
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						New Library Employee - LABOR
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1094369960
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hcss.hcssmobile.testing']/form[@title='TimeCardEditCrew']/container[@rid='content']//list/?/?/text[@caption~'^New\ Library\ Employee\ -\ LA']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				New Library Employee - LABOR
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="HJMobileAndroidRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.4.26486"
+	relativepath="..\..\HJMobileAndroidRepository.rxrep">
+		<codegen
+		classname="HJMobileAndroidRepository"
+		namespace="HJMobileAndroid"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LibraryEmployeeValidationNewData2.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,1859 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D5418116-E3D6-40AC-86BA-F4574B5F7E9E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HJMobileAndroid</RootNamespace>
+    <AssemblyName>HJMobileAndroid</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>c7e0d817-7f58-4949-94ad-329cef6d1aa8</id>
+    </Compile>
+    <Compile Include="HJMobileAndroidRepository.cs">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <DependentUpon>HJMobileAndroidRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>6fae4810-c4c3-4edc-9a12-6563d634244d</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c1693852-093a-4219-bdc8-cc35c1e053ad</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddEntryNote.cs">
+      <BoundTo>c8a395bd-9d04-4d42-9169-f95704fcc1d0</BoundTo>
+      <DependentUpon>AddEntryNote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d842541d-7b88-49a4-b530-8b6b9bc12c7b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddEntryNote.UserCode.cs">
+      <BoundTo>c8a395bd-9d04-4d42-9169-f95704fcc1d0</BoundTo>
+      <DependentUpon>AddEntryNote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5bbb6bc4-8a53-4f79-9763-94ebdd983b67</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddNoteIndexes.cs">
+      <BoundTo>a412bd06-460e-4b6d-ad11-cc28ec9e9538</BoundTo>
+      <DependentUpon>AddNoteIndexes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9c6029ce-f114-4021-861f-76b0f8443ac3</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddNoteIndexes.UserCode.cs">
+      <BoundTo>a412bd06-460e-4b6d-ad11-cc28ec9e9538</BoundTo>
+      <DependentUpon>AddNoteIndexes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>05548653-fdb1-4f34-82df-5bac3ba6f72b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddNoteIndexNotes.cs">
+      <BoundTo>7b14653e-e99e-4f9b-b6fb-e506fccc3cc3</BoundTo>
+      <DependentUpon>AddNoteIndexNotes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>01cf8751-3421-46bd-a96f-27d8e2f18c8b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddNoteIndexNotes.UserCode.cs">
+      <BoundTo>7b14653e-e99e-4f9b-b6fb-e506fccc3cc3</BoundTo>
+      <DependentUpon>AddNoteIndexNotes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dce5f399-ede9-4b82-b403-474c61ec55e5</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddQuickPhrases.cs">
+      <BoundTo>d3e039ae-f91c-4482-a412-6fd2ffc0930c</BoundTo>
+      <DependentUpon>AddQuickPhrases.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0edb4240-cfe7-4836-905d-f31a5a61a83e</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddQuickPhrases.UserCode.cs">
+      <BoundTo>d3e039ae-f91c-4482-a412-6fd2ffc0930c</BoundTo>
+      <DependentUpon>AddQuickPhrases.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4bff4676-9cd1-4b2e-a4a8-a0778e63b21e</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddWorkingConditions.cs">
+      <BoundTo>7c85621a-6845-4518-a941-802d0237119c</BoundTo>
+      <DependentUpon>AddWorkingConditions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a0a3f0f-e5ec-482a-b2a3-527688cddea5</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\AddWorkingConditions.UserCode.cs">
+      <BoundTo>7c85621a-6845-4518-a941-802d0237119c</BoundTo>
+      <DependentUpon>AddWorkingConditions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b82a65d-2670-4bd3-8bdc-7db91dbdfc10</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\CreateDiary.cs">
+      <BoundTo>7956563a-8242-47c7-8b44-5da05782115c</BoundTo>
+      <DependentUpon>CreateDiary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0f4d71db-c9ba-480e-8de6-48dab7311387</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\CreateDiary.UserCode.cs">
+      <BoundTo>7956563a-8242-47c7-8b44-5da05782115c</BoundTo>
+      <DependentUpon>CreateDiary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>75e7ff9c-92ce-42c7-8cc8-fb962eca952f</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHDM.cs">
+      <BoundTo>d8feaa8b-43e4-435c-8bde-b2bcae5b1c08</BoundTo>
+      <DependentUpon>RemoveDiaryFromHDM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2216e3d2-4510-4d4d-83dc-5b377596a198</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHDM.UserCode.cs">
+      <BoundTo>d8feaa8b-43e4-435c-8bde-b2bcae5b1c08</BoundTo>
+      <DependentUpon>RemoveDiaryFromHDM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>729bdbc5-f257-444f-8506-b637b405d3a0</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHJ.cs">
+      <BoundTo>5666ab60-9ec6-473f-b0d0-59856ae2bb4f</BoundTo>
+      <DependentUpon>RemoveDiaryFromHJ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4842a20-32a1-467c-a9ef-11b2e8c8b7ba</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHJ.UserCode.cs">
+      <BoundTo>5666ab60-9ec6-473f-b0d0-59856ae2bb4f</BoundTo>
+      <DependentUpon>RemoveDiaryFromHJ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>30845e6c-e650-4e14-b4a3-a01cd1412d7d</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\SendDiary.cs">
+      <BoundTo>a1d73d1d-d558-4e04-854e-9aed37d7a707</BoundTo>
+      <DependentUpon>SendDiary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>60a91c5a-c7c4-4e51-b61a-ada4f048e8f3</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\SendDiary.UserCode.cs">
+      <BoundTo>a1d73d1d-d558-4e04-854e-9aed37d7a707</BoundTo>
+      <DependentUpon>SendDiary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1560669f-1dda-43c2-9248-8aeac4e0b586</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\ValidateDiary.cs">
+      <BoundTo>0b440338-0952-483c-b124-35057583ee19</BoundTo>
+      <DependentUpon>ValidateDiary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5579d52d-8faa-4df7-b7f7-f4699888687b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportDiaryToHDM\ValidateDiary.UserCode.cs">
+      <BoundTo>0b440338-0952-483c-b124-35057583ee19</BoundTo>
+      <DependentUpon>ValidateDiary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae3378ae-e628-4cf4-81a9-df7085f6eec8</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodeQty.cs">
+      <BoundTo>b239d50c-de25-41db-93a4-e575b68ba0f0</BoundTo>
+      <DependentUpon>AddCostCodeQty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a349f50f-d5f4-463b-a75a-ca6d18c691bd</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodeQty.UserCode.cs">
+      <BoundTo>b239d50c-de25-41db-93a4-e575b68ba0f0</BoundTo>
+      <DependentUpon>AddCostCodeQty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>db1d4b29-f244-43a2-8f4b-e5147ed5228c</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodes.cs">
+      <BoundTo>ecd1ba02-5a16-431f-8d9e-bc60ff03ec47</BoundTo>
+      <DependentUpon>AddCostCodes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64ce1993-1399-452e-87e7-63307e2d25b4</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodes.UserCode.cs">
+      <BoundTo>ecd1ba02-5a16-431f-8d9e-bc60ff03ec47</BoundTo>
+      <DependentUpon>AddCostCodes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bcd2cf05-07fb-4a30-be4d-545f34d6a525</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodes_ProductionAnalysis_.cs">
+      <BoundTo>6e6fbffd-3c58-491b-8265-3125fe02642d</BoundTo>
+      <DependentUpon>AddCostCodes_ProductionAnalysis_.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb9dbeed-6acc-4807-bdeb-098ada6f2419</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCostCodes_ProductionAnalysis_.UserCode.cs">
+      <BoundTo>6e6fbffd-3c58-491b-8265-3125fe02642d</BoundTo>
+      <DependentUpon>AddCostCodes_ProductionAnalysis_.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e43b684-8c24-4ae6-a8b0-264ad330095a</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCrew.cs">
+      <BoundTo>80314f83-2eda-49cc-b1ef-5f196c6b55a9</BoundTo>
+      <DependentUpon>AddCrew.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cb85ddd1-1adb-4074-98ec-63f79bf234f8</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddCrew.UserCode.cs">
+      <BoundTo>80314f83-2eda-49cc-b1ef-5f196c6b55a9</BoundTo>
+      <DependentUpon>AddCrew.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4dd30c9e-5ad1-40a6-bd97-8c49bee63aa9</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddEmployeeNotes.cs">
+      <BoundTo>bc963723-34ae-43fd-8fa1-b29253978bf9</BoundTo>
+      <DependentUpon>AddEmployeeNotes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6d92828-1693-43de-b286-a780d3907044</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddEmployeeNotes.UserCode.cs">
+      <BoundTo>bc963723-34ae-43fd-8fa1-b29253978bf9</BoundTo>
+      <DependentUpon>AddEmployeeNotes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a096b58b-0f9a-4c71-a56c-cd84ba0d8c09</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddEquipmentNotes.cs">
+      <BoundTo>5e9986e5-7dde-4926-a625-81953e7eb2c2</BoundTo>
+      <DependentUpon>AddEquipmentNotes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>38727ea8-9bf4-4ee4-893d-ce0ab2b30725</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddEquipmentNotes.UserCode.cs">
+      <BoundTo>5e9986e5-7dde-4926-a625-81953e7eb2c2</BoundTo>
+      <DependentUpon>AddEquipmentNotes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c4a6353-49e2-4586-a1f9-cbae25b127e6</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddHours1stTenCostCodes.cs">
+      <BoundTo>9d30393d-5f76-4980-8a29-6eb2499e5447</BoundTo>
+      <DependentUpon>AddHours1stTenCostCodes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>36bf6c26-37dc-4be6-ab7f-dfd466965a2b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddHours1stTenCostCodes.UserCode.cs">
+      <BoundTo>9d30393d-5f76-4980-8a29-6eb2499e5447</BoundTo>
+      <DependentUpon>AddHours1stTenCostCodes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aabb327c-2ed0-48a0-ae8a-0e5566fe9edd</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddHoursLastCostCodes.cs">
+      <BoundTo>b4b01359-19bc-4d01-bbf0-f689c724cdad</BoundTo>
+      <DependentUpon>AddHoursLastCostCodes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af15e346-4c1a-43bc-b51c-986087406f54</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddHoursLastCostCodes.UserCode.cs">
+      <BoundTo>b4b01359-19bc-4d01-bbf0-f689c724cdad</BoundTo>
+      <DependentUpon>AddHoursLastCostCodes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>002e62b4-1e86-46c4-aacd-910c956b8ebe</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddSchedules.cs">
+      <BoundTo>162b57c3-f382-40c2-8350-c6fba2615f1e</BoundTo>
+      <DependentUpon>AddSchedules.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1073f106-5e52-43e3-b53a-5892c837cb30</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\AddSchedules.UserCode.cs">
+      <BoundTo>162b57c3-f382-40c2-8350-c6fba2615f1e</BoundTo>
+      <DependentUpon>AddSchedules.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a28f2f06-e977-41c9-a50c-a8c8037a8c00</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHDM.cs">
+      <BoundTo>d21ef17d-0b99-4efe-9834-4e9ae65da0d5</BoundTo>
+      <DependentUpon>RemoveTimeCardFromHDM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>407081cb-a853-4a3b-af4d-f098a991c526</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHDM.UserCode.cs">
+      <BoundTo>d21ef17d-0b99-4efe-9834-4e9ae65da0d5</BoundTo>
+      <DependentUpon>RemoveTimeCardFromHDM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5896d29-7799-45c4-9772-f1a830ca0b8c</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHJ.cs">
+      <BoundTo>d7d76d86-fdac-46ac-9d8f-6e6e3ac18191</BoundTo>
+      <DependentUpon>RemoveTimeCardFromHJ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3fe62f72-33a9-4805-ab09-7b4fbec1163b</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHJ.UserCode.cs">
+      <BoundTo>d7d76d86-fdac-46ac-9d8f-6e6e3ac18191</BoundTo>
+      <DependentUpon>RemoveTimeCardFromHJ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>732477ce-845b-4878-903c-0268f064b841</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\SendTimeCard.cs">
+      <BoundTo>d1186adf-bae0-4007-9bb8-a6f012a0c84d</BoundTo>
+      <DependentUpon>SendTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ad6165a0-fcda-4e12-bd48-3913231b8faf</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\SendTimeCard.UserCode.cs">
+      <BoundTo>d1186adf-bae0-4007-9bb8-a6f012a0c84d</BoundTo>
+      <DependentUpon>SendTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2712a2ba-c104-47f6-be10-e14993c1f517</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\ValidateTimeCard.cs">
+      <BoundTo>e6787240-e338-4cf8-bd69-daa9ab9b5fb2</BoundTo>
+      <DependentUpon>ValidateTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>73ed3b17-3de4-4aec-8098-69b22bec1bd2</id>
+    </Compile>
+    <Compile Include="Recordings\ExportTimeCardToHDM\ValidateTimeCard.UserCode.cs">
+      <BoundTo>e6787240-e338-4cf8-bd69-daa9ab9b5fb2</BoundTo>
+      <DependentUpon>ValidateTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80e8615f-0767-4dda-b260-c81597024c66</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\DiaryValidationNewData2.cs">
+      <BoundTo>821ff0ee-dd61-4e1d-933b-8a6c5f779082</BoundTo>
+      <DependentUpon>DiaryValidationNewData2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>39362cdc-b49c-4481-b9d9-a20ac75e4a35</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\DiaryValidationNewData2.UserCode.cs">
+      <BoundTo>821ff0ee-dd61-4e1d-933b-8a6c5f779082</BoundTo>
+      <DependentUpon>DiaryValidationNewData2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e612b776-3dd7-4b39-9424-f27dd03d34f4</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\UpdateAll.cs">
+      <BoundTo>fd2c4e54-8617-4fb4-b9f3-fd5c573cc8f1</BoundTo>
+      <DependentUpon>UpdateAll.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89173fdb-097b-4b86-bfc2-1b906cd6cd73</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\UpdateAll.UserCode.cs">
+      <BoundTo>fd2c4e54-8617-4fb4-b9f3-fd5c573cc8f1</BoundTo>
+      <DependentUpon>UpdateAll.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e3e5531-dfc0-4942-bd87-9396e33852d2</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\ChangeDate.cs">
+      <BoundTo>54ad50ec-739a-4a11-9494-c47a2fd1c3ba</BoundTo>
+      <DependentUpon>ChangeDate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>faec0fc9-d2ae-4888-bdf9-3129c09af1d3</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\ChangeDate.UserCode.cs">
+      <BoundTo>54ad50ec-739a-4a11-9494-c47a2fd1c3ba</BoundTo>
+      <DependentUpon>ChangeDate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d61eec73-8a13-463e-b5e5-7ce2c60bb75e</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\IgnoreAndSend.cs">
+      <BoundTo>074f2727-8197-4ee2-9107-e52ae6854e47</BoundTo>
+      <DependentUpon>IgnoreAndSend.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a146b91f-a48a-4213-aa73-ba0aad0d30c7</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\IgnoreAndSend.UserCode.cs">
+      <BoundTo>074f2727-8197-4ee2-9107-e52ae6854e47</BoundTo>
+      <DependentUpon>IgnoreAndSend.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2657e38b-96fa-4cab-8ebe-eeb769991813</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\RemoveJobReviewFromHJ.cs">
+      <BoundTo>3b1e67b4-3392-43cf-a443-46aa67738025</BoundTo>
+      <DependentUpon>RemoveJobReviewFromHJ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1716a5af-d838-4cf7-bf7a-bd8179653864</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\RemoveJobReviewFromHJ.UserCode.cs">
+      <BoundTo>3b1e67b4-3392-43cf-a443-46aa67738025</BoundTo>
+      <DependentUpon>RemoveJobReviewFromHJ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b173fff-e67f-4c77-8f9a-2d85d151b36c</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SelectJOBREVIEW2.cs">
+      <BoundTo>be7cb684-73e1-4459-b36c-70aba9d218fa</BoundTo>
+      <DependentUpon>SelectJOBREVIEW2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae2bfde3-c288-458a-8527-4e06540836cf</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SelectJOBREVIEW2.UserCode.cs">
+      <BoundTo>be7cb684-73e1-4459-b36c-70aba9d218fa</BoundTo>
+      <DependentUpon>SelectJOBREVIEW2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bbd164a3-ab8f-4dc5-8dbb-69ebbf97931b</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendAndValidate.cs">
+      <BoundTo>27b52af6-63e8-46a9-847e-6b28afb5f2e1</BoundTo>
+      <DependentUpon>SendAndValidate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a4ba720-e166-4449-bc1a-aa30615bd206</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendAndValidate.UserCode.cs">
+      <BoundTo>27b52af6-63e8-46a9-847e-6b28afb5f2e1</BoundTo>
+      <DependentUpon>SendAndValidate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a555647-139e-4d0a-8f58-ee8f0366faa5</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendAndValidateRequired.cs">
+      <BoundTo>9c6ccadf-5915-462d-8e7b-7b81863e7696</BoundTo>
+      <DependentUpon>SendAndValidateRequired.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>460e5760-fbe3-4d35-a75c-7b5428ed3f89</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendAndValidateRequired.UserCode.cs">
+      <BoundTo>9c6ccadf-5915-462d-8e7b-7b81863e7696</BoundTo>
+      <DependentUpon>SendAndValidateRequired.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32f5981b-22d6-4922-adbb-cf27ca00a43f</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendCorrectedTimeCard.cs">
+      <BoundTo>70247334-946a-4f9d-b666-48d8d4b90da2</BoundTo>
+      <DependentUpon>SendCorrectedTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f44f946c-ad2e-4fcc-a432-efb607be02e2</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendCorrectedTimeCard.UserCode.cs">
+      <BoundTo>70247334-946a-4f9d-b666-48d8d4b90da2</BoundTo>
+      <DependentUpon>SendCorrectedTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fac69cb1-1439-4654-a241-650bde8e695e</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendTimeCard.cs">
+      <BoundTo>8ef54818-56d9-4342-8437-bef5975837ad</BoundTo>
+      <DependentUpon>SendTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8eb7793a-9ef7-48b4-abb4-3bdf28c6dcfc</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SendTimeCard.UserCode.cs">
+      <BoundTo>8ef54818-56d9-4342-8437-bef5975837ad</BoundTo>
+      <DependentUpon>SendTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e374617b-fda5-4eae-8d5b-bf4fae9bdaa2</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveExceedTime.cs">
+      <BoundTo>c7a2b217-be89-417b-97fa-81ef401d7d14</BoundTo>
+      <DependentUpon>SolveExceedTime.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>56e6c816-a808-4a55-8742-8ce4891fcc83</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveExceedTime.UserCode.cs">
+      <BoundTo>c7a2b217-be89-417b-97fa-81ef401d7d14</BoundTo>
+      <DependentUpon>SolveExceedTime.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9b6773be-78e4-4152-835c-49d74ab5108f</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMinimumHours.cs">
+      <BoundTo>efaf8f05-299d-4e93-8a00-4e7b893c27d7</BoundTo>
+      <DependentUpon>SolveMinimumHours.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>139377e6-622e-44cb-bb20-310d2fe59d7b</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMinimumHours.UserCode.cs">
+      <BoundTo>efaf8f05-299d-4e93-8a00-4e7b893c27d7</BoundTo>
+      <DependentUpon>SolveMinimumHours.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4d3d804e-fbe0-4b49-9fab-37604791d2f7</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMissingCCNotes.cs">
+      <BoundTo>0e349a8f-a604-4c33-9acf-812f5e8314ef</BoundTo>
+      <DependentUpon>SolveMissingCCNotes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9f6816e7-dffb-4d4b-af6a-5781253f37d6</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMissingCCNotes.UserCode.cs">
+      <BoundTo>0e349a8f-a604-4c33-9acf-812f5e8314ef</BoundTo>
+      <DependentUpon>SolveMissingCCNotes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>85cd568b-b698-4310-9498-a3cfc7fdc19f</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMissingProdQty.cs">
+      <BoundTo>59199cb9-1606-4f6e-920a-b9a395cbd6d4</BoundTo>
+      <DependentUpon>SolveMissingProdQty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>000d6520-baf0-40a1-b2f9-60e5b2d62d4c</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveMissingProdQty.UserCode.cs">
+      <BoundTo>59199cb9-1606-4f6e-920a-b9a395cbd6d4</BoundTo>
+      <DependentUpon>SolveMissingProdQty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5aa40623-16ef-49fa-8d3f-afde9eed2f64</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSamePayClass.cs">
+      <BoundTo>0fc06b6d-1c37-4b0f-9498-658c1d3f05c2</BoundTo>
+      <DependentUpon>SolveSamePayClass.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e796a7b4-37a7-4a35-85a7-4d489321675c</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSamePayClass.UserCode.cs">
+      <BoundTo>0fc06b6d-1c37-4b0f-9498-658c1d3f05c2</BoundTo>
+      <DependentUpon>SolveSamePayClass.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>224029af-b807-4737-9d62-5edbb9f9d04d</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSchedules.cs">
+      <BoundTo>88115b06-c092-472b-8089-73d2bb0f6165</BoundTo>
+      <DependentUpon>SolveSchedules.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>52c42a3b-d083-4270-86db-5af4c7869a6c</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSchedules.UserCode.cs">
+      <BoundTo>88115b06-c092-472b-8089-73d2bb0f6165</BoundTo>
+      <DependentUpon>SolveSchedules.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>42582150-4495-44b1-9711-0f6cf2d9a410</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSignatures.cs">
+      <BoundTo>badbb2ac-77aa-471c-a94c-cff0217312b0</BoundTo>
+      <DependentUpon>SolveSignatures.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>550e25c7-968e-4cb9-a1bd-27e5587ae2b3</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveSignatures.UserCode.cs">
+      <BoundTo>badbb2ac-77aa-471c-a94c-cff0217312b0</BoundTo>
+      <DependentUpon>SolveSignatures.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78ff0c00-7e50-478f-8d2c-78f1eeda2442</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveUnlinkedEqp.cs">
+      <BoundTo>3d00935d-953b-45f0-9153-019b698c6d1c</BoundTo>
+      <DependentUpon>SolveUnlinkedEqp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7bdc2ae2-9f00-47a7-aea8-a6fc33052b4c</id>
+    </Compile>
+    <Compile Include="Recordings\Job Review\SolveUnlinkedEqp.UserCode.cs">
+      <BoundTo>3d00935d-953b-45f0-9153-019b698c6d1c</BoundTo>
+      <DependentUpon>SolveUnlinkedEqp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>36b696da-30fc-4178-a925-5b5f2c128d6e</id>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\ChangeTimeCardShift.cs">
+      <id>664a7811-0120-4f54-bc20-35d6433ade49</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>ChangeTimeCardShift.rxrec</DependentUpon>
+      <BoundTo>1b8f73d8-40d6-4ea8-8720-411c5783e1eb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\ChangeTimeCardShift.UserCode.cs">
+      <id>14f680d5-032a-46c2-845f-fc74f12d5d07</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>ChangeTimeCardShift.rxrec</DependentUpon>
+      <BoundTo>1b8f73d8-40d6-4ea8-8720-411c5783e1eb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\OpenDiary.cs">
+      <id>e5bbe306-3a7d-4f27-ab3c-04da84447222</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>OpenDiary.rxrec</DependentUpon>
+      <BoundTo>daa63e3a-94ce-40d2-a4b0-7a6c2dbefb1c</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\OpenDiary.UserCode.cs">
+      <id>27c866b2-0828-4925-816b-ac415cc9450e</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>OpenDiary.rxrec</DependentUpon>
+      <BoundTo>daa63e3a-94ce-40d2-a4b0-7a6c2dbefb1c</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\OpenTimeCard.cs">
+      <id>6060c9aa-3b41-4704-992e-4309b6495b8f</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>OpenTimeCard.rxrec</DependentUpon>
+      <BoundTo>bb733a2d-0c7f-4dad-8bfd-af4265d5c3b9</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\OpenTimeCard.UserCode.cs">
+      <id>1dcdcad6-9290-47a8-bc97-18ea0b04d51c</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>OpenTimeCard.rxrec</DependentUpon>
+      <BoundTo>bb733a2d-0c7f-4dad-8bfd-af4265d5c3b9</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\SelectHJMOBILE1.cs">
+      <id>b3927cce-b3be-400c-959f-4486f98f6da4</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>SelectHJMOBILE1.rxrec</DependentUpon>
+      <BoundTo>6027c061-7611-44f6-b451-d884771e6b6d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\SelectHJMOBILE1.UserCode.cs">
+      <id>c062ea46-ab1c-4945-9c48-84c1e607bd23</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>SelectHJMOBILE1.rxrec</DependentUpon>
+      <BoundTo>6027c061-7611-44f6-b451-d884771e6b6d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\TurnOnMaterials.cs">
+      <BoundTo>92737bf5-ccd7-40a8-80c0-5aa5497bf729</BoundTo>
+      <DependentUpon>TurnOnMaterials.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>704b931a-2361-40e8-ac06-a4e5d614d512</id>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\TurnOnMaterials.UserCode.cs">
+      <BoundTo>92737bf5-ccd7-40a8-80c0-5aa5497bf729</BoundTo>
+      <DependentUpon>TurnOnMaterials.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>63085545-53f3-43d8-ba6b-bc76be184c46</id>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\TurnOnSchedules.cs">
+      <BoundTo>0211f1ce-1f05-40d9-87a7-a974e67d8ccd</BoundTo>
+      <DependentUpon>TurnOnSchedules.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2dbbe3bd-1668-4a78-a090-c30da434133a</id>
+    </Compile>
+    <Compile Include="Recordings\MobileTimeCard\TurnOnSchedules.UserCode.cs">
+      <BoundTo>0211f1ce-1f05-40d9-87a7-a974e67d8ccd</BoundTo>
+      <DependentUpon>TurnOnSchedules.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0052b841-7efc-4926-9cd7-977d311372d4</id>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\RunHJTransform.cs">
+      <BoundTo>3c3dd4c0-890e-492a-af90-f5be79900b1c</BoundTo>
+      <DependentUpon>RunHJTransform.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a4423a3-7dc5-4178-be34-7357d225265c</id>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\RunHJTransform.UserCode.cs">
+      <BoundTo>3c3dd4c0-890e-492a-af90-f5be79900b1c</BoundTo>
+      <DependentUpon>RunHJTransform.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72ebd276-73ee-4748-b395-b6865868b0f5</id>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\RunMobileImport.cs">
+      <id>fb8a45f8-a561-4b53-93bc-dab0781e2214</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>RunMobileImport.rxrec</DependentUpon>
+      <BoundTo>17d692c2-8391-4fa0-b7c3-5c53de9dfabf</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\RunMobileImport.UserCode.cs">
+      <id>db629292-2b5d-4108-ae86-7973ad1e672f</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>RunMobileImport.rxrec</DependentUpon>
+      <BoundTo>17d692c2-8391-4fa0-b7c3-5c53de9dfabf</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\WaitForFilesImportIntoHDM.cs">
+      <BoundTo>7ffd0e9c-0f6f-440d-8a37-c6b4d77cedf7</BoundTo>
+      <DependentUpon>WaitForFilesImportIntoHDM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>545a4a32-3a30-49ff-8b89-df213ca833b5</id>
+    </Compile>
+    <Compile Include="Recordings\RemoteDesktopItems\WaitForFilesImportIntoHDM.UserCode.cs">
+      <BoundTo>7ffd0e9c-0f6f-440d-8a37-c6b4d77cedf7</BoundTo>
+      <DependentUpon>WaitForFilesImportIntoHDM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ce82f512-6ae9-4024-a9a0-e2f128df02c0</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidLogInAyotoni.cs">
+      <BoundTo>a0fc3a3a-8f2a-499d-8615-9d4b86ddadc8</BoundTo>
+      <DependentUpon>AndroidLogInAyotoni.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbdc6a31-0539-40fb-b769-bf283d9c0f09</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidLogInAyotoni.UserCode.cs">
+      <BoundTo>a0fc3a3a-8f2a-499d-8615-9d4b86ddadc8</BoundTo>
+      <DependentUpon>AndroidLogInAyotoni.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a73b5ad-f6c6-4571-b24a-bc0879838e7a</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\DeleteTimeCard.cs">
+      <BoundTo>70c70731-51a4-4126-b547-9eb23b3709bb</BoundTo>
+      <DependentUpon>DeleteTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76e5ded6-a92e-48ac-98bc-ff03a30e02dc</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\DeleteTimeCard.UserCode.cs">
+      <BoundTo>70c70731-51a4-4126-b547-9eb23b3709bb</BoundTo>
+      <DependentUpon>DeleteTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba5cfe90-3aa0-4d9a-a7ff-e24a8475525b</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\LaunchAndroid.cs">
+      <BoundTo>16a20193-bb31-42bf-b920-e9ba368ccb33</BoundTo>
+      <DependentUpon>LaunchAndroid.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eaf8f431-fd2e-4326-b776-d509908039a0</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\LaunchAndroid.UserCode.cs">
+      <BoundTo>16a20193-bb31-42bf-b920-e9ba368ccb33</BoundTo>
+      <DependentUpon>LaunchAndroid.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d26ff1f2-9727-4171-9165-a278a2a952b2</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\LogoutAndroid.cs">
+      <BoundTo>c61136cc-7b91-49d0-9dc6-799e0a076266</BoundTo>
+      <DependentUpon>LogoutAndroid.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ceaf4ab-8160-4b9d-a3d0-e2b776a059fa</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\LogoutAndroid.UserCode.cs">
+      <BoundTo>c61136cc-7b91-49d0-9dc6-799e0a076266</BoundTo>
+      <DependentUpon>LogoutAndroid.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c3d723b-7b0e-48e3-9779-0060b3c16e02</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoteDesktopLogin.cs">
+      <id>49059f90-8ee0-4063-b6de-09c52dd01a1f</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>RemoteDesktopLogin.rxrec</DependentUpon>
+      <BoundTo>eda465e1-5126-4941-87d6-cf2352a28f4e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoteDesktopLogin.UserCode.cs">
+      <id>89e08557-5680-4f22-b35e-df8f8fecbf43</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>RemoteDesktopLogin.rxrec</DependentUpon>
+      <BoundTo>eda465e1-5126-4941-87d6-cf2352a28f4e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoteDesktopLogout.cs">
+      <BoundTo>dc3ec093-b5d9-455e-b032-94c0dad7c76e</BoundTo>
+      <DependentUpon>RemoteDesktopLogout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5ae2cd71-5518-48a4-a274-e68cb2c062d6</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoteDesktopLogout.UserCode.cs">
+      <BoundTo>dc3ec093-b5d9-455e-b032-94c0dad7c76e</BoundTo>
+      <DependentUpon>RemoteDesktopLogout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3bcc677f-d50c-46d3-8b2d-b7798780b5b5</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\test.cs">
+      <BoundTo>892644f1-fa99-4fdb-b129-a2acf641d688</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af8e7ac3-c2a9-41b8-acf7-75ea38755aa4</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\test.UserCode.cs">
+      <BoundTo>892644f1-fa99-4fdb-b129-a2acf641d688</BoundTo>
+      <DependentUpon>test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f049e8a9-4b66-4f78-b887-68a743e8bfe0</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCostCodeQty.cs">
+      <BoundTo>b223751a-0770-4d7b-b546-4e5a63de64f3</BoundTo>
+      <DependentUpon>AddCostCodeQty.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2ab330ea-a02b-4afc-be6a-48a211447b4e</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCostCodeQty.UserCode.cs">
+      <BoundTo>b223751a-0770-4d7b-b546-4e5a63de64f3</BoundTo>
+      <DependentUpon>AddCostCodeQty.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>34598d70-ce2d-4ca4-a81f-42d711c53536</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCostCodes.cs">
+      <BoundTo>255e4d1a-577a-4a34-a8f9-befd16e55f4a</BoundTo>
+      <DependentUpon>AddCostCodes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2069273-a713-42fa-9121-11b46b96d3c1</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCostCodes.UserCode.cs">
+      <BoundTo>255e4d1a-577a-4a34-a8f9-befd16e55f4a</BoundTo>
+      <DependentUpon>AddCostCodes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e1cdccef-b7a6-47e8-8dca-478fede93480</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCrew.cs">
+      <BoundTo>aef09a6b-27c3-458a-8531-58998630c14b</BoundTo>
+      <DependentUpon>AddCrew.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>216fa98b-7dc2-430f-bade-9861d4ee3fdd</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddCrew.UserCode.cs">
+      <BoundTo>aef09a6b-27c3-458a-8531-58998630c14b</BoundTo>
+      <DependentUpon>AddCrew.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8e0b4d1c-680e-4d3f-b00b-0a1635aa5131</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddHours.cs">
+      <BoundTo>81ef0997-e97e-4af3-bb74-ab93d51ce7dd</BoundTo>
+      <DependentUpon>AddHours.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7c6aae3e-e1bc-46ec-abb4-86b593278839</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddHours.UserCode.cs">
+      <BoundTo>81ef0997-e97e-4af3-bb74-ab93d51ce7dd</BoundTo>
+      <DependentUpon>AddHours.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c26c73ae-4872-42fe-9f43-ec6f85632218</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddSubandPD.cs">
+      <BoundTo>d541d280-ce91-434c-b425-75786ec93186</BoundTo>
+      <DependentUpon>AddSubandPD.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7820334a-07c7-4363-94b8-1e6ee8dee7ca</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\AddSubandPD.UserCode.cs">
+      <BoundTo>d541d280-ce91-434c-b425-75786ec93186</BoundTo>
+      <DependentUpon>AddSubandPD.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>353ddf40-a354-49de-aa56-0a9f39f24f69</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\GetBacktoMainScreen.cs">
+      <BoundTo>34c21f9d-235c-4261-9a45-6b7cd943d14f</BoundTo>
+      <DependentUpon>GetBacktoMainScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a72c22b-9c98-4cb4-8c19-3cbcee7964ec</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\GetBacktoMainScreen.UserCode.cs">
+      <BoundTo>34c21f9d-235c-4261-9a45-6b7cd943d14f</BoundTo>
+      <DependentUpon>GetBacktoMainScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>02c44615-2f94-463d-9224-2a78f5af9798</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectDec25_2014.cs">
+      <BoundTo>15507b3e-cf75-4d0f-8426-97aca61e7c1f</BoundTo>
+      <DependentUpon>SelectDec25_2014.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e58e6897-4423-44dc-8268-9af2f624549a</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectDec25_2014.UserCode.cs">
+      <BoundTo>15507b3e-cf75-4d0f-8426-97aca61e7c1f</BoundTo>
+      <DependentUpon>SelectDec25_2014.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ba365ab-d8cd-4461-a01b-6c209bec2762</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectDec30_2014.cs">
+      <BoundTo>50e7304e-04a8-4aa4-9add-5563c7145dd3</BoundTo>
+      <DependentUpon>SelectDec30_2014.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>59e573b3-4a45-4e53-9e1a-57dc888b13e3</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectDec30_2014.UserCode.cs">
+      <BoundTo>50e7304e-04a8-4aa4-9add-5563c7145dd3</BoundTo>
+      <DependentUpon>SelectDec30_2014.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88253fee-e968-40f2-acc7-eee7ab4690e9</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS1.cs">
+      <BoundTo>c17fa0df-1b33-4821-bd59-f1df9fd141c8</BoundTo>
+      <DependentUpon>SelectTCANALYSIS1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>95358e18-b922-44ec-a2cb-77c4b11ae55b</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS1.UserCode.cs">
+      <BoundTo>c17fa0df-1b33-4821-bd59-f1df9fd141c8</BoundTo>
+      <DependentUpon>SelectTCANALYSIS1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e3f5841f-3a69-4dac-8e2f-e8c585fbceea</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS2.cs">
+      <BoundTo>2ca23b3c-2abf-49ed-a0a1-e11e6ef8dca5</BoundTo>
+      <DependentUpon>SelectTCANALYSIS2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a15c195a-0a61-4234-98f2-3fdeabbfb045</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS2.UserCode.cs">
+      <BoundTo>2ca23b3c-2abf-49ed-a0a1-e11e6ef8dca5</BoundTo>
+      <DependentUpon>SelectTCANALYSIS2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4d8de57-6278-4ae2-ac7f-7f93fc992723</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS3.cs">
+      <BoundTo>794f4389-2d9a-423a-98dd-6fe617490120</BoundTo>
+      <DependentUpon>SelectTCANALYSIS3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7414dd2a-7eab-4a16-82d8-b1e6a34edeb3</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS3.UserCode.cs">
+      <BoundTo>794f4389-2d9a-423a-98dd-6fe617490120</BoundTo>
+      <DependentUpon>SelectTCANALYSIS3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>afea0a87-93e4-452b-ba4d-235d70d3f45c</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateFirstTimeCard.cs">
+      <BoundTo>8b5c24a0-edab-48da-a170-9528c3109c70</BoundTo>
+      <DependentUpon>ValidateFirstTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b0ae594-899a-4b62-8cd4-23b6c25fc9f0</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateFirstTimeCard.UserCode.cs">
+      <BoundTo>8b5c24a0-edab-48da-a170-9528c3109c70</BoundTo>
+      <DependentUpon>ValidateFirstTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68b2d4b3-360d-4008-b0e4-154554edf9b1</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateSecondTimeCard.cs">
+      <BoundTo>82d7b361-56cf-4973-b473-50146c9b7314</BoundTo>
+      <DependentUpon>ValidateSecondTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb831073-39de-472e-8457-f15b1c1d4714</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateSecondTimeCard.UserCode.cs">
+      <BoundTo>82d7b361-56cf-4973-b473-50146c9b7314</BoundTo>
+      <DependentUpon>ValidateSecondTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>03bff7f8-92cf-4aca-87f4-bfd8ddc74b67</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateThirdTimeCard.cs">
+      <BoundTo>e98332a5-58e2-460b-8d7d-0311b30c99e9</BoundTo>
+      <DependentUpon>ValidateThirdTimeCard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1db9bc25-42d9-4b97-8c81-0f4c2b80b7fa</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateThirdTimeCard.UserCode.cs">
+      <BoundTo>e98332a5-58e2-460b-8d7d-0311b30c99e9</BoundTo>
+      <DependentUpon>ValidateThirdTimeCard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7760962b-7d5e-4b84-a2f3-1255833664fa</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateTimeCardAlreadyExists.cs">
+      <BoundTo>7285ac57-f4be-40f2-be8b-2b335cbe57c0</BoundTo>
+      <DependentUpon>ValidateTimeCardAlreadyExists.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da7145c5-b19b-4118-8373-936f7d0cd60a</id>
+    </Compile>
+    <Compile Include="Recordings\TimeCardProductionAnalysis\ValidateTimeCardAlreadyExists.UserCode.cs">
+      <BoundTo>7285ac57-f4be-40f2-be8b-2b335cbe57c0</BoundTo>
+      <DependentUpon>ValidateTimeCardAlreadyExists.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>97b2eff2-0ade-43bb-9c73-f1bc842925be</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationBaseData.cs">
+      <BoundTo>e0e877e3-2596-4108-9577-c76bf89712e8</BoundTo>
+      <DependentUpon>CostCodeTagValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d9ebf42-aa29-4847-8c14-fe50c527a102</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationBaseData.UserCode.cs">
+      <BoundTo>e0e877e3-2596-4108-9577-c76bf89712e8</BoundTo>
+      <DependentUpon>CostCodeTagValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>31d95947-4a63-4ea7-9c69-77a3129daae0</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationNewData.cs">
+      <BoundTo>47ea8918-33dc-48d4-a55a-1a3fdc153011</BoundTo>
+      <DependentUpon>CostCodeTagValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc6f62b8-1b27-47e9-8d14-015bd269510e</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationNewData.UserCode.cs">
+      <BoundTo>47ea8918-33dc-48d4-a55a-1a3fdc153011</BoundTo>
+      <DependentUpon>CostCodeTagValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5f9eb70-e233-41f4-858a-2cb1c01b9ec8</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationNewData2.cs">
+      <BoundTo>ee416398-4f00-4fdd-ab9a-efbc1cb2a8b4</BoundTo>
+      <DependentUpon>CostCodeTagValidationNewData2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>546f224b-2706-41d5-818c-19314fbfe2d2</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeTagValidationNewData2.UserCode.cs">
+      <BoundTo>ee416398-4f00-4fdd-ab9a-efbc1cb2a8b4</BoundTo>
+      <DependentUpon>CostCodeTagValidationNewData2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07e8d9ea-a135-4027-a7a6-f7f260794b5a</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationBaseData.cs">
+      <BoundTo>8ee3cf24-0eaa-401d-a29e-ad64d2c7e0ba</BoundTo>
+      <DependentUpon>CostCodeValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c339571c-af2b-4f7b-a992-3af2f7e13487</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationBaseData.UserCode.cs">
+      <BoundTo>8ee3cf24-0eaa-401d-a29e-ad64d2c7e0ba</BoundTo>
+      <DependentUpon>CostCodeValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac1f7e97-eaa4-45b0-a18e-da160ab2831c</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationNewData.cs">
+      <BoundTo>6ed9b6d2-51d1-4559-8822-b4573b8ba6dd</BoundTo>
+      <DependentUpon>CostCodeValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>70071552-4685-4534-8e2d-5f3cc16766e1</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationNewData.UserCode.cs">
+      <BoundTo>6ed9b6d2-51d1-4559-8822-b4573b8ba6dd</BoundTo>
+      <DependentUpon>CostCodeValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb48abde-4458-490f-9a32-5f45cdc8baed</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationNewData2.cs">
+      <BoundTo>bfa52e1e-a26b-4c5d-917e-4525a8cf584c</BoundTo>
+      <DependentUpon>CostCodeValidationNewData2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19738203-d008-41f2-9b99-e115095500b8</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\CostCodeValidationNewData2.UserCode.cs">
+      <BoundTo>bfa52e1e-a26b-4c5d-917e-4525a8cf584c</BoundTo>
+      <DependentUpon>CostCodeValidationNewData2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2052f9f-e4db-42f5-a226-9a4b8ce50e77</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\DiaryValidationBaseData.cs">
+      <BoundTo>9971486b-7574-4e9a-a60c-01fde7270582</BoundTo>
+      <DependentUpon>DiaryValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7f1555c-20b2-4186-8fbc-1e1f0511ad78</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\DiaryValidationBaseData.UserCode.cs">
+      <BoundTo>9971486b-7574-4e9a-a60c-01fde7270582</BoundTo>
+      <DependentUpon>DiaryValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ef50e547-c6bb-46e3-b34a-449b44d0356a</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\DropXML.cs">
+      <BoundTo>48820e88-e5bf-4896-9089-eaa7764954c0</BoundTo>
+      <DependentUpon>DropXML.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6c44126-9886-4035-99b3-775b7bfca294</id>
+    </Compile>
+    <Compile Include="Recordings\ImportNewSetupsFromManager\DropXML.UserCode.cs">
+      <BoundTo>48820e88-e5bf-4896-9089-eaa7764954c0</BoundTo>
+      <DependentUpon>DropXML.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0161feda-55a2-4d88-804b-5bd4d82eb32d</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidLogIn.cs">
+      <id>19c72399-5d55-4822-9b47-9301fc231516</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>AndroidLogIn.rxrec</DependentUpon>
+      <BoundTo>df9dc51e-abd6-4c3b-85ec-27c63cec24fb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidLogIn.UserCode.cs">
+      <id>e44535c7-d334-4df1-b4b7-7795226e2429</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>AndroidLogIn.rxrec</DependentUpon>
+      <BoundTo>df9dc51e-abd6-4c3b-85ec-27c63cec24fb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoveSetupSQL.cs">
+      <BoundTo>1e31023c-ff13-4868-aa00-294ad7fb20e7</BoundTo>
+      <DependentUpon>RemoveSetupSQL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7ae2c7ae-3c47-4780-b45f-73d134e46d86</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\RemoveSetupSQL.UserCode.cs">
+      <BoundTo>1e31023c-ff13-4868-aa00-294ad7fb20e7</BoundTo>
+      <DependentUpon>RemoveSetupSQL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68a2c9cb-e023-45f7-8001-2fc59a16628f</id>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidRestoreBackup.cs">
+      <id>475c8dd2-ae22-44f7-88f3-1ab3eb69912b</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>AndroidRestoreBackup.rxrec</DependentUpon>
+      <BoundTo>ec500317-5126-41de-a77d-6912595058a6</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\SetupTeardown\AndroidRestoreBackup.UserCode.cs">
+      <id>9b9e6b39-494c-4e0b-a213-f4176f8ffa85</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>AndroidRestoreBackup.rxrec</DependentUpon>
+      <BoundTo>ec500317-5126-41de-a77d-6912595058a6</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validation\DiaryValidationNewData.cs">
+      <BoundTo>925c316d-5108-461e-a136-18a026763071</BoundTo>
+      <DependentUpon>DiaryValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c4d5754-8333-4002-b5e7-db1b33466576</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\DiaryValidationNewData.UserCode.cs">
+      <BoundTo>925c316d-5108-461e-a136-18a026763071</BoundTo>
+      <DependentUpon>DiaryValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>820c0656-7019-441a-93a1-f2e9fb80c6ac</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationBaseData.cs">
+      <BoundTo>221d98f4-fd2f-4973-870a-213b02ba642f</BoundTo>
+      <DependentUpon>JobEmployeeValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1a036e0-50c2-4957-b3c8-9a04e8cfa777</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationBaseData.UserCode.cs">
+      <BoundTo>221d98f4-fd2f-4973-870a-213b02ba642f</BoundTo>
+      <DependentUpon>JobEmployeeValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f31a368-e91a-4c22-a85e-7cdd274790f0</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationNewData.cs">
+      <BoundTo>66d0e1e9-5b9a-4b63-8bf1-ff6368a23f46</BoundTo>
+      <DependentUpon>JobEmployeeValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8ebd9f86-0e8f-42fe-ab31-42280723ca22</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationNewData.UserCode.cs">
+      <BoundTo>66d0e1e9-5b9a-4b63-8bf1-ff6368a23f46</BoundTo>
+      <DependentUpon>JobEmployeeValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32d7ac53-e370-4f0a-b5db-39e9a7884f62</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationNewData2.cs">
+      <id>1a86568f-4861-43ea-bd55-21b1de04f976</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>JobEmployeeValidationNewData2.rxrec</DependentUpon>
+      <BoundTo>edfd2fa0-17e1-43ba-9868-8d0a8068bec6</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEmployeeValidationNewData2.UserCode.cs">
+      <id>1d04111e-5d66-4141-81b8-d46541b58f09</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>JobEmployeeValidationNewData2.rxrec</DependentUpon>
+      <BoundTo>edfd2fa0-17e1-43ba-9868-8d0a8068bec6</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEquipmentValidationBaseData.cs">
+      <BoundTo>67843bf0-7654-4bc5-bd4a-ed0cd28c96d7</BoundTo>
+      <DependentUpon>JobEquipmentValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4ac2223-3495-41c4-81ed-94f8bb4c37c6</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEquipmentValidationBaseData.UserCode.cs">
+      <BoundTo>67843bf0-7654-4bc5-bd4a-ed0cd28c96d7</BoundTo>
+      <DependentUpon>JobEquipmentValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6ce13bc4-ac2f-47d8-a7a5-371be80ff9d9</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEquipmentValidationNewData.cs">
+      <BoundTo>eaa95e2c-0455-4bdc-a700-69361175394d</BoundTo>
+      <DependentUpon>JobEquipmentValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a2bb182-ea0e-42d7-8aeb-3e4ef183e1a7</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobEquipmentValidationNewData.UserCode.cs">
+      <BoundTo>eaa95e2c-0455-4bdc-a700-69361175394d</BoundTo>
+      <DependentUpon>JobEquipmentValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>03890a66-92df-47a1-9f9d-67fa8a3f19da</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidation2NewData.cs">
+      <BoundTo>dc578e00-08a5-48e0-838d-8540c10ffd73</BoundTo>
+      <DependentUpon>JobPayClassValidation2NewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6acdb92-c3c8-4559-abaf-bdb2f068e58b</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidation2NewData.UserCode.cs">
+      <BoundTo>dc578e00-08a5-48e0-838d-8540c10ffd73</BoundTo>
+      <DependentUpon>JobPayClassValidation2NewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d1366ac-7625-4613-8c15-56ce120d5e41</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidationBaseData.cs">
+      <BoundTo>826ed311-2074-4842-b7ee-3068570ee325</BoundTo>
+      <DependentUpon>JobPayClassValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4c0033c6-163d-431b-98bc-9e5e4d47966c</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidationBaseData.UserCode.cs">
+      <BoundTo>826ed311-2074-4842-b7ee-3068570ee325</BoundTo>
+      <DependentUpon>JobPayClassValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5326de2d-26fc-496a-a969-249a121580b7</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidation2BaseData.cs">
+      <BoundTo>f68a28f2-224b-4095-b7a0-1d245530f6ae</BoundTo>
+      <DependentUpon>JobPayClassValidation2BaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb37fd69-2ef3-4a69-80a2-494e8f52aee1</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidation2BaseData.UserCode.cs">
+      <BoundTo>f68a28f2-224b-4095-b7a0-1d245530f6ae</BoundTo>
+      <DependentUpon>JobPayClassValidation2BaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>13668a4f-355e-46b9-8266-370410115650</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidationNewData.cs">
+      <BoundTo>4a987077-efba-4d95-825b-0f7028a1b51f</BoundTo>
+      <DependentUpon>JobPayClassValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5dc5b93-d8db-4cb4-b3c1-b3263a5ceb6a</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\JobPayClassValidationNewData.UserCode.cs">
+      <BoundTo>4a987077-efba-4d95-825b-0f7028a1b51f</BoundTo>
+      <DependentUpon>JobPayClassValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>beb33fcb-c658-45e8-8e4d-03687ff09649</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationBaseData.cs">
+      <BoundTo>bb85f60b-d26a-473a-9cc8-2ed3f9a28c45</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>625ce0b4-2eee-4205-9dc8-cc8c49216a59</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationBaseData.UserCode.cs">
+      <BoundTo>bb85f60b-d26a-473a-9cc8-2ed3f9a28c45</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21d0536a-fb79-44f5-8639-395218be17a3</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationNewData.cs">
+      <BoundTo>199d65cb-2aee-4f88-b8f2-55279cd4e67c</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>41c0bac4-afee-4f93-bf9f-ca26ba63bfc9</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationNewData.UserCode.cs">
+      <BoundTo>199d65cb-2aee-4f88-b8f2-55279cd4e67c</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5937e33d-e0c6-40fe-971e-5e22154407af</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationNewData2.cs">
+      <BoundTo>d5ddb6b5-1e69-45a3-b35b-4b3d24fbe3b3</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationNewData2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2464761-2718-47e5-b073-1b723834cb66</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEmployeeValidationNewData2.UserCode.cs">
+      <BoundTo>d5ddb6b5-1e69-45a3-b35b-4b3d24fbe3b3</BoundTo>
+      <DependentUpon>LibraryEmployeeValidationNewData2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>872970d5-5fe1-47da-b728-fcdd41d84879</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEquipmentValidationBaseData.cs">
+      <BoundTo>e64e63c6-bb4a-49c4-998b-963f8796905b</BoundTo>
+      <DependentUpon>LibraryEquipmentValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10bad217-61b3-4304-b961-94a349b2453c</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEquipmentValidationBaseData.UserCode.cs">
+      <BoundTo>e64e63c6-bb4a-49c4-998b-963f8796905b</BoundTo>
+      <DependentUpon>LibraryEquipmentValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d9f2654a-25a8-49d6-a70a-b447f02d5dd8</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEquipmentValidationNewData.cs">
+      <BoundTo>cc747076-2c77-474a-a058-cf9cf95a2eac</BoundTo>
+      <DependentUpon>LibraryEquipmentValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ac63ff3-b883-4274-bdc5-53f2733349ca</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryEquipmentValidationNewData.UserCode.cs">
+      <BoundTo>cc747076-2c77-474a-a058-cf9cf95a2eac</BoundTo>
+      <DependentUpon>LibraryEquipmentValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3606d6ef-dc73-44c8-87e4-f733fd8ede09</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryPayClassValidationBaseData.cs">
+      <BoundTo>a0b51a52-20c5-4a99-926c-29b24a83bbfc</BoundTo>
+      <DependentUpon>LibraryPayClassValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33cd2c57-a733-4405-b03a-e0ac32fb6a7b</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryPayClassValidationBaseData.UserCode.cs">
+      <BoundTo>a0b51a52-20c5-4a99-926c-29b24a83bbfc</BoundTo>
+      <DependentUpon>LibraryPayClassValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e167be5-a681-44f9-978d-4eb55df27cfa</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryPayClassValidationNewData.cs">
+      <BoundTo>0c5e8e34-f146-49b5-9df9-89579772a524</BoundTo>
+      <DependentUpon>LibraryPayClassValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c0bd43b3-cc1f-46b0-82f1-722c6f3e9f17</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\LibraryPayClassValidationNewData.UserCode.cs">
+      <BoundTo>0c5e8e34-f146-49b5-9df9-89579772a524</BoundTo>
+      <DependentUpon>LibraryPayClassValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40209bcf-815a-4a1a-b4dd-30646341a51b</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\MaterialValidationBaseData.cs">
+      <BoundTo>e3dfd88a-7fb5-4a82-89c5-c1feb35cba17</BoundTo>
+      <DependentUpon>MaterialValidationBaseData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3952d69-940e-48ff-93ae-de9c47241207</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\MaterialValidationBaseData.UserCode.cs">
+      <BoundTo>e3dfd88a-7fb5-4a82-89c5-c1feb35cba17</BoundTo>
+      <DependentUpon>MaterialValidationBaseData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff00a08e-7356-4490-ac1b-668b73d6b995</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\MaterialValidationNewData.cs">
+      <BoundTo>9e2d150d-70a0-4050-808a-c73bb8d2e0d2</BoundTo>
+      <DependentUpon>MaterialValidationNewData.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7cb6762-4ea2-4cb1-8274-260197f57f42</id>
+    </Compile>
+    <Compile Include="Recordings\Validation\MaterialValidationNewData.UserCode.cs">
+      <BoundTo>9e2d150d-70a0-4050-808a-c73bb8d2e0d2</BoundTo>
+      <DependentUpon>MaterialValidationNewData.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3374da9-bfd5-4b7f-8b78-1b425bd37ec9</id>
+    </Compile>
+    <None Include="app.config">
+      <id>3b39b8a5-f56f-4dd4-a7ca-e801f5fd1d1d</id>
+    </None>
+    <None Include="HJMobileAndroidRepository.rximg">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <DependentUpon>HJMobileAndroidRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>08294570-7347-4983-8a6f-9356c206868f</id>
+    </None>
+    <None Include="HJMobileAndroidRepository.rxrep">
+      <id>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</id>
+      <repoid>7fc8c333-9f03-4269-861f-080906f3054b</repoid>
+      <reporootid>236a8605-4c3c-45b8-bd10-16d897b785c7</reporootid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\AddEntryNote.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>c8a395bd-9d04-4d42-9169-f95704fcc1d0</id>
+      <recordtableid>96cf93c6-4196-4848-9771-524429a675fe</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\AddNoteIndexes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>a412bd06-460e-4b6d-ad11-cc28ec9e9538</id>
+      <recordtableid>c6c7b926-98a0-426d-91b8-40b0080d62ba</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\AddNoteIndexNotes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>7b14653e-e99e-4f9b-b6fb-e506fccc3cc3</id>
+      <recordtableid>4869d76d-ee46-4a18-9ae0-de45099b4813</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\AddQuickPhrases.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d3e039ae-f91c-4482-a412-6fd2ffc0930c</id>
+      <recordtableid>40466234-697e-45d7-b7aa-9f547d882bc0</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\AddWorkingConditions.rxrec">
+      <id>7c85621a-6845-4518-a941-802d0237119c</id>
+      <recordtableid>557a9485-a8c2-4492-a30e-bf77c251fd04</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\CreateDiary.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>7956563a-8242-47c7-8b44-5da05782115c</id>
+      <recordtableid>56d64ffe-d181-4806-9f8a-76429d1526c0</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHDM.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d8feaa8b-43e4-435c-8bde-b2bcae5b1c08</id>
+      <recordtableid>29c4f69f-115b-4709-8a81-16d731f480a7</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\RemoveDiaryFromHJ.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>5666ab60-9ec6-473f-b0d0-59856ae2bb4f</id>
+      <recordtableid>7f441088-3566-4b6b-bb4f-db6f6e9904ae</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\SendDiary.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>a1d73d1d-d558-4e04-854e-9aed37d7a707</id>
+      <recordtableid>8da3c9fd-c097-4ada-a0da-bb931d5810b6</recordtableid>
+    </None>
+    <None Include="Recordings\ExportDiaryToHDM\ValidateDiary.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>0b440338-0952-483c-b124-35057583ee19</id>
+      <recordtableid>ada76199-135f-487f-b69f-010a3044f564</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddCostCodeQty.rxrec">
+      <id>b239d50c-de25-41db-93a4-e575b68ba0f0</id>
+      <recordtableid>ba0aa38a-cb8d-451a-9770-68d1a3616cd8</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddCostCodes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>ecd1ba02-5a16-431f-8d9e-bc60ff03ec47</id>
+      <recordtableid>5ad0a08c-2580-4e69-a871-980d60c75c45</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddCostCodes_ProductionAnalysis_.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>6e6fbffd-3c58-491b-8265-3125fe02642d</id>
+      <recordtableid>1ba3a0b5-0c6a-4a82-bc31-bb4a8d49dbc2</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddCrew.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>80314f83-2eda-49cc-b1ef-5f196c6b55a9</id>
+      <recordtableid>8ae18406-a05d-495d-8e52-07ec01756921</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddEmployeeNotes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>bc963723-34ae-43fd-8fa1-b29253978bf9</id>
+      <recordtableid>717a28cb-5098-4cf2-abbe-3e7671940440</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddEquipmentNotes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>5e9986e5-7dde-4926-a625-81953e7eb2c2</id>
+      <recordtableid>e6c15648-e447-4855-a750-219b670dcf68</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddHours1stTenCostCodes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>9d30393d-5f76-4980-8a29-6eb2499e5447</id>
+      <recordtableid>1cf34325-9379-4018-9c80-fcc0a3fc83ca</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddHoursLastCostCodes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>b4b01359-19bc-4d01-bbf0-f689c724cdad</id>
+      <recordtableid>93563f8e-9ae1-4325-a2ad-2dec6d41c03b</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\AddSchedules.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>162b57c3-f382-40c2-8350-c6fba2615f1e</id>
+      <recordtableid>1a6df0c2-ac87-422c-9984-4a2be5871f9c</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHDM.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d21ef17d-0b99-4efe-9834-4e9ae65da0d5</id>
+      <recordtableid>48d673d7-2c83-43b0-88fb-5d357970da2c</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\RemoveTimeCardFromHJ.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d7d76d86-fdac-46ac-9d8f-6e6e3ac18191</id>
+      <recordtableid>305a3db1-21b6-4c28-b414-5faeae14d297</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\SendTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d1186adf-bae0-4007-9bb8-a6f012a0c84d</id>
+      <recordtableid>c12b59b4-2bc3-4ba1-a9aa-1220217de9a3</recordtableid>
+    </None>
+    <None Include="Recordings\ExportTimeCardToHDM\ValidateTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>e6787240-e338-4cf8-bd69-daa9ab9b5fb2</id>
+      <recordtableid>568103eb-adb6-4b95-915f-182c016b800a</recordtableid>
+    </None>
+    <None Include="Recordings\ImportNewSetupsFromManager\DiaryValidationNewData2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>821ff0ee-dd61-4e1d-933b-8a6c5f779082</id>
+      <recordtableid>5845af57-7b95-4f81-a65e-3efcf971ac02</recordtableid>
+    </None>
+    <None Include="Recordings\ImportNewSetupsFromManager\UpdateAll.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>fd2c4e54-8617-4fb4-b9f3-fd5c573cc8f1</id>
+      <recordtableid>43be28af-5e15-4cce-bee6-3a16d823d806</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\ChangeDate.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>54ad50ec-739a-4a11-9494-c47a2fd1c3ba</id>
+      <recordtableid>785202d5-bd56-4bed-9522-0f633a870510</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\IgnoreAndSend.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>074f2727-8197-4ee2-9107-e52ae6854e47</id>
+      <recordtableid>11da35ff-dc4a-4059-8b52-2076f02f68c5</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\RemoveJobReviewFromHJ.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>3b1e67b4-3392-43cf-a443-46aa67738025</id>
+      <recordtableid>784e8fec-61fe-46cd-821b-0784549ddc86</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SelectJOBREVIEW2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>be7cb684-73e1-4459-b36c-70aba9d218fa</id>
+      <recordtableid>0ead9e1e-0520-4b75-a5c8-0a57015a8076</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SendAndValidate.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>27b52af6-63e8-46a9-847e-6b28afb5f2e1</id>
+      <recordtableid>83cdbb27-2509-4ebd-bacb-202ac320b5cf</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SendAndValidateRequired.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>9c6ccadf-5915-462d-8e7b-7b81863e7696</id>
+      <recordtableid>59fc09cb-b365-444c-920c-154396be0c63</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SendCorrectedTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>70247334-946a-4f9d-b666-48d8d4b90da2</id>
+      <recordtableid>384396af-2479-4981-ac6f-abb95ac9b3de</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SendTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>8ef54818-56d9-4342-8437-bef5975837ad</id>
+      <recordtableid>e9214389-e622-45f2-8d65-7ab3e17690aa</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveExceedTime.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>c7a2b217-be89-417b-97fa-81ef401d7d14</id>
+      <recordtableid>0d1eaa82-4f50-4cdb-9c1e-0ffcb5bad87c</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveMinimumHours.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>efaf8f05-299d-4e93-8a00-4e7b893c27d7</id>
+      <recordtableid>a51b1c46-bdc9-4320-bbb9-9208a5663275</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveMissingCCNotes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>0e349a8f-a604-4c33-9acf-812f5e8314ef</id>
+      <recordtableid>cec19d26-7dd6-4bf8-b2f5-e7b765ed34e1</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveMissingProdQty.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>59199cb9-1606-4f6e-920a-b9a395cbd6d4</id>
+      <recordtableid>c1701aef-9cf5-46f4-886c-427b0ae6b71b</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveSamePayClass.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>0fc06b6d-1c37-4b0f-9498-658c1d3f05c2</id>
+      <recordtableid>3d5c7f10-2263-452b-8147-3c9e1c71f45e</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveSchedules.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>88115b06-c092-472b-8089-73d2bb0f6165</id>
+      <recordtableid>f7b8329c-ca2a-49d6-b0d6-8e8c66eed485</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveSignatures.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>badbb2ac-77aa-471c-a94c-cff0217312b0</id>
+      <recordtableid>afa094ce-4f0f-4267-9a9e-e52de6e933fa</recordtableid>
+    </None>
+    <None Include="Recordings\Job Review\SolveUnlinkedEqp.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>3d00935d-953b-45f0-9153-019b698c6d1c</id>
+      <recordtableid>1eceba7f-9b1c-4feb-bb89-5561b9ea7813</recordtableid>
+    </None>
+    <None Include="Recordings\MobileTimeCard\ChangeTimeCardShift.rxrec">
+      <id>1b8f73d8-40d6-4ea8-8720-411c5783e1eb</id>
+      <recordtableid>a2e056ed-6843-490e-b5c7-46f228ec752e</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\MobileTimeCard\OpenDiary.rxrec">
+      <id>daa63e3a-94ce-40d2-a4b0-7a6c2dbefb1c</id>
+      <recordtableid>fd2fc388-bca6-428b-943c-b1e516c4bb03</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\MobileTimeCard\OpenTimeCard.rxrec">
+      <id>bb733a2d-0c7f-4dad-8bfd-af4265d5c3b9</id>
+      <recordtableid>23371a56-b47f-4019-96bd-1d50497a38d9</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\MobileTimeCard\SelectHJMOBILE1.rxrec">
+      <id>6027c061-7611-44f6-b451-d884771e6b6d</id>
+      <recordtableid>bdef171e-b976-44fa-90a2-d1e8277e2f71</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\MobileTimeCard\TurnOnMaterials.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>92737bf5-ccd7-40a8-80c0-5aa5497bf729</id>
+      <recordtableid>d834b771-ab29-42c2-9ab7-798f132e7050</recordtableid>
+    </None>
+    <None Include="Recordings\MobileTimeCard\TurnOnSchedules.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>0211f1ce-1f05-40d9-87a7-a974e67d8ccd</id>
+      <recordtableid>dd1ab345-8af6-42e7-bba6-d9b4cfcf72f8</recordtableid>
+    </None>
+    <None Include="Recordings\RemoteDesktopItems\RunHJTransform.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>3c3dd4c0-890e-492a-af90-f5be79900b1c</id>
+      <recordtableid>fcf9bf91-9db8-4b2e-8719-fcc3e5fa05d5</recordtableid>
+    </None>
+    <None Include="Recordings\RemoteDesktopItems\RunMobileImport.rxrec">
+      <id>17d692c2-8391-4fa0-b7c3-5c53de9dfabf</id>
+      <recordtableid>b42b68d8-f871-436e-a7d8-9b8d462cbd12</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\RemoteDesktopItems\WaitForFilesImportIntoHDM.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>7ffd0e9c-0f6f-440d-8a37-c6b4d77cedf7</id>
+      <recordtableid>7f9fa7c5-e8ce-42d3-9eda-144d226dc413</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\AndroidLogInAyotoni.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>a0fc3a3a-8f2a-499d-8615-9d4b86ddadc8</id>
+      <recordtableid>cc0772a4-81ae-4bae-8787-c472ee6aed9c</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\DeleteTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>70c70731-51a4-4126-b547-9eb23b3709bb</id>
+      <recordtableid>5c0a4894-4cc9-4893-8ca0-09019ea73e27</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\LaunchAndroid.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>16a20193-bb31-42bf-b920-e9ba368ccb33</id>
+      <recordtableid>591d0e94-c1b1-445c-8d16-7efadb57b64b</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\LogoutAndroid.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>c61136cc-7b91-49d0-9dc6-799e0a076266</id>
+      <recordtableid>15a2e71b-9828-416a-87bc-d84b33d2b52a</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\RemoteDesktopLogin.rxrec">
+      <id>eda465e1-5126-4941-87d6-cf2352a28f4e</id>
+      <recordtableid>de89e38d-6412-47fd-a06b-7fe871d10f0f</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\SetupTeardown\RemoteDesktopLogout.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>dc3ec093-b5d9-455e-b032-94c0dad7c76e</id>
+      <recordtableid>1cccdf87-1708-4a72-b1c4-7ff7c0ed5824</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\test.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>892644f1-fa99-4fdb-b129-a2acf641d688</id>
+      <recordtableid>639b97a3-accb-4dbb-8a2b-6b10dbda1a59</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\AddCostCodeQty.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>b223751a-0770-4d7b-b546-4e5a63de64f3</id>
+      <recordtableid>45037bfb-9d44-46aa-b772-2590f66c8ad3</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\AddCostCodes.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>255e4d1a-577a-4a34-a8f9-befd16e55f4a</id>
+      <recordtableid>780b5a20-4c8a-4563-8fab-e28b7c917d4f</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\AddCrew.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>aef09a6b-27c3-458a-8531-58998630c14b</id>
+      <recordtableid>491409af-9b22-48c4-8b7b-e538fe1830be</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\AddHours.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>81ef0997-e97e-4af3-bb74-ab93d51ce7dd</id>
+      <recordtableid>533b2817-5e44-474a-ba98-171a1c2592ff</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\AddSubandPD.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d541d280-ce91-434c-b425-75786ec93186</id>
+      <recordtableid>ea5ab43e-4145-457f-a49f-fa426981d534</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\GetBacktoMainScreen.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>34c21f9d-235c-4261-9a45-6b7cd943d14f</id>
+      <recordtableid>a638d000-6036-4001-ac5f-aa92195b04cd</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\SelectDec25_2014.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>15507b3e-cf75-4d0f-8426-97aca61e7c1f</id>
+      <recordtableid>1f8b0e2f-7445-4b6d-9a78-162bfd8f3367</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\SelectDec30_2014.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>50e7304e-04a8-4aa4-9add-5563c7145dd3</id>
+      <recordtableid>141c2d2d-d7c0-4055-a98d-26317e40e4db</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS1.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>c17fa0df-1b33-4821-bd59-f1df9fd141c8</id>
+      <recordtableid>7498ace9-2361-4e19-9d8f-011c2974e6e4</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>2ca23b3c-2abf-49ed-a0a1-e11e6ef8dca5</id>
+      <recordtableid>e953daed-518a-48b9-bbb4-4e19e2225640</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\SelectTCANALYSIS3.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>794f4389-2d9a-423a-98dd-6fe617490120</id>
+      <recordtableid>0c10053f-17fb-4439-a970-6a3ab80083cb</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\ValidateFirstTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>8b5c24a0-edab-48da-a170-9528c3109c70</id>
+      <recordtableid>ddba4690-ed2a-4d61-861c-8701ca54b81d</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\ValidateSecondTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>82d7b361-56cf-4973-b473-50146c9b7314</id>
+      <recordtableid>54cc62df-0083-45a5-821a-c14779cfb63f</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\ValidateThirdTimeCard.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>e98332a5-58e2-460b-8d7d-0311b30c99e9</id>
+      <recordtableid>5ecf7d03-9b5f-447d-8ade-0095fb1657ed</recordtableid>
+    </None>
+    <None Include="Recordings\TimeCardProductionAnalysis\ValidateTimeCardAlreadyExists.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>7285ac57-f4be-40f2-be8b-2b335cbe57c0</id>
+      <recordtableid>e7c6b997-8694-4a4e-8f78-6b4cff7308fc</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\CostCodeTagValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>e0e877e3-2596-4108-9577-c76bf89712e8</id>
+      <recordtableid>19ef5c97-b4a4-4e3a-ac8b-f47f8af43b9f</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\CostCodeTagValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>47ea8918-33dc-48d4-a55a-1a3fdc153011</id>
+      <recordtableid>d52afd5d-7254-462b-ab13-7e18c69ca8b5</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\CostCodeTagValidationNewData2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>ee416398-4f00-4fdd-ab9a-efbc1cb2a8b4</id>
+      <recordtableid>0696cae3-62c9-4d54-9820-08640bf47d43</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\CostCodeValidationBaseData.rxrec">
+      <id>8ee3cf24-0eaa-401d-a29e-ad64d2c7e0ba</id>
+      <recordtableid>abe0e41c-14d3-4f4d-83a8-5418b468f7c4</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\Validation\CostCodeValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>6ed9b6d2-51d1-4559-8822-b4573b8ba6dd</id>
+      <recordtableid>a2cf3bfc-2ce3-4bef-b591-df169661c66d</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\CostCodeValidationNewData2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>bfa52e1e-a26b-4c5d-917e-4525a8cf584c</id>
+      <recordtableid>7e2bc3fa-c1b0-46eb-9ab1-899142f67ef9</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\DiaryValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>9971486b-7574-4e9a-a60c-01fde7270582</id>
+      <recordtableid>93092535-8160-4de9-8570-435a24d711fd</recordtableid>
+    </None>
+    <None Include="Recordings\ImportNewSetupsFromManager\DropXML.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>48820e88-e5bf-4896-9089-eaa7764954c0</id>
+      <recordtableid>4c2e0dff-f3c9-477d-b8c2-6480a1ce0fe1</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\AndroidLogIn.rxrec">
+      <id>df9dc51e-abd6-4c3b-85ec-27c63cec24fb</id>
+      <recordtableid>4fbb8e9c-bf66-4e0b-b6aa-c0b73dc158f4</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\SetupTeardown\RemoveSetupSQL.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>1e31023c-ff13-4868-aa00-294ad7fb20e7</id>
+      <recordtableid>fc665058-10bb-4a63-9e8e-cc4b7c2c609a</recordtableid>
+    </None>
+    <None Include="Recordings\SetupTeardown\AndroidRestoreBackup.rxrec">
+      <id>ec500317-5126-41de-a77d-6912595058a6</id>
+      <recordtableid>e35a2518-5192-40f9-a710-8c7850d74d33</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\Validation\DiaryValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>925c316d-5108-461e-a136-18a026763071</id>
+      <recordtableid>6c819068-a01f-450e-9708-bf98a11d93d2</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobEmployeeValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>221d98f4-fd2f-4973-870a-213b02ba642f</id>
+      <recordtableid>e0bf64c7-575d-4207-8ba5-859095f1a66b</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobEmployeeValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>66d0e1e9-5b9a-4b63-8bf1-ff6368a23f46</id>
+      <recordtableid>ab3167eb-8fc2-47d6-b289-f9c3dfc11038</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobEmployeeValidationNewData2.rxrec">
+      <id>edfd2fa0-17e1-43ba-9868-8d0a8068bec6</id>
+      <recordtableid>6c2e5a33-2c45-4cbc-abfe-0e95c8cec9b7</recordtableid>
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+    </None>
+    <None Include="Recordings\Validation\JobEquipmentValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>67843bf0-7654-4bc5-bd4a-ed0cd28c96d7</id>
+      <recordtableid>a3414ff8-8c0c-4652-a4e9-26941a44f6bb</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobEquipmentValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>eaa95e2c-0455-4bdc-a700-69361175394d</id>
+      <recordtableid>b4495cd0-ca16-4593-83a7-d432da02779a</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobPayClassValidation2NewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>dc578e00-08a5-48e0-838d-8540c10ffd73</id>
+      <recordtableid>493cebfd-a080-4a5a-b72f-1d794497cef2</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobPayClassValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>826ed311-2074-4842-b7ee-3068570ee325</id>
+      <recordtableid>f4898af6-3af0-4a56-915a-2cfc23e4194c</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobPayClassValidation2BaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>f68a28f2-224b-4095-b7a0-1d245530f6ae</id>
+      <recordtableid>f591cbf8-7de8-44d0-8a62-9a92f390bd98</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\JobPayClassValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>4a987077-efba-4d95-825b-0f7028a1b51f</id>
+      <recordtableid>58c239eb-fd9b-404d-918f-747537b425b3</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryEmployeeValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>bb85f60b-d26a-473a-9cc8-2ed3f9a28c45</id>
+      <recordtableid>725193c5-937b-4efc-a772-81cf7b993187</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryEmployeeValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>199d65cb-2aee-4f88-b8f2-55279cd4e67c</id>
+      <recordtableid>ee445684-835d-40a3-9636-352c1968490f</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryEmployeeValidationNewData2.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>d5ddb6b5-1e69-45a3-b35b-4b3d24fbe3b3</id>
+      <recordtableid>d64a2b56-9b58-47db-9323-5faa705ea460</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryEquipmentValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>e64e63c6-bb4a-49c4-998b-963f8796905b</id>
+      <recordtableid>4fed5dfe-d38b-4178-89f9-cdf2b0bc5106</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryEquipmentValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>cc747076-2c77-474a-a058-cf9cf95a2eac</id>
+      <recordtableid>282d58da-9964-47eb-b778-c5a4043c93e6</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryPayClassValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>a0b51a52-20c5-4a99-926c-29b24a83bbfc</id>
+      <recordtableid>322f1cfe-ffe9-4250-a130-875881240c22</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\LibraryPayClassValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>0c5e8e34-f146-49b5-9df9-89579772a524</id>
+      <recordtableid>323bcd3a-1818-4f63-8c91-90046b6dad3b</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\MaterialValidationBaseData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>e3dfd88a-7fb5-4a82-89c5-c1feb35cba17</id>
+      <recordtableid>0a1a5524-c8b8-47ac-aa93-a8df6d28ab60</recordtableid>
+    </None>
+    <None Include="Recordings\Validation\MaterialValidationNewData.rxrec">
+      <BoundTo>e74b548b-f2f4-45e3-a4ca-5cac4bc46dd3</BoundTo>
+      <id>9e2d150d-70a0-4050-808a-c73bb8d2e0d2</id>
+      <recordtableid>e2358f78-6f63-4919-b24a-4da998832301</recordtableid>
+    </None>
+    <Content Include="HJMobileAndroid.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>bd442c15-ad98-480a-ac34-8776314a5783</id>
+    </Content>
+    <Content Include="HJMobileAndroid.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>064130ca-b356-494f-aeaa-7584e7b6d508</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+  <ItemGroup>
+    <Folder Include="Recordings">
+      <id>375a1b96-4156-42c5-abee-3cc67d00af61</id>
+    </Folder>
+    <Folder Include="Recordings\ExportDiaryToHDM">
+      <id>f23c3a1d-fa87-4295-9619-ffc93fb856db</id>
+    </Folder>
+    <Folder Include="Recordings\ExportTimeCardToHDM">
+      <id>95a285b6-2b7d-4f73-b4bb-db96b394e8d8</id>
+    </Folder>
+    <Folder Include="Recordings\Job Review">
+      <id>67e7ca37-8a9d-45d8-924e-2c193366b5af</id>
+    </Folder>
+    <Folder Include="Recordings\MobileTimeCard">
+      <id>79b928e7-24f8-4944-9910-6d7cadd49264</id>
+    </Folder>
+    <Folder Include="Recordings\TimeCardProductionAnalysis">
+      <id>2d7db28c-56bc-4ed9-84d3-1b109b8e06cc</id>
+    </Folder>
+    <Folder Include="Recordings\RemoteDesktopItems">
+      <id>c5304287-54eb-496e-989e-fe0f9ff30b0f</id>
+    </Folder>
+    <Folder Include="Recordings\Validation">
+      <id>2ce6fb76-e60f-4b21-bebf-c9368bde9684</id>
+    </Folder>
+    <Folder Include="Recordings\ImportNewSetupsFromManager">
+      <id>624fa095-d151-4f0c-901f-c31daca40550</id>
+    </Folder>
+    <Folder Include="Recordings\SetupTeardown">
+      <id>0d067522-2334-4ff8-b98f-cbf879be050e</id>
+    </Folder>
+  </ItemGroup>
+</Project>

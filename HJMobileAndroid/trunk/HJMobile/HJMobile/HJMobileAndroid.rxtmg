@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroups
+name="HJMobileAndroid"
+rxversion="5.4.2.25689">
+	<modulegroupdef
+	name="ModuleGroup"
+	id="b750617f-3f40-4cdd-977f-cd654c0b06f4"/>
+</modulegroups>

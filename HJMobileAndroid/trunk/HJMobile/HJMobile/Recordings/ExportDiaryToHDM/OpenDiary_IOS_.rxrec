@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.0.24580"
+id="e340ac21-ff3e-489a-8b4e-b198a316fc59"
+embeddedrepository="false"
+mode="Mobile">
+	<name>
+		OpenDiary_IOS_
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenDiary_IOS_"
+	namespace="HJMobile.Recordings.ExportDiaryToHDM"/>
+	<variables/>
+	<recorditems>
+		<touchrecorditem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		screenshotname=""
+		searchpropertyid="00795822-79bf-4a80-bf2b-09dd4525e53f"
+		touchtype="Touch"
+		elementlocation="Center"
+		fingerid="0"
+		touchduration="100ms"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		isremote="False"
+		sx="0"
+		sy="0">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="94a7ea74-4a18-43ef-af64-92fca49e1205">
+				<path>
+					/mobileapp[@title='com.hcss.mobile.test']/form//table/container[1]/cell[3]/cell[@accessibilitylabel='Diary']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	name="HJMobileRepository"
+	id="7fc8c333-9f03-4269-861f-080906f3054b"
+	rxversion="5.4.0.24580"
+	relativepath="..\..\HJMobileRepository.rxrep">
+		<codegen
+		classname="HJMobileRepository"
+		namespace="HJMobile"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="236a8605-4c3c-45b8-bd10-16d897b785c7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenDiary_IOS_.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
